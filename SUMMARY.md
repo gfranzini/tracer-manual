@@ -17,6 +17,7 @@
 * [Limitations](limitations.md)
 * [Appendix](appendix.md)
   * [Publications](external-reports.md)
+  * [FAQ](faq.md)
   * [Command line cheat-sheet](command-line.md)
   * [Resources](resources.md)
 

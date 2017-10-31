@@ -8,10 +8,10 @@
 * [Download and installation](download-and-installation.md)
 * [Configuration](configuration.md)
   * [Step 1. Preprocessing](configuration/step-1-preprocessing.md)
-  * Step 2. Featuring/Training
-  * Step 3. Selection
-  * Step 4. Linking
-  * Step 5. Scoring
+  * [Step 2. Featuring/Training](configuration/step-2-featuringtraining.md)
+  * [Step 3. Selection](configuration/step-3-selection.md)
+  * [Step 4. Linking](configuration/step-4-linking.md)
+  * [Step 5. Scoring](configuration/step-5-scoring.md)
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Limitations](limitations.md)

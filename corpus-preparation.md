@@ -1,6 +1,6 @@
 # Corpus preparation
 
-This section describes how to prepare your texts for TRACER \(subsection _The text\(s\)_\) and what other types of data you need \(subsection _Supporting linguistic files_\). 
+This section describes how to prepare your texts for TRACER \(subsection _The text\(s\)_\) and what other types of data you need \(subsection _Supporting linguistic files_\).
 
 ## The text\(s\)
 
@@ -27,7 +27,13 @@ You can achieve this column structure by using the proprietary [Microsoft Excel]
 
 First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify **`TAB`** as the field separator when importing the file**. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
 
+![](/assets/libre-tab.png)Libre file import window. Select `TAB` as the field separator.
 
+
+
+Select `TAB` in the `Separator Options` section and click `OK`. You should now see something like this:
+
+![](/assets/libre.png)How a segmentised text first appears in Libre Office.
 
 ## Supporting linguistic files
 

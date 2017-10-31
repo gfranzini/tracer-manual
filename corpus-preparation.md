@@ -31,7 +31,9 @@ Select `TAB` in the `Separator Options` section and click `OK`. You should now s
 
 
 
-We now need to remove all blank rows. If you’re using Libre, select the entire text column, then click on the autofilter button in the toolbar \(it looks like a funnel\). This generates a clickable arrow symbol on the first cell. Click the arrow and select `EMPTY` from the list of options \(see image below\). ![](/assets/librefilter.png)
+We now need to remove all blank rows. If you’re using Libre, select the entire text column, then click on the autofilter button in the toolbar \(it looks like a funnel\). This generates a clickable arrow symbol on the first cell. Click the arrow and select `EMPTY` from the list of options \(see image below\).
+
+ ![](/assets/librefilter.png)
 
 This will bring all blank rows to the top of the document \(if you look at the row IDs now you’ll notice that the column only lists even numbers, i.e. alternating blank rows\). Delete all of these by pressing the `SHIFT` button on your keyboard, selecting all of the rows, right-click on the select rows and `DELETE`. Then, deselect the autofilter button in the toolbar and save the changes.
 

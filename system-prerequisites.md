@@ -120,11 +120,11 @@ at the end of the `PATH` variable’s current value. In the command line, now ty
 
 where `-v` stands for _version_. This commands shows you the version of Ant you’re using and the build date of the program. The entry in the `.bash_profile` file is important as it is now permanently available on your computer.
 
-## Install Sublime Text Editor
+## Install Sublime Text Editor {#sublime-text}
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).
 
-## Install Zip software
+## Install Zip software {#zip-software}
 
 Make sure you also have unzip software, such as [WinZip](http://www.winzip.com/mac/en/) or [7-Zip](http://www.7-zip.org/), installed on your computer. The TRACER package you download has to be unzipped to be used.
 

@@ -5,6 +5,7 @@
   * [Text Reuse](text-reuse.md)
   * [TRACER overview](tracer-overview.md)
 * [System prerequisites](system-prerequisites.md)
+* [Download and installation](download-and-installation.md)
 * [Configuration](configuration.md)
   * [Step 1. Preprocessing](configuration/step-1-preprocessing.md)
   * Step 2. Featuring/Training

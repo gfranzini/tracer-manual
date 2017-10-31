@@ -56,6 +56,74 @@ Under Mac OS X and Linux distributions, it is also necessary to set the access r
 
 `chmod−R 755 *`
 
+### Adding the environment variable `ANT_HOME` {#adding-variable-ant-home}
+
+An environment variable is a key-value-pair to which all system-wide programs have access. The Apache Ant software looks for the environment variable `ANT_HOME` along with the folder in which Ant is installed. To reach the Ant home folder, in the command line type:
+
+`cd apache−ant−1.10.1`
+
+To visualise the path of Ant’s home folder, type:
+
+`pwd`
+
+This command stands for _parent working directory_ and will show you the folder’s location on your computer \(e.g. `/Users/johnsmith/Tools/apache-ant-1.10.1`\). You should now copy the path as you will need it in the next step.
+
+In order to make the value or path available for the environment variable `ANT_HOME` type:
+
+`cd ~`
+
+which will take you to your personal home folder \(i.e. `/Users/johnsmith/`\). In this folder, you should see a file called `.bash_profile`; if not, create it by typing the following in the command line:
+
+`vim ~/ .bash_profile`
+
+`vim` is a command line text editor and works equally on local and remote machines. To edit the file `.bash_profile` press the `i` button on your keyboard. When in `i` \(i.e. _insert_\) mode, type:
+
+`export ANT_HOME=`
+
+and paste the path you copied earlier after the equal sign, like this:
+
+`export ANT_HOME=/Users/johnsmith/Tools/apache−ant−1.10.1`
+
+To exit the `vim` insert mode, press the `ESC` button on your keyboard. To save the changes and close `vim`, type:
+
+`:wq`
+
+where `w` stands for _write_ and `q` stands for _quit_. 
+
+
+
+**On Windows machines**, setting the environment variable works a little differently. First, right click `My Computer`, click `Properties` and go to `Advanced system settings`. Click now on the `Advanced` tab. Click on `Environment Variables` and then on `New ...` . Insert `ANT_HOME` as variable and `/Users/johnsmith/Tools/apache-ant-1.10.1` as its value.
+
+**Note 1**: You can download and use different versions of Apache Ant at the same time by storing the unpacked files separately \(e.g. in a folder called _Tools_, such as `/Users/johnsmith/Tools/`\). You can then define the version you want to use by typing the version number in the `ANT_HOME` environment variable.
+
+**Note 2**: The same principle applies to Java. You can store multiple versions of Java on your machine and define which version you wish to run in the `JAVA_HOME` variable.
+
+If you wish to double-check the value of a variable, type:
+
+`export`
+
+This command will list all environment variables with their respective values. To select only the `ANT_HOME` variable, type:
+
+`export | grep ANT_HOME`
+
+### Updating the `PATH`
+
+The last step is to update the environment variable `PATH`, which lists all directories of the file system that the computer should search for an executable program. The procedure is exactly the same as that described in the [previous section](#adding-variable-ant-home). Linux and Mac OS X users should open the `.bash_profile` file again and in the last line type:
+
+`export PATH=$PATH :$ANT_HOME/ bin`
+
+This command makes the scripts in the `bin` folder of `ANT_HOME` available to the operating system to look for the `ant` command. Windows users should follow the same procedure as that described in the [previous section](#adding-variable-ant-home) with the difference that the `PATH` variable already exists and need only be edited. Another distinction is that in Mac OS X and Linux systems, different directories are separated by a colon, while in Windows systems by a semicolon. Furthermore, under Windows, the value of an environment variable is called with `%ANT_HOME%`, whereas under Linux and Mac OS X it is `$ANT_HOME`. The easiest way to add `ANT_HOME` under Windows is to type:
+
+`;\%ANT_HOME\%/bin`
+
+at the end of the `PATH` variable’s current value. In the command line, now type:
+
+`ant −v `
+
+where `-v` stands for _version_. This commands shows you the version of Ant you’re using and the build date of the program. The entry in the `.bash_profile` file is important as it is now permanently available on your computer.
+
+
+
 ## Install Sublime Text Editor
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).

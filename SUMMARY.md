@@ -15,8 +15,8 @@
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
 * [Troubleshooting](troubleshooting.md)
   * [Unparsable date: """](troubleshooting/unable-to-parse-date.md)
-* [Command line cheat-sheet](command-line.md)
 * [Appendix](appendix.md)
   * [Publications](external-reports.md)
-* [Resources](resources.md)
+  * [Command line cheat-sheet](command-line.md)
+  * [Resources](resources.md)
 

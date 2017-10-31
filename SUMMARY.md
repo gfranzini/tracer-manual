@@ -6,6 +6,7 @@
   * [TRACER overview](tracer-overview.md)
 * [System prerequisites](system-prerequisites.md)
 * [Download and installation](download-and-installation.md)
+* [Corpus preparation](corpus-preparation.md)
 * [Configuration](configuration.md)
   * [Step 1. Preprocessing](configuration/step-1-preprocessing.md)
   * [Step 2. Featuring/Training](configuration/step-2-featuringtraining.md)

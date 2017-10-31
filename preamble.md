@@ -2,13 +2,13 @@
 
 # 
 
-**First edition:** 2016
+**First edition:** 2016.
 
-**Authors**: Greta Franzini, Emily Franzini, Kirill Bulert, Marco Büchler
+**Authors**: Greta Franzini, Emily Franzini, Kirill Bulert, Marco Büchler.
 
 ## About this manual
 
-This user manual describes the implementation of the TRACER machine, a powerful and flexible suite of some 700 algorithms for the automatic detection of \(historical\) text reuse. TRACER was developed by Marco Büchler and is written in Java. It is the most comprehensive tool yet and it is continuously improved thanks to the feedback gathered by the numerous tutorials and workshops given by the eTRAP \(Electronic Text Reuse Acquisition Project\) team at international conferences and events. For more information about the eTRAP Research Group, please visit: [http://www.etrap.eu](http://www.etrap.eu)
+This ongoing and evolving user manual describes the implementation of the TRACER machine, a powerful and flexible suite of some 700 algorithms for the automatic detection of \(historical\) text reuse. TRACER was developed by Marco Büchler and is written in Java. It is the most comprehensive tool yet and it is continuously improved thanks to the feedback gathered by the numerous tutorials and workshops given by the eTRAP \(Electronic Text Reuse Acquisition Project\) team at international conferences and events. For more information about the eTRAP Research Group, please visit: [http://www.etrap.eu](http://www.etrap.eu)
 
 ## About TRACER
 
@@ -32,6 +32,12 @@ TRACER is released under an Academic Free License 3.0 \(AFL\). This manual is pu
 * Version 1.2 \(2017-05-23\): Updated version following the AIUCD \(Associazione per l’Informatica Umanistica e la Cultura Digitale\) 2017 tutorial \[LaTeX\].
 * Version 1.1 \(2016-09-09\): Updated version following the AIUCD \(Associazione per l’Informatica Umanistica e la Cultura Digitale\) 2016 tutorial \[LaTeX\].
 * Version 1.0 \(2016-08-25\): First version of the manual \[LaTeX\].
+
+## Syntax
+
+**This manual is a work in progress.** It is regularly updated to improve clarity. All grey text in this manual \(example below\) indicates that the text is either incomplete or currently being updated by the authors. 
+
+> EXAMPLE: This text is not complete yet. The authors are in the process of updating it.
 
 ## Feedback
 

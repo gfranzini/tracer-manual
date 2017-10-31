@@ -6,6 +6,8 @@
 
 **Authors**: Greta Franzini, Emily Franzini, Kirill Bulert, Marco Büchler.
 
+**TRACER logo**: Emily Franzini
+
 ## About this manual
 
 This ongoing and evolving user manual describes the implementation of the TRACER machine, a powerful and flexible suite of some 700 algorithms for the automatic detection of \(historical\) text reuse. TRACER was developed by Marco Büchler and is written in Java. It is the most comprehensive tool yet and it is continuously improved thanks to the feedback gathered by the numerous tutorials and workshops given by the eTRAP \(Electronic Text Reuse Acquisition Project\) team at international conferences and events. For more information about the eTRAP Research Group, please visit: [http://www.etrap.eu](http://www.etrap.eu)

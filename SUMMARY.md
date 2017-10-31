@@ -7,6 +7,7 @@
 * [System prerequisites](system-prerequisites.md)
 * [Download and installation](download-and-installation.md)
 * [Corpus preparation](corpus-preparation.md)
+* PoS-tagging, lemmatisation & WordNets
 * [Configuration](configuration.md)
   * [Step 1. Preprocessing](configuration/step-1-preprocessing.md)
   * [Step 2. Featuring/Training](configuration/step-2-featuringtraining.md)
@@ -16,9 +17,5 @@
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Limitations](limitations.md)
-* [Appendix](appendix.md)
-  * [Publications](external-reports.md)
-  * [FAQ](faq.md)
-  * [Command line cheat-sheet](command-line.md)
-  * [Resources](resources.md)
+* PoS-tagging, lemmatisation & WordNets
 

@@ -35,15 +35,9 @@ We now need to remove all blank rows. If you’re using Libre, select the entire
 
 This will bring all blank rows to the top of the document \(if you look at the row IDs now you’ll notice that the column only lists even numbers, i.e. alternating blank rows\). Delete all of these by pressing the `SHIFT` button on your keyboard, keeping it pressed while selecting all of the rows, then release the `SHIFT` button, right-click on the selected rows and click on `DELETE`. Next, press on the arrow again and select `NOT EMPTY`. You should now see your text, one sentence per row and no blank rows. Finally, deselect the autofilter button in the toolbar and save the changes.
 
-
-
 If you’re using Microsoft Excel, select the first column, click on the `FILTER` button in the toolbar. Again, click on the little arrow that is now available in the first cell. In the new pop-up window you need to do two things: first, click on the `SELECT ALL` option to deselect all options; second, scroll down to the bottom of the options pane and select `BLANKS`. This will bring all the empty rows to the top of the document \(if you look at the row IDs now you’ll notice that the column only lists even numbers in blue\). Delete all the empty rows by pressing the `SHIFT` button and keeping it pressed while selecting all the blue-numbered rows. Then, deselect the `FILTER` button in the toolbar and save the changes.
 
-&lt;IMAGE HERE
+&lt;IMAGE HERE&gt;
 
 Next, add a column to the left of your sentence column. This new column should contain sentence IDs. To automate the creation of IDs, type in the first three IDs \(one per sentence\), then select the three ID cells, hover over the bottom right corner of the third cell and finally drag the selection all the way down to the last sentence. Remember to save the changes!
-
-
-
-
 

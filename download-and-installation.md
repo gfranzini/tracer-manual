@@ -2,11 +2,9 @@
 
 TRACER needs between 5GB and 10GB of total space \(including result files\). It is therefore important that you locate a folder on your computer with 10GB of space in which TRACER can be installed and computed. Do not store and run TRACER on a USB drive as this will result in very slow computing times.
 
-
-
 You can download or clone the most recent release of TRACER from [its GitLab repository](http://vcs.etrap.eu/users/sign_in) by creating a free GitLab account. **However, please be aware that the most recent version might be unstable**.
 
-![](/assets/tracer_Git_high.png)TRACER's GitLab repository.
+![](/assets/tracer_Git_high.png)TRACER's GitLab repository. The red box indicates the download button.
 
 
 
@@ -17,8 +15,6 @@ To get a copy of TRACER’s repository you first need to clone it. This is done 
 `git clone http://vcs.etrap.eu/tracer−framework/tracer.git`
 
 You’ll be prompted for your GitLab username and password, and a new folder will appear on your screen if the repository is successfully cloned. Before you can start working with TRACER you first have to build it from the source. Using the terminal, change into the TRACER directory and execute the command `ant`. If you get a `BUILD FAILED` message some of the requirements haven’t been met.
-
-
 
 The recommended Git workflow is to first create a new branch or copy of the TRACER repository by typing:
 

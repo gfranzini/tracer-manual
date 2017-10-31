@@ -17,5 +17,11 @@
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
 * [Troubleshooting](troubleshooting.md)
 * [Limitations](limitations.md)
-* [PoS-tagging, lemmatisation & WordNets](pos-tagging-lemmatisation-and-wordnets.md)
+* [Appendix](/appendix.md)
+  * [FAQ](/faq.md)
+  * [Publications](/publications.md)
+  * [Command line cheat-sheet](/command-line.md)
+  * [Resources](/resources.md)
+
+
 

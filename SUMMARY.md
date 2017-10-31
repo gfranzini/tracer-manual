@@ -14,7 +14,6 @@
   * Step 5. Scoring
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
 * [Troubleshooting](troubleshooting.md)
-  * [Unparsable date: """](troubleshooting/unable-to-parse-date.md)
 * [Appendix](appendix.md)
   * [Publications](external-reports.md)
   * [Command line cheat-sheet](command-line.md)

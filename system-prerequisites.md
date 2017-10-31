@@ -18,7 +18,7 @@ If TRACER is downloaded from its GitLab repository \(see [_Download and installa
 
 ## Install Apache Ant \(Linux\)
 
-Apache Ant is a build system used to create an executable program. Among its many benefits[^1], Ant allows to execute sequences of tasks from an XML file, typically called `build.xml`. Apache Ant is used to compile TRACER’s source code into an executable program \(see _Compiling TRACER_\).
+Apache Ant is a build system used to create an executable program. Among its [many benefits](http://ant.apache.org/manual/index.html), Ant allows to execute sequences of tasks from an XML file, typically called `build.xml`. Apache Ant is used to compile TRACER’s source code into an executable program \(see _Compiling TRACER_\).
 
 **If you install TRACER on a Linux system**, you can use package managers such as `dnf` or `apt-get` to install Apache Ant. The benefit of using your system’s package manager is that new releases of Ant will be automatically installed when performing an update. To install Apache Ant with `apt-get` type the following command:
 
@@ -88,9 +88,7 @@ To exit the `vim` insert mode, press the `ESC` button on your keyboard. To save 
 
 `:wq`
 
-where `w` stands for _write_ and `q` stands for _quit_. 
-
-
+where `w` stands for _write_ and `q` stands for _quit_.
 
 **On Windows machines**, setting the environment variable works a little differently. First, right click `My Computer`, click `Properties` and go to `Advanced system settings`. Click now on the `Advanced` tab. Click on `Environment Variables` and then on `New ...` . Insert `ANT_HOME` as variable and `/Users/johnsmith/Tools/apache-ant-1.10.1` as its value.
 
@@ -118,11 +116,9 @@ This command makes the scripts in the `bin` folder of `ANT_HOME` available to th
 
 at the end of the `PATH` variable’s current value. In the command line, now type:
 
-`ant −v `
+`ant −v`
 
 where `-v` stands for _version_. This commands shows you the version of Ant you’re using and the build date of the program. The entry in the `.bash_profile` file is important as it is now permanently available on your computer.
-
-
 
 ## Install Sublime Text Editor
 
@@ -131,6 +127,4 @@ Install [Sublime Text](https://www.sublimetext.com/) \(free\).
 ## Install Zip software
 
 Make sure you also have unzip software, such as [WinZip](http://www.winzip.com/mac/en/) or [7-Zip](http://www.7-zip.org/), installed on your computer. The TRACER package you download has to be unzipped to be used.
-
-[^1]: For a full list of Apache Ant's capabilities, see [http://ant.apache.org/manual/index.html](http://ant.apache.org/manual/index.html)
 

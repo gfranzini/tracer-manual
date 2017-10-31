@@ -17,7 +17,7 @@ Next, your `.txt` must contain four columns separated by **TAB**s:
 
 3. The **third column** can contain the date of the file creation in the `YYYY-MM-DD` format or the word `NULL`. If you use `NULL`, make sure it is written in upper-case.
 
-4. The **fourth column** contains the book or section from which the sentence is taken. This information is crucial for the visualisation shown IMAGE REFERENCE. The top drop-down menu you see there will list the information you provide in this fourth column.
+4. The **fourth column** contains the book or section from which the sentence is taken. This information is crucial for the visualisation shown &lt;ADD IMAGE REFERENCE&gt;. The top drop-down menu you see there will list the information you provide in this fourth column.
 
 You can achieve this column structure by using the proprietary [Microsoft Excel](https://products.office.com/en/excel) or the free [Libre Office](https://www.libreoffice.org/download/libreoffice-fresh/). The **instructions below are based on Libre Office Version 5.1.5.2**.
 
@@ -28,8 +28,4 @@ First, you need to import the segmentised texts stored in your `.txt` file into 
 Select `TAB` in the `Separator Options` section and click `OK`. You should now see something like this:
 
 ![](/assets/libre.png)How a segmentised text first appears in Libre Office.
-
-
-
-
 

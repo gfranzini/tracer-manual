@@ -16,4 +16,6 @@
 * [Troubleshooting](troubleshooting.md)
   * [Unparsable date: """](troubleshooting/unable-to-parse-date.md)
 * [Command line cheat-sheet](command-line.md)
+* Appendix
+  * [Publications](external-reports.md)
 

@@ -14,7 +14,7 @@ Once Java 8 is installed on your computer you can re-run TRACER.
 
 ## `Unparseable date: """`
 
-The error`Unparseable date: """`as visible in the second line of the image below occurs when...![](blob:file:///0746eea2-7156-4684-922d-a79b55bfa968)
+![](/assets/unparseable-date.png)
 
 > SOLUTION NOT AVAILABLE YET
 

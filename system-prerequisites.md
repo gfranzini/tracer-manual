@@ -2,7 +2,7 @@
 
 To use TRACER you must first ensure that you have **Java **\(version 8 or later\), **a text editor** and **unzip software** running on your computer.
 
-## Install Java
+## Install Java {#install-java}
 
 The pre-compiled version of TRACER requires version 8 or higher of Java. To check your Java version, open the terminal or command line and type:
 
@@ -32,7 +32,29 @@ If you're a Linux user, the installation instructions above should suffice in he
 
 ## Install Apache Ant \(Windows and Mac OS\)
 
+Apache Ant is a regularly updated software. At the time of writing these guidelines \(May 2017\), the latest version of Ant is 1.10.1. The following instructions are based on this version. **Please ensure your Ant version is always up-to-date**. Navigate to the [Apache Ant download page](/ant.apache.org/bindownload.cgi). There, the _Current Release of Ant_ section lists different download options in archive formats. Select the `.zip` format. For the Ant 1.10.1 version, select [`apache-ant-1.10.1-bin.zip`](/mirror.synyx.de/apache//ant/binaries/apache-ant-1.10.1-bin.zip). The `bin` substring in the file name indicates that a pre-compiled binary and executable Java program is included in this release of Ant. Please store this file in a dedicated folder on your machine, such as `/Users/johnsmith/Tools`. If you want to make Apache Ant available for more than one user on your machine \(e.g. make it accessible from a server\), you should not install Ant in a personal home folder \(e.g. `/Users/johnsmith`\) but in an openly accessible folder, such as `/opt/apache-ant`. The instructions below are based on the installation of Ant in a personal folder.
 
+### Unpacking Apache Ant
+
+The download file can be extracted by navigating to the download folder, right clicking the `apache-ant-1.10.1-bin.zip` file and selecting `Extract`. Alternatively, the extraction can be processed via the command line. To do so, open a terminal and use the `cd` command to change to your download folder. For example:
+
+`cd / Users / johnsmith / Tools`
+
+To unzip the file, type:
+
+`unzip apache−ant−1.10.1−bin.zip`
+
+After unzipping the file, a new folder `apache-ant-1.10.1` is created. You can verify its existence by typing:
+
+`ls -l`
+
+For Windows users \(see [_Command line cheat-sheet_](/command-line.md)\) the command is not `ls -l` but:
+
+`dir`
+
+Under Mac OS X and Linux distributions, it is also necessary to set the access rights so that the program can be also executed. You can set the necessary rights by typing:
+
+`chmod−R 755 *`
 
 ## Install Sublime Text Editor
 

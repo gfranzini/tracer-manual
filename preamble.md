@@ -1,4 +1,4 @@
-# ![](/assets/colour.png)
+# ![](/assets/logo-colour.png)
 
 # 
 

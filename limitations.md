@@ -10,9 +10,7 @@ The quality and accuracy of the results computer by TRACER depend on the quality
 
 Another limitation of TRACER concerns the visualisation of the computed text reuse results. While adequate to display small data, TRAViz is not well-suited for visualising a large number of results \(e.g. comparing 10 texts against one another\). This is because the underlying code of TRAViz \(JavaScript\) is not able to process and load large amounts of information.
 
-## Java documentation
+## Absence of Java documentation
 
 The 700 algorithms constituting TRACER are accessible through TRACER's Javadoc but are not documented in detail. This is an issue for those wishing to reuse TRACER's code in other projects. However, if one were to provide half a page description for every algorithm, one would end up with a gigantic volume of text.
-
-
 

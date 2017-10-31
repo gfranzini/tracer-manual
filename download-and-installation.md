@@ -1,22 +1,8 @@
 # Download and installation {#download-and-installation}
 
-There are two ways to download and install TRACER.
-
-### Option 1
-
-Download and unzip TRACER from http://www.etrap.eu/tracer/ to a folder on your computer. TRACER zipped is some 107MB in size, unzipped it’s roughly 500MB. Additionally, in order to run TRACER needs between 5GB and 10GB of space. It is therefore important that you locate a folder on your computer with 10GB of space in which TRACER can be installed and computed. Do not store and run TRACER on a USB drive as this will result in very slow computing times.
-
-### Option 2
+You can download or clone the most recent release of TRACER from our GitLab repository by creating a free GitLab account. **However, please be aware that the most recent version might be unstable**.
 
 
-
-
-
-
-
-
-
-You can clone the most recent releases of TRACER from our git repository. However, please be aware that the most recent version might be unstable. Once you’ve obtained an account you can download the latest version from here or by using git.
 
 # Compiling TRACER {#compiling-tracer}
 

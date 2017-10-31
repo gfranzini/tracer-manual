@@ -6,7 +6,7 @@ TRACER is a suite of 700 algorithms, whose features can be combined to create th
 
 ## Current state
 
-**TRACER is language independent** and has been successfully tested on Ancient Greek, Arabic, Coptic, English, German, Hebrew, Latin and Tibetan. The External Reports \(LINK\) section of this manual lists reports written by TRACER users. We continuously seek new languages to work with. TRACER has been used on both historical and modern texts. A list of bug reports and current developments is available [here](http://www.etrap.eu/redmine/projects/tracer/).
+**TRACER is language independent** and has been successfully tested on Ancient Greek, Arabic, Coptic, English, German, Hebrew, Latin and Tibetan. The [_Publications_](/external-reports.md) section of this manual lists reports written by TRACER users. We continuously seek new languages to work with. TRACER has been used on both historical and modern texts. A list of bug reports and current developments is available [here](http://www.etrap.eu/redmine/projects/tracer/).
 
 ## Under the hood
 

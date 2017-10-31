@@ -1,3 +1,9 @@
 {
     "plugins": ["alerts"]
 }
+
+{
+    "plugins": [
+        "image-captions"
+    ]
+}

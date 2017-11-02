@@ -16,7 +16,7 @@ Once Java 8 is installed on your computer you can re-run TRACER.
 
 ![](/assets/unparseable-date.png)
 
-> SOLUTION NOT AVAILABLE YET
+This error is caused by the presence of a sequence of three inverted commas `"""` in the corpus file. Open the corpus file in a text editor, find `"""` and remove it or replace it with something else. Save the changes and re-run the TRACER analysis.
 
 ---
 

@@ -18,5 +18,9 @@
 * [Execution of TRACER](execution-of-tracer.md)
 * [Troubleshooting](troubleshooting.md)
 * [Limitations](limitations.md)
-* Execution of TRACER
+* [FAQ](/faq.md)
+* [Publications](/publications.md)
+* [Resources](/resources.md)
+
+
 

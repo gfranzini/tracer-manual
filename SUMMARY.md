@@ -22,6 +22,7 @@
 * [FAQ](/faq.md)
 * [Publications](/publications.md)
 * [Resources](/resources.md)
+* [Command line: MAC vs. Windows](/command-line.md)
 
 
 

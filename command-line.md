@@ -23,7 +23,7 @@ This is a comparison list of common commands to navigate file-systems, including
 | `move myFile <path to destination directory>` | Move a file | `mv myFile <path to destination directory>` |
 | `cls` | Clear the terminal screen | `clear` |
 | `type myFile` | Concatenate and print a file | `cat myFile` |
-| `type C:/../myFile &#124; find "" /v /c` | Count lines a in file | `wc -l myFile` |
+| `type C:/../myFile | find "" /v /c` | Count lines a in file | `wc -l myFile` |
 
 \***IMPORTANT**: Remove/delete command DOES NOT ask for confirmation.
 

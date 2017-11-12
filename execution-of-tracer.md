@@ -1,4 +1,4 @@
-# Execution of TRACER
+# Execution of TRACER {#execution-tracer}
 
 Open the terminal and navigate to the TRACER folder \(using the command `cd`\). To start TRACER, type:
 

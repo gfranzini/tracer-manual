@@ -20,15 +20,10 @@ _Intralinking_ looks for text reuse within the same text or work \(i.e. self-reu
 
 ### Interlinking
 
-Interlinking looks for matches between different texts or works. Given _Work A_ and _Work B_ below, TRACER will look for a sentence that repeats itself in a different work, not in the same work. Interlinking can be used, for example, to compare different Bibles or Bible translations.![](/assets/interlinking.jpeg)
-
-### ![](/assets/interlinking.jpeg)
-
-### ![](/assets/interlinking.jpeg)
-
-### ![](/assets/interlinking.jpeg)
+Interlinking looks for matches between different texts or works. Given _Work A_ and _Work B_ below, TRACER will look for a sentence that repeats itself in a different work, not in the same work. Interlinking can be used, for example, to compare different Bibles or Bible translations.
 
 ![](/assets/interlinking.jpeg)
+
 
 
 

@@ -23,5 +23,3 @@
   * [Command line cheat-sheet](/command-line.md)
   * [Resources](/resources.md)
 
-
-

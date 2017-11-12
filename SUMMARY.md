@@ -21,6 +21,7 @@
 * [Limitations](limitations.md)
 * [FAQ](/faq.md)
 * [Publications](/publications.md)
+* [Resources](/resources.md)
 
 
 

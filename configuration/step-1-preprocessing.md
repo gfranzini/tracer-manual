@@ -4,7 +4,9 @@
 
 With TRACER you can perform two types of preprocessing, **letter-level** and **word-level processing**.
 
-**Letter-level preprocessing. **This can be useful to, for example, process _scriptura continua \(=continuous script\)_, a style of writing used in antiquity without spaces or marks between words, or to detect patterns of letters, such as alliteration. The letter-level preprocessing section of `tracer_config.xml` contains the following properties, which you can activate or deactivate depending on the type of detection you need to run:
+## **Letter-level preprocessing**
+
+This can be useful to, for example, process _scriptura continua \(=continuous script\)_, a style of writing used in antiquity without spaces or marks between words, or to detect patterns of letters, such as alliteration. The letter-level preprocessing section of `tracer_config.xml` contains the following properties, which you can activate or deactivate depending on the type of detection you need to run:
 
 ![](/assets/letter_level_prep.png)
 
@@ -13,7 +15,11 @@ With TRACER you can perform two types of preprocessing, **letter-level** and **w
 * If the value of `boolRemoveDiachritics` \(sic!\) is set to `true`, TRACER will remove all diacritics from your text \(assuming you're working with languages that have diacritics, such as Ancient Greek\).
 * If the value of `boolMakeAllLowerCase` is set to `true`, TRACER will transform all uppercase letters in your text to lowercase. 
 
-**Word-level preprocessing.** This is the default preprocessing technique and it is used to read sequences of words. The word-level preprocessing section of `tracer_config.xml` contains the following properties, which you can activate or deactivate depending on the type of detection you need to run:
+
+
+## **Word-level preprocessing**
+
+This is the default preprocessing technique and it is used to read sequences of words. The word-level preprocessing section of `tracer_config.xml` contains the following properties, which you can activate or deactivate depending on the type of detection you need to run:
 
 ![](/assets/word_level_prep.png)
 
@@ -30,9 +36,16 @@ With TRACER you can perform two types of preprocessing, **letter-level** and **w
 * If the value of `boolReplaceWordByWordLength` is set to `true`, TRACER will replace all words with a number representing their length in characters \(so, the word _HOUSE_ would become _5_\).
 
 * If the value of `boolReplaceByReducedString` is set to `true`, TRACER will...
+
 * The value of `intMinWordLengthThreshold` is a number defining...
 * The value of `intNGramSize` is a number defining...
 * If the value of `weigthByLogLikelihoodRatio` \(sic!\) is set to `true`, TRACER will...
 
-**Remember to always save your changes!**
+
+
+If users want to detect non-literal text reuse, the value of the property `boolReplaceSynonyms` needs to be `true`. And although the name of the property misleadingly suggests that TRACER can only work with synonyms, this is not the case. Users can supply TRACER with lists of hyponyms, cohyponyms or even hypernyms if they so wish. The image below explains what these are and their relation to one another.![](/assets/hyper-hypo-cohyponym.png)
+
+
+
+
 

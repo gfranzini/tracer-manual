@@ -1,4 +1,4 @@
-# Corpus preparation
+# Corpus preparation {#corpus-preparation}
 
 TRACER works with plain text files \(`.txt`\). This means that if you have marked-up texts in XML, you must remove all of the XML tags before you can use TRACER. To create and manipulate `.txt` files, use Sublime Text, as previously recommended.
 
@@ -42,8 +42,6 @@ If you’re using Microsoft Excel, select the first column, click on the `FILTER
 ![](/assets/excel_filter_blanks.png)
 
 Microsoft Excel’s filter buttons and pane. After deselecting all options within the pane, reselect `Blanks` in order to delete all blank rows.
-
-
 
 Next, add a column to the left of your sentence column. This new column should contain sentence IDs. To automate the creation of IDs, type in the first three IDs \(one per sentence\), then select the three ID cells, hover over the bottom right corner of the third cell and finally drag the selection all the way down to the last sentence. Remember to save the changes!
 

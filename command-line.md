@@ -10,17 +10,17 @@ This is a comparison list of common commands to navigate file-systems, including
 | `cd` | Full path of current folder/directory | `pwd` |
 | `cd &lt;path to directory&gt;` | Change folder/directory | `cd <path to directory>` |
 | `cd..` | One directory up in directory tree | `cd ..` |
-| `cd` | Move to root directory | `cd /` |
+| `cd` | Move to root directory | `cd` |
 | `mkdir newFolder` | Create new directory in current directory | `mkdir myFolder` |
-| `echo some-text &gt; fileName\(.txt\)` | Create new file | `cat &gt; fileName\(.txt\)` |
+| `echo some-text > fileName(.txt)` | Create new file | `cat > fileName(.txt)` |
 | `rmdir myFolder` | Remove a directory\* | `rmdir myFolder` |
 | `ren oldFolderName newFolderName` | Rename a directory | `mv oldFolderName newFolderName` |
-| `robocopy myFolder &lt;path to destination directory&gt;` | Copy a directory | `cp -r myFolder &lt;path to destination directory&gt;` |
-| `move myFolder &lt;path to destination directory&gt;` | Move a directory | `mv myFolder &lt;path to destination directory&gt;` |
+| `robocopy myFolder <path to destination directory>` | Copy a directory | `cp -r myFolder <path to destination directory>` |
+| `move myFolder <path to destination directory>` | Move a directory | `mv myFolder <path to destination directory>` |
 | `del myFile` | Remove a file\* | `rm myFile` |
 | `ren oldFileName newFileName` | Rename a file | `mv oldFileName newFileName` |
-| `copy myFile &lt;path to destination directory&gt;` | Copy a file | `cp my File <path to destination directory>` |
-| `move myFile &lt;path to destination directory&gt;` | Move a file | `mv myFile <path to destination directory>` |
+| `copy myFile <path to destination directory>` | Copy a file | `cp my File <path to destination directory>` |
+| `move myFile <path to destination directory>` | Move a file | `mv myFile <path to destination directory>` |
 | `cls` | Clear the terminal screen | `clear` |
 | `type myFile` | Concatenate and print a file | `cat myFile` |
 | `type C:/../myFile \| find "" /v /c` | Count lines a in file | `wc -l myFile` |

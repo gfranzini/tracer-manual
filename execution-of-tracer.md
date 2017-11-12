@@ -17,7 +17,5 @@ Press `ENTER` and TRACER will perform a first text reuse detection task. The spe
 
 If TRACER has not reached the end of Process Level 6 \(which is the _Postprocessing_ level\), then something in your detection run has gone wrong. The [Troubleshooting](/troubleshooting.md) section of this GitBook contains a list of potential error sources.
 
-## Computed files
 
-Which output files are generated.
 

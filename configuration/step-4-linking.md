@@ -2,5 +2,35 @@
 
 ![](/assets/architecture.png)
 
+In the _Linking_ stage, TRACER creates links between the features defined in previous steps. Unlike other TRACER steps, which are all linear, _Linking_ is of squared complexity depending on the feature frequency and it is, therefore, the most computationally- and time-intensive task in the detection process.[^1] Through Linking TRACER will deliver results based purely on the parameters set in previous steps. It is up to us to interpret those results and filter out what is good and what is bad.
 
+
+
+## Types of Linking
+
+TRACER can perform two types of Linking, _Intralinking_ and _Interlinking_.
+
+### Intralinking
+
+_Intralinking_ looks for text reuse within the same text or work \(i.e. self-reuse\). Given _Work A_ below, TRACER will look for a sentence that repeats itself either word-for-word or non-literally in Work A. Intralinking can be used, for example, to analyse a Bible and see how one Gospel reuses another.
+
+![](/assets/intralinking.jpeg)
+
+
+
+### Interlinking
+
+Interlinking looks for matches between different texts or works. Given _Work A_ and _Work B_ below, TRACER will look for a sentence that repeats itself in a different work, not in the same work. Interlinking can be used, for example, to compare different Bibles or Bible translations.![](/assets/interlinking.jpeg)
+
+### ![](/assets/interlinking.jpeg)
+
+### ![](/assets/interlinking.jpeg)
+
+### ![](/assets/interlinking.jpeg)
+
+![](/assets/interlinking.jpeg)
+
+
+
+[^1]: A basic explanation of _squared complexity_ is available under Wikipedia's [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) page.
 

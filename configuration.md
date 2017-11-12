@@ -6,7 +6,7 @@ TRACER’s configuration file is its control tower. This is where you define the
 
 The file begins with a list of properties. Properties are  made up of a namespace and a class . For example:![](/assets/namespace-class.png)
 
-Properties 2-7 are the six steps of the TRACER architecture described earlier. The image below is a reminder of that architecture.
+Properties 2-7 are the six steps of the TRACER [architecture described earlier](/tracer-overview.md). The image below is a reminder of that architecture.
 
 ![](/assets/architecture.png)
 

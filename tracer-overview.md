@@ -1,4 +1,4 @@
-# TRACER: Quick overview
+# TRACER: Quick overview {#tracer-overview}
 
 TRACER is a suite of 700 algorithms, whose features can be combined to create the optimal model for detecting those words, sentences and ideas that have been reused across texts. Created by Marco Büchler during the eTRACES project at the University of Leipzig, TRACER is designed to facilitate research in automatic text reuse detection and many have made use of it to identify plagiarism in a text, as well as verbatim and near verbatim quotations, paraphrase and even allusions. The thousands of feature combinations that TRACER supports allow to investigate not only contemporary texts, but also historical texts. **TRACER is a command line engine**. The reason it does not come with a user-interface is to boost computing speed. TRACER can use large and remotely-accessible servers, which facilitate the computation of large data-sets. The reuse results _can_ be visualised in a more readable format via TRAViz \(see [_Step 6.Postprocessing_](/configuration/step-6-postprocessing.md)\).
 

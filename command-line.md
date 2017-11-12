@@ -8,7 +8,7 @@ This is a comparison list of common commands to navigate file-systems, including
 | :--- | :---: | :--- |
 | `dir` | List files and folders | `ls` |
 | `cd` | Full path of current folder/directory | `pwd` |
-| `cd &lt;path to directory&gt;` | Change folder/directory | `cd <path to directory>` |
+| `cd <path to directory>` | Change folder/directory | `cd <path to directory>` |
 | `cd..` | One directory up in directory tree | `cd ..` |
 | `cd` | Move to root directory | `cd` |
 | `mkdir newFolder` | Create new directory in current directory | `mkdir myFolder` |

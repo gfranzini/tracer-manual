@@ -15,11 +15,8 @@
   * [Step 4. Linking](configuration/step-4-linking.md)
   * [Step 5. Scoring](configuration/step-5-scoring.md)
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
+* [Execution of TRACER](execution-of-tracer.md)
 * [Troubleshooting](troubleshooting.md)
 * [Limitations](limitations.md)
-* [Appendix](/appendix.md)
-  * [FAQ](/faq.md)
-  * [Publications](/publications.md)
-  * [Command line cheat-sheet](/command-line.md)
-  * [Resources](/resources.md)
+* Execution of TRACER
 

@@ -26,13 +26,13 @@ With TRACER you can perform two types of preprocessing, **letter-level** and **w
 * If the value of `boolRemoveDiachritics` \(sic!\) is set to `true`, TRACER will remove all diacritics from your text \(assuming you're working with languages that have diacritics, such as Ancient Greek\).
 
 * If the value of `boolMakeAllLowerCase` is set to `true`, TRACER will transform all uppercase letters or words in your text to lowercase.
+
 * If the value of `boolReplaceWordByWordLength` is set to `true`, TRACER will replace all words with a number representing their length in characters \(so, the word _HOUSE_ would become _5_\).
+
 * If the value of `boolReplaceByReducedString` is set to `true`, TRACER will...
 * The value of `intMinWordLengthThreshold` is a number defining...
 * The value of `intNGramSize` is a number defining...
 * If the value of `weigthByLogLikelihoodRatio` \(sic!\) is set to `true`, TRACER will...
 
-options include string similarity, , which can be used to detect similar words or strings to reveal OCR errors, morphological variation or even spelling errors.
-
-Remember to always save your changes!
+**Remember to always save your changes!**
 

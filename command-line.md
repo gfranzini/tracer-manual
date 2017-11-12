@@ -26,5 +26,6 @@ This is a comparison list of common commands to navigate file-systems, including
 | `type C:/../myFile` PIPE\*\* `find "" /v /c` | Count lines a in file | `wc -l myFile` |
 
 \***IMPORTANT**: Remove/delete command DOES NOT ask for confirmation.
+
 \*\*Replace PIPE with the `|` symbol.
 

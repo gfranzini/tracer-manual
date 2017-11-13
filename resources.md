@@ -1,20 +1,18 @@
 # Resources
 
-
-
 ### Projects that make use of TRACER
 
 * [Biblindex](https://www.biblindex.info/presentation)
 
 ### Linguistic resources for data preprocessing
 
-* TreeTagger
-* Lemlat 3
-* English language statistics: Wordcount.org
+* [TreeTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) Part-of-Speech tagger
 
-* META-SHARE linguistic resources
+* English language statistics: [Wordcount.org](http://www.wordcount.org/)
 
-* NLTK Sentence Segmentation
+* [META-SHARE](http://metashare.nlp.ipipan.waw.pl/metashare/) linguistic resources
+
+* NLTK [Sentence Segmentation](http://textanalysisonline.com/nltk-sentence-segmentation)
 
 ### Data Science
 

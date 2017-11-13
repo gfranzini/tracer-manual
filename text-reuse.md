@@ -7,7 +7,7 @@ The chart below illustrates the various _styles_ of text reuse we may encounter.
 1. _**Syntactic text reuse**_, which includes verbatim and near-verbatim quotations, as well as idioms. This style of text reuse is "easier" for a machine to read and identify.
 2. _**Semantic text reuse**_, which includes looser forms of reuse such as allusion, analogy and paraphrase. These are harder to detect with a machine as they operate at a more semantic level.
 
-![](/assets/styles.png)Chart by Marco Büchler.
+![](/assets/styles.png)
 
 Text reuse detection on historical data is particularly challenging due to the fragmentary nature of the texts under investigation and the evolution of language over time.
 

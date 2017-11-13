@@ -10,8 +10,10 @@ Letter-level preprocessing can be useful to, for example, process _scriptura con
 
 ![](/assets/letter_level_prep.png)
 
-* > If the value of `boolReplaceWhitespaces` is set to `true`, TRACER will ...
-* > The value of `intNGramSize` is a number, and defines the number of letters TRACER ....
+* If the value of `boolReplaceWhitespaces` is set to `true`, TRACER will add whitespaces in a specified interval of characters. The interval is specified in the next property, `intNGramSize`.
+
+* The value of `intNGramSize` is a number \(`int` stands for _integer_\), and defines the word-size in characters. If the value is `5`, TRACER will add a space every 5 characters, for example: `ABCDEFGIHJ` will become `ABCDE` `FGHIJ` . 
+
 * If the value of `boolRemoveDiachritics` \(sic!\) is set to `true`, TRACER will remove all diacritics from your text \(assuming you're working with languages that have diacritics, such as Ancient Greek\).
 * If the value of `boolMakeAllLowerCase` is set to `true`, TRACER will transform all uppercase letters in your text to lowercase. 
 

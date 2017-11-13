@@ -1,6 +1,6 @@
 # Configuration
 
-TRACER’s configuration file is its control tower. This is where you define the parameters of your detection tasks. To open TRACER’s configuration file, open the conf subfolder of your TRACER folder and open the `tracer_config.xml` file in a text editor. You should now see something like this:
+TRACER’s configuration file is its control tower. This is where you define the parameters of your detection tasks. To open TRACER’s configuration file, open the `conf` subfolder of your TRACER folder and open the `tracer_config.xml` file in a text editor. You should now see something like this:
 
 ![](/assets/config-file.png)
 

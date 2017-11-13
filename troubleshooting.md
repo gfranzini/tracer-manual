@@ -2,7 +2,7 @@
 
 This section contains a list of encountered errors with solutions. Should your TRACER error not be in this list, please report it [here](http://www.etrap.eu/redmine/projects/tracer).
 
-> These error reports can be accessed &lt;OUT FILE&gt;
+As [previously mentioned](/execution-of-tracer.md), the `.out` file produced by TRACER when executed documents the detection process. Should a detection task fail, this file will show the user where the process stop allowing them to more easily locate the source of the error. 
 
 ## General recommendation
 
@@ -47,8 +47,6 @@ It might happen that TRACER runs a detection successfully but produces empty `.l
 The value is set to a 7-digit ID. This means that your IDs should be 7-digits long. If you would rather work with shorter digits, you must change this value in the configuration file accordingly. If possible, please avoid using IDs above 2.000.000, as these require extra steps in order to be processed.
 
 ---
-
-
 
 
 

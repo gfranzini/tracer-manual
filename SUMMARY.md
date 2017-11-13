@@ -17,11 +17,11 @@
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
 * [Execution of TRACER](execution-of-tracer.md)
 * [Computed files](computed-files.md)
+* [Keeping a detection logbook](logbook.md)
 * [Troubleshooting](troubleshooting.md)
 * [Limitations](limitations.md)
 * [FAQ](/faq.md)
 * [Publications](/publications.md)
 * [Resources](/resources.md)
 * [Command line: MAC vs. Windows](/command-line.md)
-* [Logbook](logbook.md)
 

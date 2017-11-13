@@ -40,3 +40,14 @@ It might happen that TRACER runs a detection successfully but produces empty `.l
 
 The value is set to a 7-digit ID. This means that your IDs should be 7-digits long. If you would rather work with shorter digits, you must change this value in the configuration file accordingly. If possible, please avoid using IDs above 2.000.000, as these require extra steps in order to be processed.
 
+---
+
+```
+<category name="eu.etrap.tracer.requirements.DefaultRequirementsControlFlowImpl">
+        <property name="dblStringSimThreshold" value="0.8" />
+        <property name="intMinWordLength" value="5" />
+    </category>
+```
+
+Please do not forget to delete all files first as it is one of the first steps.
+

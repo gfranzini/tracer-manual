@@ -2,7 +2,7 @@
 
 This section contains a list of encountered errors with solutions. Should your TRACER error not be in this list, please report it [here](http://www.etrap.eu/redmine/projects/tracer).
 
-As [previously mentioned](/execution-of-tracer.md), the `.out` file produced by TRACER when executed documents the detection process. Should a detection task fail, this file will show the user where the process stop allowing them to more easily locate the source of the error. This _Troubleshooting_ page was set-up because the error messages in the `.out` file are not always intuitive for users who are not familiar with Java.
+As [previously mentioned](/execution-of-tracer.md), the `.out` file produced by TRACER when executed documents the detection process. Should a detection task fail, this file will show users where the process stopped allowing them to more easily locate the source of the error. This _Troubleshooting_ page was set-up because the error messages in the `.out` file are not always intuitive for users who are not familiar with Java.
 
 ## General recommendation
 

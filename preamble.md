@@ -24,9 +24,10 @@ We greatly appreciate your feedback on this handbook. Your suggestions and comme
 
 ## Version history
 
-* Version 1.3 \(2017-12\): Updated following a tutorial in Verona \[Gitbook\].
+* Version 1.3 onwards \(2017-12\): Updated following a tutorial in Verona \[Gitbook\].
 
 * Version 1.2 \(2017-05-23\): Updated version following a tutorial at the AIUCD \(Associazione per l’Informatica Umanistica e la Cultura Digitale\) Conference in Rome \[LaTeX\].
+
 * Version 1.1 \(2016-09-09\): Updated version following a tutorial at the AIUCD \(Associazione per l’Informatica Umanistica e la Cultura Digitale\) Conference in Venice \[LaTeX\].
 * Version 1.0 \(2016-08-25\): First version of the manual \[LaTeX\].
 

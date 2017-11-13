@@ -6,7 +6,7 @@ Here is a list of publications about TRACER.
 
 Publications written by the TRACER team:
 
-* Büchler, M., Franzini, G., Franzini, E., Moritz, M., Bulert, K. \(2017 forthcoming\) ‘TRACER - a multilevel framework for historical Text Reuse detection’, _Journal of Data Mining and Digital Humanities - Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages_.
+* Büchler, M., Franzini, G., Franzini, E., Moritz, M., Bulert, K. \(2018 forthcoming\) ‘TRACER - a multilevel framework for historical Text Reuse detection’, _Journal of Data Mining and Digital Humanities - Special Issue on Computer-Aided Processing of Intertextuality in Ancient Languages_.
 * Miyagawa, S., Büchler, M. \(2016\) ‘Computational Analysis of Text Reuse in Shenoute and Besa’, _11th International Congress of Coptic Studies_. July, 28. 
 * Franzini, G. \(2016\) ‘English translations of Pan Tadeusz: a comparison with TRACER’, _eTRAP_. January, 19. Online.
 * Büchler, M., Burns, P. R., Müller, M., Franzini, E., Franzini, G. \(2014\) ‘Towards a Historical Text Re-use Detection’, In: Biemann, C. and Mehler, A. \(eds.\) _Text Mining, Theory and Applications of Natural Language Processing_. Springer International Publishing Switzerland.
@@ -20,8 +20,6 @@ Publications written by TRACER users:
 
 * Kokkinakis, D., Malm, M. \(2016\) ‘Detecting Reuse of Biblical Quotes in Swedish 19th Century Fiction using Sequence Alignment’, _Corpus-based Research in the Humanities workshop \(CRH\)_. December, 10. Warsaw, Poland.
 * Almogi, O., Dankin, L., Dershowitz, N., Wolf, L. \(2016\) ‘A Hackathon for Classical Tibetan’, _Journal of Data Mining and Digital Humanities_. Available at: [https://arxiv.org/pdf/1609.08389.pdf](https://arxiv.org/pdf/1609.08389.pdf)
-
-
 
 
 

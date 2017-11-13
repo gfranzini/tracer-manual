@@ -11,15 +11,11 @@ The chart below illustrates the various _styles_ of text reuse we may encounter.
 
 Text reuse detection on historical data is particularly challenging due to the fragmentary nature of the texts under investigation and the evolution of language over time.
 
-
-
 ### Growing bibliography
 
 A growing bibliography of historical text reuse is available here \(Zotero\): [https://www.zotero.org/groups/500373/historical\_text\_reuse?](https://www.zotero.org/groups/500373/historical_text_reuse?)
 
-
-
 ### Discussion group
 
-A historical text reuse detection forum is available here \(Google Group\): [https://groups.google.com/forum/\#!forum/historical-text-re-use](https://groups.google.com/forum/#!forum/historical-text-re-use)
+A historical text reuse forum is available here \(Google Group\): [https://groups.google.com/forum/\#!forum/historical-text-re-use](https://groups.google.com/forum/#!forum/historical-text-re-use)
 

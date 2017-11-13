@@ -1,6 +1,12 @@
 # Troubleshooting
 
-This section contains a list of encountered errors with solutions. Should your TRACER error not be in this list, please report it [here](http://www.etrap.eu/redmine/projects/tracer). These error reports can be accessed &lt;OUT FILE&gt;
+This section contains a list of encountered errors with solutions. Should your TRACER error not be in this list, please report it [here](http://www.etrap.eu/redmine/projects/tracer). 
+
+> These error reports can be accessed &lt;OUT FILE&gt;
+
+## General recommendation
+
+Should none of the solutions in this page work for you or if you can't figure out what the error might be, the general recommendation is to always delete any existing `TRACER_DATA` folder \(which stores the results of previous analyses\) before running new analyses. Why? Because it _could be_ that existing computed files are creating conflicts with the settings you changed for a new analysis.
 
 ---
 

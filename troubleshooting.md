@@ -1,6 +1,6 @@
 # Troubleshooting
 
-This section contains a list of encountered errors with solutions. Should your TRACER error not be in this list, please report it [here](http://www.etrap.eu/redmine/projects/tracer). 
+This section contains a list of encountered errors with solutions. Should your TRACER error not be in this list, please report it [here](http://www.etrap.eu/redmine/projects/tracer).
 
 > These error reports can be accessed &lt;OUT FILE&gt;
 
@@ -48,12 +48,7 @@ The value is set to a 7-digit ID. This means that your IDs should be 7-digits lo
 
 ---
 
-```
-<category name="eu.etrap.tracer.requirements.DefaultRequirementsControlFlowImpl">
-        <property name="dblStringSimThreshold" value="0.8" />
-        <property name="intMinWordLength" value="5" />
-    </category>
-```
 
-Please do not forget to delete all files first as it is one of the first steps.
+
+
 

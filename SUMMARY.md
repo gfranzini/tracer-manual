@@ -23,6 +23,5 @@
 * [Publications](/publications.md)
 * [Resources](/resources.md)
 * [Command line: MAC vs. Windows](/command-line.md)
-
-
+* [Logbook](logbook.md)
 

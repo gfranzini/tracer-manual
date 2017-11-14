@@ -16,7 +16,7 @@
   * [Step 5. Scoring](configuration/step-5-scoring.md)
   * [Step 6. Postprocessing](configuration/step-6-postprocessing.md)
 * [Execution of TRACER](execution-of-tracer.md)
-* [Computed files](computed-files.md)
+* [Results & computed files](computed-files.md)
 * [Keeping a detection logbook](logbook.md)
 * [Troubleshooting](troubleshooting.md)
 * [Limitations](limitations.md)

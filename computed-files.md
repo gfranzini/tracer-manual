@@ -8,13 +8,9 @@ The `.score` file contains all computed reuse pairs. The first two columns list 
 
 `1101991    1300887    2.0    0.5`
 
-**NB:** The `.score` file lists results bidirectionally and thus redundantly. The two results below, for example, represent the same reuse alignment but the order of the IDs is inverted.
+**NB:** The `.score` file lists results bidirectionally and thus redundantly. The two results below, for example, represent the same reuse alignment but the order of the IDs is inverted:
 
 `1102581    1300887    2.0    0.5`
 
 `1300887    1102581    2.0    0.5`
-
-
-
-
 

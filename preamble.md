@@ -27,7 +27,9 @@ This manual is published under a **Creative Commons Attribution-ShareAlike 4.0 I
 We greatly appreciate your feedback on this handbook. Your suggestions and comments will help us improve our documentation and adapt TRACER to your needs. There are two ways you can communicate improvements to this book:
 
 1. Email us at **contact@etrap.eu**.
-2. Leave us a comment in this manual using the _**Start a new discussion**_ function provided by GitBook. Simply hover over the text you wish to comment on and a plus `+` symbol will appear on the right hand-side of the paragraph \(see image below\). Click on the `+` symbol, enter your comment and click `Post`. This will send us a notification.
+2. Leave us a comment in this manual using the _**Start a new discussion**_ function provided by GitBook. Simply hover over the text you wish to comment on and a plus `+` symbol will appear on the right hand-side of the paragraph \(see example here on the right\). Click on the `+` symbol, enter your comment and click `Post`. This will automatically notify us that we need to address an issue in the manual. Once addressed, we `close` the thread and the comment will disappear. 
+
+
 
 ## Version history
 

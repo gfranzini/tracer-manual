@@ -16,8 +16,6 @@ This manual is published under a **Creative Commons Attribution-ShareAlike 4.0 I
 
 ## ![](/assets/documentation.gif)
 
-
-
 ## Syntax
 
 **This manual is a work in progress.** It is regularly updated to improve clarity. All grey text in this manual \(example below\) indicates that the text is either incomplete or currently being updated by the authors.
@@ -26,7 +24,14 @@ This manual is published under a **Creative Commons Attribution-ShareAlike 4.0 I
 
 ## Feedback
 
-We greatly appreciate your feedback on this handbook. Your suggestions and comments will help us improve our documentation and adapt TRACER to your needs. We welcome both general feedback about TRACER and manual-specific suggestions. To get in touch, please email us at **contact@etrap.eu**.
+We greatly appreciate your feedback on this handbook. Your suggestions and comments will help us improve our documentation and adapt TRACER to your needs. There are two ways you can communicate improvements to this book: 
+
+1. Email us at **contact@etrap.eu**.
+2. Leave us a comment here using then '**Start a new discussion**' function provided by GitBook. Simply hover over the text you wish to comment on and a plus sign will appear on the right hand-side of the paragraph. Click on it, enter your comment and click 'Post'. This will send us a notification.
+
+
+
+
 
 ## Version history
 

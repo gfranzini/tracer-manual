@@ -79,5 +79,11 @@ Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as show
 
 ![corpora](/assets/corpora.png "Structure of the TRACER folder in the Mac Finder view. Deposit your .txt file in a new folder under data &amp;gt; corpora")
 
+**Important**: never use white-spaces in file names.
+
+Next, make sure TRACER's configuration file points to your `.tx` file. For example, if your text file is called `KJV.txt`, locate the `SENTENCE\_FILE\_NAME` property in the configuration file and add the path of your file to the `value` attribute: 
+
+![path](/assets/path.png "The path to your .txt file must be specified in the tracer_config.xml file in the SENTENCE_FILE_NAME property.")
+
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

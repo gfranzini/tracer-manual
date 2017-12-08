@@ -55,3 +55,6 @@ The sentence IDs should be sequential and unique. The default set-up of TRACER r
 
 As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, A and B, are distinguished via the first two digits of the ID. TRACER's default ID settings can be changed in the configuration file in the Selection section, as shown below.
 
+
+IF ID NUMBERING uses MILLIONS: 1,000,000; 1,100,00; 1,200,00 ---> in the INTERLINKING section you need to have 100,000, not 1,000,000.
+

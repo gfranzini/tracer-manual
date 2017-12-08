@@ -45,9 +45,15 @@ Microsoft Excel’s filter buttons and pane. After deselecting all options withi
 
 Next, add a column to the left of your sentence column. This new column should contain sentence IDs. To automate the creation of IDs, type in the first three IDs \(one per sentence\), then select the three ID cells, hover over the bottom right corner of the third cell and finally drag the selection all the way down to the last sentence. Remember to save the changes!
 
-
-
 > IF ID NUMBERING uses MILLIONS: 1,000,000; 1,100,00; 1,200,00 ---&gt; in the INTERLINKING section you need to have 100,000, not 1,000,000.
+
+The sentence IDs should be sequential and unique. The default set-up of TRACER requires IDs to be 7-digits in length and numbers below 2,000,000. If you're analysing two texts, make sure to restart the ID sequence for your second text. So, for example:
+
+![](/assets/ID-column.png)
+
+
+
+
 
 
 

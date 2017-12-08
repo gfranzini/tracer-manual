@@ -53,7 +53,7 @@ The sentence IDs should be sequential and unique. The default set-up of TRACER r
 
 ![id2](/assets/id-2.png "Required segment ID formatting. Texts to be analysed are told apart by the first two digits in the ID.")
 
-As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, A and B, are distinguished via the first two digits of the ID. TRACER's default ID settings can be changed in the configuration file in the _Selection_ section, as shown below.![](/assets/IDs-config-file.png)
+As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, _A_ and _B_, are distinguished via the first two digits of the ID. TRACER's default ID settings can be changed in the configuration file in the _Selection_ section, as shown below.![](/assets/IDs-config-file.png)
 
 > **\[warning\] To update**
 >
@@ -63,6 +63,8 @@ However, doing so is **only recommended in consultation with the TRACER team** a
 
 Next, add two columns to the right of your sentence column. In the third column you can either put a date of file-creation \(in the `YYYY-MM-DD` format only\) or the case-sensitive word `NULL`. To populate the entire column with the date or `NULL` , repeat the drag action used above but from the first cell only, not the third. By dragging from the first the cell values will not increase or change as you move downwards.
 
+![](/assets/null-column.png)
+
 The fourth column should list the source of the text, whether it's a book, a chapter or the title of your text. This information is necessary for the text reuse visualisation to work later on. To populate this column repeat the actions described in the previous paragraph.
 
 Save your four-column file as a `.csv` document. Finally, change the extension of the file from `.csv` to `.txt`.
@@ -71,13 +73,13 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]
 
-![four-cols](/assets/four_columns.png "The King James Bible (KJV) text formatted into four columns, as per TRACER’s requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Book (source). This file was opened with Sublime text editor.")
+!\[four-cols\]\(/assets/four\_columns.png "The King James Bible \(KJV\) text formatted into four columns, as per TRACER’s requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Book \(source\). This file was opened with Sublime text editor."\)
 
 ### Where to store your texts
 
 Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
 
-![corpora](/assets/corpora.png "Structure of the TRACER folder (Mac 'Finder' view). Deposit your .txt file in a new folder under data > corpora.")
+!\[corpora\]\(/assets/corpora.png "Structure of the TRACER folder \(Mac 'Finder' view\). Deposit your .txt file in a new folder under data &gt; corpora."\)
 
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

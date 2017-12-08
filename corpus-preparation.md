@@ -69,5 +69,7 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 **That's it, your text is now TRACER-compatible!**
 
-The figure below provides an example of the King James Bible Version text formatted for TRACER.\footnote{This is a different example from the one we've been working on but it should give you an idea of the final document layout.}
+The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]
+
+[^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

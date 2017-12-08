@@ -1,4 +1,3 @@
 {
-    "plugins": ["image-captions"],
-    "plugins": ["alerts"]
+    "plugins": ["image-captions"],["alerts"]
 }

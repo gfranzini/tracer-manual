@@ -4,7 +4,7 @@ TRACER needs between 5GB and 10GB of total space \(including result files\). It 
 
 You can download or clone the most recent release of TRACER from [its GitLab repository](http://vcs.etrap.eu/users/sign_in) by creating a free GitLab account. **However, please be aware that the most recent version might be unstable**.
 
-![](/assets/tracer_Git_high.png)TRACER's GitLab repository. The red box indicates the download button.
+![gitlab](/assets/tracer_Git_high.png "TRACER's GitLab repository. The red box indicates the download button.")
 
 Git is a so-called _version control system_ that tracks file changes. It is heavily used by software developers and teams who collaborate on the same project. If Git is not already installed on your machine, you can get a copy for your operating system from the [official homepage](https://git-scm.com/downloads). After installation, and to run Git, you must prefix commands in your terminal with `git`. An example is `git status`, which shows pending changes and suggests potential next steps.[^2]
 
@@ -34,7 +34,7 @@ Before contributing to the TRACER code please read the [`git commit`](http://vcs
 
 ## Reporting
 
-With your account you also have the ability to create new issues. If you encounter a bug or are in need of a feature please create a new issue in GitLab or Redmine. **If you find a bug, please always provide your build number **\(which you can find your TRACER's `build.xml` file\).
+With your account you also have the ability to create new issues. If you encounter a bug or are in need of a feature please create a new issue in GitLab or Redmine. **If you find a bug, please always provide your build number** \(which you can find your TRACER's `build.xml` file\).
 
 # Compiling TRACER {#compiling-tracer}
 
@@ -54,7 +54,7 @@ which lists, among others, TRACER's Javadoc. If you now type:
 
 you’ll create TRACER’s Javadoc in the folder `doc/web/javadoc/Tracer-1.0/`. There, click on the `index.html` file to view the Javadoc in a web browser.
 
-[^1]: A _target_ is a procedure or pipeline. Compiling code is, for example, one target. A target can consist of one or more tasks.
 
+[^1]: A _target_ is a procedure or pipeline. Compiling code is, for example, one target. A target can consist of one or more tasks.
 [^2]: A simple guide to Git is available here: [http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/) 
 

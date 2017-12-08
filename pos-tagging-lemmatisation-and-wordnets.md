@@ -50,7 +50,7 @@ If you wish to detect non-verbatim text reuse \(e.g. paraphrase\) you need \text
 
 ![](assets/path.png)
 
-If you don't use a `.syns` file, you needn't delete the `SYNONYMS_FILE_NAME` property but must declare this in the _Preprocessing_ section of the configuration file.
+If you don't use a `.syns` file, you needn't delete the `SYNONYMS_FILE_NAME` property but must declare this in the_ Word-level Preprocessing_ section of TRACER's configuration file.
 
 ### Can the formatting be automated?
 

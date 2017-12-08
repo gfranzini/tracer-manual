@@ -8,7 +8,7 @@ In order to detect text reuse, TRACER also requires linguistic information perta
 
 The output file produced by your morphological analyser of choice needs to be converted to TRACER's input format. TRACER takes three columns, separated by `TAB`s: a column listing the _word-forms_ as they appear in the text; a column providing the _base-form_ or dictionary entry of every word-form; and a third column with the relative _word-class_ \(verb, noun, etc.\):
 
-![](/assets/lemma-file.png)
+![lemma](/assets/lemma-file.png "This TAB-separated three-column .txt file contains information TRACER needs in order to detect text reuse in Latin texts.")
 
 #### a _synonyms_ file...
 

@@ -1,0 +1,45 @@
+{
+  "name": "gitbook-plugin-image-captions",
+  "description": "Image captions plugin for GitBook",
+  "main": "src/index.js",
+  "version": "3.1.0",
+  "author": "Tomas Dvorak <todvora@gmail.com>",
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "image",
+    "caption"
+  ],
+  "engines": {
+    "gitbook": "^3"
+  },
+  "homepage": "https://github.com/todvora/gitbook-plugin-image-captions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/todvora/gitbook-plugin-image-captions.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/todvora/gitbook-plugin-image-captions/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "gitbook-tester": "^1.4.1",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1",
+    "should-html": "^1.0.2"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src spec",
+    "lint:fix": "node_modules/.bin/eslint src spec --fix",
+    "pretest": "npm run lint",
+    "test": "node_modules/.bin/mocha --reporter spec --timeout 60000 spec"
+  }
+}

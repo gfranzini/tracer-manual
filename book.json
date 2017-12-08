@@ -4,3 +4,6 @@
     ]
 }
 
+{
+    "plugins": ["alerts"]
+}

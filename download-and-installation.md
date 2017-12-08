@@ -6,7 +6,7 @@ You can download or clone the most recent release of TRACER from [its GitLab rep
 
 ![gitlab](/assets/tracer_Git_high.png "TRACER's GitLab repository. The red box indicates the download button.")
 
-Git is a so-called _version control system_ that tracks file changes. It is heavily used by software developers and teams who collaborate on the same project. If Git is not already installed on your machine, you can get a copy for your operating system from the [official homepage](https://git-scm.com/downloads). After installation, and to run Git, you must prefix commands in your terminal with `git`. An example is `git status`, which shows pending changes and suggests potential next steps.[^2]
+Git is a so-called _version control system_ that tracks file changes. It is heavily used by software developers and teams who collaborate on the same project. If Git is not already installed on your machine, you can get a copy for your operating system from the [official homepage](https://git-scm.com/downloads). After installation, and to run Git, you must prefix commands in your terminal with `git`. An example is `git status`, which shows pending changes and suggests potential next steps.[^1]
 
 To get a copy of TRACER’s repository you first need to clone it. This is done by typing the following into your terminal:
 
@@ -44,7 +44,7 @@ To compile TRACER, please navigate to the TRACER folder containing the `build.xm
 
 And press `ENTER`. This starts the build process. Depending on the disc type and the file system, this process can take between five and twenty seconds. Once the build process is complete, the `tracer.jar`file is created. The`.jar` file is TRACER’s executable program and currently measures 33MB in size.
 
-TRACER’s build file `build.xml` contains a number of targets[^1] that aren’t executed in order to speed up the build process. However, you can visualise all targets by typing:
+TRACER’s build file `build.xml` contains a number of targets[^2] that aren’t executed in order to speed up the build process. However, you can visualise all targets by typing:
 
 `ant−p verbose`
 
@@ -54,7 +54,7 @@ which lists, among others, TRACER's Javadoc. If you now type:
 
 you’ll create TRACER’s Javadoc in the folder `doc/web/javadoc/Tracer-1.0/`. There, click on the `index.html` file to view the Javadoc in a web browser.
 
+[^1]: A simple guide to Git is available here: [http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/) 
+[^2]: A _target_ is a procedure or pipeline. Compiling code is, for example, one target. A target can consist of one or more tasks.
 
-[^1]: A _target_ is a procedure or pipeline. Compiling code is, for example, one target. A target can consist of one or more tasks.
-[^2]: A simple guide to Git is available here: [http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/) 
 

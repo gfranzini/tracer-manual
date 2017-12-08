@@ -1,7 +1,5 @@
 {
-    "plugins": [
-        "image-captions"
-    ]
+    "plugins": ["image-captions"],
     "plugins": ["alerts"]
 
 }

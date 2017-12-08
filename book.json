@@ -1,5 +1,11 @@
 {
     "plugins": [
         "image-captions"
-    ]
+    ],
+    "pluginsConfig": {
+      "image-captions": {
+          "caption": "Image - _CAPTION_"
+      }
+  }
 }
+

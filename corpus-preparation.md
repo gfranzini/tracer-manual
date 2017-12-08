@@ -51,10 +51,6 @@ Next, add a column to the left of your sentence column. This new column should c
 
 The sentence IDs should be sequential and unique. The default set-up of TRACER requires IDs to be 7-digits in length and numbers below 2,000,000. If you're analysing two texts, make sure to restart the ID sequence for your second text. So, for example:
 
-
-
-
-
 Required segment \(sentence, verse, etc.\) ID formatting. Texts to be analysed are told apart by the first two digits in the ID."\)
 
 As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, A and B, are distinguished via the first two digits of the ID. TRACER's default ID settings can be changed in the configuration file in the Selection section, as shown below.
@@ -71,5 +67,5 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 **That's it, your text is now TRACER-compatible!**
 
-Figure \ref{fig:four\_columns} below provides an example of the King James Bible Version text formatted for TRACER.\footnote{This is a different example from the one we've been working on but it should give you an idea of the final document layout.}
+The figure below provides an example of the King James Bible Version text formatted for TRACER.\footnote{This is a different example from the one we've been working on but it should give you an idea of the final document layout.}
 

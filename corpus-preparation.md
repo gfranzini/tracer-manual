@@ -75,7 +75,7 @@ The figure below provides an example of the King James Bible Version text format
 
 Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
 
-
+![](assets/corpora.png)
 
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

@@ -63,7 +63,7 @@ Next, add two columns to the right of your sentence column. In the third column 
 
 The fourth column should list the source of the text, whether it's a book, a chapter or the title of your text. This information is necessary for the text reuse visualisation to work later on. To populate this column repeat the actions described in the previous paragraph.
 
-![](/assets/source-column.png)
+![source](/assets/source-column.png "For the fourth column, in the first cell type the text source and apply the changes to the entire column by dragging the contents of the first cell all the way down to the last data cell in the document.")
 
 Save your four-column file as a `.csv` document. Finally, change the extension of the file from `.csv` to `.txt`.
 
@@ -71,7 +71,7 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]
 
-![](assets/four-columns.png)
+![four-cols](/assets/four-columns.png "The King James Bible text formatted into four columns, as per TRACER’s requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Source. This file was opened with Sublime text editor.")
 
 ### Where to store your texts
 

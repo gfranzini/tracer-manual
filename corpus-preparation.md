@@ -21,13 +21,13 @@ Next, your `.txt` must contain four columns separated by **TAB**s:
 
 You can achieve this column structure by using the proprietary [Microsoft Excel](https://products.office.com/en/excel) or the free [Libre Office](https://www.libreoffice.org/download/libreoffice-fresh/). The **instructions below are based on Libre Office Version 5.1.5.2**.
 
-First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify **`TAB`** as the field separator when importing the file**. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
+First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify `TAB` as the field separator when importing the file**. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
 
-![](/assets/libre-tab.png)Libre file import window. Select `TAB` as the field separator.
+![tab](/assets/libre-tab.png "Libre file import window. Select `TAB` as the field separator.")
 
 Select `TAB` in the `Separator Options` section and click `OK`. You should now see something like this:
 
-![](/assets/libre.png)How a segmentised text first appears in Libre Office.
+![segment](/assets/libre.png "How a segmentised text first appears in Libre Office.")
 
 We now need to remove all blank rows. If you’re using Libre, select the entire text column, then click on the autofilter button in the toolbar \(it looks like a funnel\). This generates a clickable arrow symbol on the first cell. Click the arrow and select `EMPTY` from the list of options \(see image below\).
 

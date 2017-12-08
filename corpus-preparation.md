@@ -52,7 +52,7 @@ The sentence IDs should be sequential and unique. The default set-up of TRACER r
 ![id2](/assets/id-2.png "Required segment ID formatting. Texts to be analysed are told apart by the first two digits in the ID.")
 
 As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, _A_ and _B_, are distinguished via the first two digits of the ID. Next, make sure that the respective ID value in TRACER's configuration file in the _Linking_ section is set to **100,000 and \*NOT\* 1,000,000**.
- 
+
 ![id-config](/assets/ids-config-file.png "The value of the intWorkNumbering property is set by default to 1,000,000. This can be changed to accommodate different ID schemes.")
 
 However, doing so is **only recommended in consultation with the TRACER team** as it may affect the detection process and your results. Moreover, ensure that there are no new blank lines at the end of the document and that there’s no white-space between _text A_ and _text B_. Any blank lines will bring up errors.
@@ -62,6 +62,8 @@ Next, add two columns to the right of your sentence column. In the third column 
 ![null](/assets/null-column.png "For the third column, in the first cell type either NULL or a date in the YYYY-MM-DD format and apply the changes to the entire column by dragging the contents of the first cell all the way down to the last data cell in the document.")
 
 The fourth column should list the source of the text, whether it's a book, a chapter or the title of your text. This information is necessary for the text reuse visualisation to work later on. To populate this column repeat the actions described in the previous paragraph.
+
+![](/assets/source-column.png)
 
 Save your four-column file as a `.csv` document. Finally, change the extension of the file from `.csv` to `.txt`.
 
@@ -75,7 +77,7 @@ The figure below provides an example of the King James Bible Version text format
 
 Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
 
-![corpora](/assets/corpora.png "Structure of the TRACER folder in the Mac Finder view. Deposit your .txt file in a new folder under data > corpora")
+![corpora](/assets/corpora.png "Structure of the TRACER folder in the Mac Finder view. Deposit your .txt file in a new folder under data &amp;gt; corpora")
 
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

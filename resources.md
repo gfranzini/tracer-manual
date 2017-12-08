@@ -14,11 +14,7 @@
 
 * NLTK [Sentence Segmentation](http://textanalysisonline.com/nltk-sentence-segmentation)
 
-### Data Science
-
-As DataCamp describes it:
-
-> Data Science is the interdisciplinary process of importing, cleaning, manipulating, modeling, and visualizing data.
+### 
 
 
 

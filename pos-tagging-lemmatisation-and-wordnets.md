@@ -2,21 +2,21 @@
 
 In order to detect text reuse, TRACER also requires linguistic information pertaining to the language you're examining. These are:
 
-##### A _lemma_ file...
+#### A _lemma_ file...
 
 ...listing all word-forms present in the text, their base-form and word-class or part-of-speech tag. This information can be automatically extracted using a morphological analyser that is able to read the language you wish to analyse.
 
 The output file produced by your morphological analyser of choice needs to be converted to TRACER's input format. TRACER takes three columns, separated by `TAB`s: a column listing the _word-forms_ as they appear in the text; a column providing the _base-form_ or dictionary entry of every word-form; and a third column with the relative _word-class_ \(verb, noun, etc.\):
 
-IMAGE
+![](/assets/lemma-file.png)
 
-##### a _synonyms_ file...
+#### a _synonyms_ file...
 
 ...listing all dictionary entries for your particular language along with their synonyms. In other words, a thesaurus. You can extract these lists from WordNets.
 
 \textit{if} available for the language you are working with. While WordNets typically display this information as \textit{lemma  synonym1, synonyms2, synonym3, ...} \(one line per lemma\), TRACER requires a bidirectional two-column list, such as:
 
-IMAGE
+![](/assets/syns-file.png)
 
 Figure \ref{fig:syns-file} displays one synonym per lemma. For lemmas with multiple synonyms the file should be structured as follows:
 

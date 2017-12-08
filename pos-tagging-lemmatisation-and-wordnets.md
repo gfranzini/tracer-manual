@@ -12,9 +12,7 @@ The output file produced by your morphological analyser of choice needs to be co
 
 #### a _synonyms_ file...
 
-...listing all dictionary entries for your particular language along with their synonyms. In other words, a thesaurus. You can extract these lists from WordNets.
-
-\textit{if} available for the language you are working with. While WordNets typically display this information as \textit{lemma  synonym1, synonyms2, synonym3, ...} \(one line per lemma\), TRACER requires a bidirectional two-column list, such as:
+...listing all dictionary entries for your particular language along with their synonyms. In other words, a thesaurus. You can extract these lists from WordNets if available for the language you are working with. While WordNets typically display this information as `lemma  synonym1, synonyms2, synonym3, ...` \(one line per lemma\), TRACER requires a bidirectional two-column list, such as:
 
 ![](/assets/syns-file.png)
 
@@ -33,11 +31,10 @@ lemma1      synonym1
 synonym 1   lemma 1
 ```
 
-**If you wish to detect non-verbatim text reuse \(e.g. paraphrase\) you need _both_ the lemma and the synonyms files. If you're only interested in word-for-word text reuse, you don't need the lemma and synonym files.**
+**If you wish to detect non-verbatim text reuse \(e.g. paraphrase\) you need **_**both**_** the lemma and the synonyms files. If you're only interested in word-for-word text reuse, you don't need the lemma and synonym files.**  
 The `.txt`, `.lemma` and, optionally, the `.synonyms` files must be deposited in TRACER's `corpora` directory and declared in the `tracer_config.xml` file, as shown below.
 
-
-![lemma-syns-path](assets/path.png "The path of the input files must be specified in the tracer_config.xml file.")
+![lemma-syns-path](assets/path.png "The path of the input files must be specified in the tracer\_config.xml file.")
 
 If you don't use a `.syns` file, you needn't delete the `SYNONYMS_FILE_NAME` property but must declare this in the_ Word-level Preprocessing_ section of TRACER's configuration file.
 

@@ -18,37 +18,26 @@ The output file produced by your morphological analyser of choice needs to be co
 
 ![](/assets/syns-file.png)
 
-Figure \ref{fig:syns-file} displays one synonym per lemma. For lemmas with multiple synonyms the file should be structured as follows:
+The figure above displays one synonym per lemma. For lemmas with multiple synonyms the file should be structured as follows:
 
+```
 lemma1   synonym1
-
 lemma1   synonym2
-
 lemma1   synonym3
+```
 
 And should be bidirectional:
 
 ```
 lemma1      synonym1
-
 synonym 1   lemma 1
 ```
 
-If you wish to detect non-verbatim text reuse \(e.g. paraphrase\) you need \textit{both} the lemma and the synonyms files. If you're only interested in word-for-word text reuse, you don't need the synonyms file. The \texttt{.txt}, \texttt{.lemma} and, optionally, the \texttt{.synonyms} files must be deposited in TRACER's \texttt{corpora} directory and declared in the \texttt{tracer\\_config.xml} file, as shown below.
+**If you wish to detect non-verbatim text reuse \(e.g. paraphrase\) you need _both_ the lemma and the synonyms files. If you're only interested in word-for-word text reuse, you don't need the lemma and synonym files.**
+The `.txt`, `.lemma` and, optionally, the `.synonyms` files must be deposited in TRACER's `corpora` directory and declared in the `tracer_config.xml` file, as shown below.
 
-\begin{figure}\[ht\]
 
-```
-\centering
-
-\includegraphics\[scale=0.5\]{lemma-syn-files.png}
-
-\caption{The path of the input files must be specified in the \texttt{tracer\\_config.xml} file.}
-
-\label{fig:lemma-syn-files}
-```
-
-![](assets/path.png)
+![lemma-syns-path](assets/path.png "The path of the input files must be specified in the tracer_config.xml file.")
 
 If you don't use a `.syns` file, you needn't delete the `SYNONYMS_FILE_NAME` property but must declare this in the_ Word-level Preprocessing_ section of TRACER's configuration file.
 

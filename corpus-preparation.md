@@ -71,5 +71,13 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]
 
+
+
+### Where to store your texts
+
+Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
+
+
+
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

@@ -62,7 +62,7 @@ For the `.lemma` file, the latest release of TRACER provides automatic column-fo
 
 One of the most recent developments of TRACER includes two preprocessing options to convert the output of the _TreeTagger_[^1] and _Stanford CoreNLP_[^2] tools to TRACER's required input format, thus saving the user considerable preprocessing work. The figure below shows the corresponding preprocessing sections in TRACER's configuration file.
 
-IMAGE
+![](/assets/preprocessing-treetagger-stanford.png)
 
 TRACER preprocessing configuration options to import and convert TreeTagger and Stanford CoreNLP output to the required text reuse detection input format.
 

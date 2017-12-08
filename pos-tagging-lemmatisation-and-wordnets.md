@@ -48,9 +48,9 @@ If you wish to detect non-verbatim text reuse \(e.g. paraphrase\) you need \text
 \label{fig:lemma-syn-files}
 ```
 
-\end{figure}
+![](assets/path.png)
 
-If you don't use a \texttt{.syns} file, you needn't delete the \texttt{SYNONYMS\\_FILE\\_NAME} property but must declare this in the \textit{Preprocessing} section of the configuration file \(see section \ref{Word\_level}\).
+If you don't use a `.syns` file, you needn't delete the `SYNONYMS_FILE_NAME` property but must declare this in the _Preprocessing_ section of the configuration file \(see section WORDLEVEL\).
 
 ### Can the formatting be automated?
 
@@ -62,7 +62,7 @@ For the `.lemma` file, the latest release of TRACER provides automatic column-fo
 
 One of the most recent developments of TRACER includes two preprocessing options to convert the output of the _TreeTagger_[^1] and _Stanford CoreNLP_[^2] tools to TRACER's required input format, thus saving the user considerable preprocessing work. The figure below shows the corresponding preprocessing sections in TRACER's configuration file.
 
-![](assets/path.png)
+IMAGE
 
 TRACER preprocessing configuration options to import and convert TreeTagger and Stanford CoreNLP output to the required text reuse detection input format.
 

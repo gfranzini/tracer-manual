@@ -53,7 +53,7 @@ The sentence IDs should be sequential and unique. The default set-up of TRACER r
 
 ![id2](/assets/id-2.png "Required segment ID formatting. Texts to be analysed are told apart by the first two digits in the ID.")
 
-As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, A and B, are distinguished via the first two digits of the ID. TRACER's default ID settings can be changed in the configuration file in the _Selection_ section, as shown below.
+As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, A and B, are distinguished via the first two digits of the ID. TRACER's default ID settings can be changed in the configuration file in the _Selection_ section, as shown below.![](/assets/IDs-config-file.png)
 
 > **\[warning\] To update**
 >
@@ -69,15 +69,13 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 **That's it, your text is now TRACER-compatible!**
 
-The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]
-
-
+The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]![](/assets/four_columns.png)
 
 ### Where to store your texts
 
 Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
 
-
+![](/assets/corpora.png)
 
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

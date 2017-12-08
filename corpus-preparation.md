@@ -51,5 +51,5 @@ Next, add a column to the left of your sentence column. This new column should c
 
 The sentence IDs should be sequential and unique. The default set-up of TRACER requires IDs to be 7-digits in length and numbers below 2,000,000. If you're analysing two texts, make sure to restart the ID sequence for your second text. So, for example:
 
-![](/assets/id-2.png)
+![id-2](/assets/id-2.png "Required segment (sentence, verse, etc.) ID formatting. Texts to be analysed are told apart by the first two digits in the ID.")
 

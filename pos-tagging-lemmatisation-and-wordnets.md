@@ -52,13 +52,11 @@ If you wish to detect non-verbatim text reuse \(e.g. paraphrase\) you need \text
 
 If you don't use a \texttt{.syns} file, you needn't delete the \texttt{SYNONYMS\\_FILE\\_NAME} property but must declare this in the \textit{Preprocessing} section of the configuration file \(see section \ref{Word\_level}\).
 
-Can the formatting be automated?
+### Can the formatting be automated?
 
-For the \texttt{.syns} file, TRACER currently doesn't provide any means of automating the column-formatting.\
+For the `.syns` file, TRACER currently doesn't provide any means of automating the column-formatting.
 
-For the \texttt{.lemma} file, the latest release of TRACER provides automatic column-formatting for files analysed with \textit{TreeTagger} and \textit{Stanford CoreNLP} morphological analysers \(see section \ref{morph-analysis}\).\
-
-Future work on TRACER includes the provision of automatic formatting options for \texttt{.syns} files, as well as \texttt{.lemma} files generated with other morphological analysers.
+For the `.lemma` file, the latest release of TRACER provides automatic column-formatting for files analysed with the _TreeTagger_ and _Stanford CoreNLP_ morphological analysers \(see below\).
 
 ### TRACER support for _TreeTagger_ and _Stanford CoreNLP_
 

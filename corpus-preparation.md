@@ -71,11 +71,10 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 **That's it, your text is now TRACER-compatible!**
 
-The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]![](/assets/four-columns.png)
+The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]
 
-![](/assets/four-columns.png)
+![four-cols](/assets/four-columns.png "The King James Bible text formatted into four columns, as per TRACER's requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Source. This file was opened with Sublime text editor.")
 
-![](/assets/four-columns.png)
 
 ### Where to store your texts
 

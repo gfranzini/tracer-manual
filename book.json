@@ -1,3 +1,8 @@
 {
-    "plugins": ["image-captions", "alerts"]
+    "plugins": ["insert-logo", "image-captions", "alerts"],
+    "pluginsConfig": {
+        "insert-logo": {
+            "url": "/assets/logo-colour.png"
+        }
+    }
 }

@@ -63,7 +63,7 @@ However, doing so is **only recommended in consultation with the TRACER team** a
 
 Next, add two columns to the right of your sentence column. In the third column you can either put a date of file-creation \(in the `YYYY-MM-DD` format only\) or the case-sensitive word `NULL`. To populate the entire column with the date or `NULL` , repeat the drag action used above but from the first cell only, not the third. By dragging from the first the cell values will not increase or change as you move downwards.
 
-![](/assets/null-column.png)
+![null](/assets/null-column.png "For the third column, in the first cell type either NULL or a date in the YYYY-MM-DD format and apply the changes to the entire column by dragging the contents of the first cell all the way down to the last data cell in the document.")
 
 The fourth column should list the source of the text, whether it's a book, a chapter or the title of your text. This information is necessary for the text reuse visualisation to work later on. To populate this column repeat the actions described in the previous paragraph.
 

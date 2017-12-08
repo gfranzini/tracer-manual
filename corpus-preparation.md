@@ -53,11 +53,9 @@ The sentence IDs should be sequential and unique. The default set-up of TRACER r
 
 ![id2](/assets/id-2.png "Required segment ID formatting. Texts to be analysed are told apart by the first two digits in the ID.")
 
-As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, _A_ and _B_, are distinguished via the first two digits of the ID. TRACER's default ID settings can be changed in the configuration file in the _Selection_ section, as shown below.![](/assets/IDs-config-file.png)
+As you can see from the image above, all IDs are 7-digits long and the two different texts to be analysed, _A_ and _B_, are distinguished via the first two digits of the ID. Next, make sure that the respective ID value in TRACER's configuration file in the _Linking_ section is set to **100,000 and \*NOT\* 1,000,000**. 
 
-> **\[warning\] To update**
->
-> IF ID NUMBERING uses MILLIONS: 1,000,000; 1,100,00; 1,200,00 ---&gt; in the INTERLINKING section you need to have 100,000, not 1,000,000.
+
 
 However, doing so is **only recommended in consultation with the TRACER team** as it may affect the detection process and your results. Moreover, ensure that there are no new blank lines at the end of the document and that there’s no white-space between _text A_ and _text B_. Any blank lines will bring up errors.
 
@@ -73,8 +71,7 @@ Save your four-column file as a `.csv` document. Finally, change the extension o
 
 The figure below provides an example of the King James Bible Version text formatted for TRACER.[^1]
 
-![four-cols](/assets/four-columns.png "The King James Bible text formatted into four columns, as per TRACER's requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Source. This file was opened with Sublime text editor.")
-
+!\[four-cols\]\(/assets/four-columns.png "The King James Bible text formatted into four columns, as per TRACER's requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Source. This file was opened with Sublime text editor."\)
 
 ### Where to store your texts
 

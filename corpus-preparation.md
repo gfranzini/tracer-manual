@@ -21,7 +21,7 @@ Next, your `.txt` must contain four columns separated by **TAB**s:
 
 You can achieve this column structure by using the proprietary [Microsoft Excel](https://products.office.com/en/excel) or the free [Libre Office](https://www.libreoffice.org/download/libreoffice-fresh/). The **instructions below are based on Libre Office Version 5.1.5.2**.
 
-First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify `TAB` as the field separator when importing the file**. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
+First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify **`TAB`** as the field separator when importing the file**. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
 
 ![tab](/assets/libre-tab.png "Libre file import window. Select TAB as the field separator.")
 
@@ -75,7 +75,7 @@ The figure below provides an example of the King James Bible Version text format
 
 Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
 
-!\[corpora\]\(/assets/corpora.png "Structure of the TRACER folder in the Mac 'Finder' view. Deposit your .txt file in a new folder under data &gt; corpora."\)
+
 
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

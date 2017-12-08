@@ -57,6 +57,10 @@ As you can see from the image above, all IDs are 7-digits long and the two diffe
 
 > IF ID NUMBERING uses MILLIONS: 1,000,000; 1,100,00; 1,200,00 ---&gt; in the INTERLINKING section you need to have 100,000, not 1,000,000.
 
+> **[warning] For warning**
+>
+> test warning.
+
 However, doing so is **only recommended in consultation with the TRACER team** as it may affect the detection process and your results. Moreover, ensure that there are no new blank lines at the end of the document and that there’s no white-space between _text A_ and _text B_. Any blank lines will bring up errors.
 
 Next, add two columns to the right of your sentence column. In the third column you can either put a date of file-creation \(in the `YYYY-MM-DD` format only\) or the case-sensitive word `NULL`. To populate the entire column with the date or `NULL` , repeat the drag action used above but from the first cell only, not the third. By dragging from the first the cell values will not increase or change as you move downwards.

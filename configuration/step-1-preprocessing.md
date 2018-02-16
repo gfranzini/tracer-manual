@@ -36,7 +36,8 @@ Word-level preprocessing is the default preprocessing technique and it is used t
 
 * If the value of `boolReplaceWordByWordLength` is set to `true`, TRACER will replace all words with a number representing their length in characters \(so, the word _HOUSE_ would become _5_\).
 
-* > If the value of `boolReplaceByReducedString` is set to `true`, TRACER will...
+* > **[danger] If the value of `boolReplaceByReducedString` is set to `true`, TRACER will...-COMPLETE-**
+
 * The value of `intMinWordLengthThreshold` is tied to the `boolReplaceStringSimilarWords` property and defines the minimum word length \(in characters\) that both words have to have in order for the replacement to happen. The default number is set to `5` characters but it can be changed to any value. This feature is language-dependent so it's up to the user to decide what works best for their language. For English, the lower this value is the more noise TRACER will generate.
 
 

@@ -14,6 +14,10 @@ As you can see, there exists also a third type of _Featuring_ implementation, _N
 
 TRACER supports 10 different features or featuring units, from words as features to 10-gram features. Generally, features of 3-4 grams are sufficient for text reuse analyses. The _n_ in 'n-gram' could be a character or a word.
 
+* **Word-based featuring**: good for paraphrase detection. With this type of featuring one should also lemmatise and activate synonym replacement.
+* **Bigram featuring**: good to detect verbatim and near-verbatim text reuse. Lemmatisation and synonym replacement with this N-gram approach might not work or be necessary.
+* **Trigram featuring**: good to detect verbatim and near-verbatim text reuse. Lemmatisation and synonym replacement with this N-gram approach might not work or be necessary.
+
 ### Feature density
 
 The _Selection_ step in TRACER asks users to define a _Feature density_ for every detection task. By default TRACER sets the feature density to 0.5 \(=50%\), meaning that it will return only reuse pairs that are at least 50% similar or \(share 50% of their features\). For more information about Feature density, see [Step 3. Selection](/configuration/step-3-selection.md).

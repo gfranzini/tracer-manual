@@ -103,11 +103,25 @@ What would be the best algorithm to do so, _shingling_ or _hash-breaking_? Let�
 
 #### Hash-breaking
 
+If we use hash-breaks of 2 features the similarity detection in string 2 won’t work because we break the
+reuse units the wrong way:
+AB CD E$
+NA BC DE XY Z$
+As you can see, the AB feature in string 2 is split between NA and BC. For string 1, on the other hand,
+hash-breaking works:
+AB CD E$
+GH AB CD DE LM
+In this case the breaks allow us to find the reuse.
+
 #### Shingling
 
 Both bigram and trigram shingling work to detect the example reuse above in strings 1 and 2. It doesn’t matter what method we use. What changes, however, is _performance_.
 
 ## Customising parameters or _properties_
 
+In TRACER, the featuring settings can be changed in the tracer_config.xml (see Figure 6.2).
+
+Let’s assume we want to change the above property in order to run trigram shingling on the text. The
+changed property will look like this:
 
 

@@ -36,7 +36,7 @@ Example sentence: _I have a very big house_
 Feature 1 = `I have`  
 Feature 2 = `have a`  
 Feature 3 = `a very`  
-Feature 4 = `very big`
+Feature 4 = `very big`  
 Feature 5 = `big house`
 
 **Trigramshingling**  
@@ -44,7 +44,7 @@ Feature 5 = `big house`
 \(I have a\), \(have a very\), \(a very big\), \(very big  
 house\)  
 Feature 1 = `I have a`  
-Feature 2 = `have a very` 
+Feature 2 = `have a very`   
 Feature 3 = `a very big`  
 Feature 4 = `very big house`
 
@@ -55,13 +55,9 @@ Feature 1 = `I have a very`
 Feature 2 = `have a very big`  
 Feature 3 = `a very big house`
 
-Shingling createsmore features, so your detector will need more time to compute similarity.
+Shingling creates more features, so your detector will need more time to compute similarity.
 
 ### Non-overlapping
-
-A non-overlapping type of featuring is hash-breaking, a process typically used to detect duplicates or exact copies. Hash-breaking creates features with no overlap. Here are some examples of hashbreaking:
-
-Example sentence: _I have a very big house_
 
 ### Shingling or hash-breaking?
 

@@ -35,25 +35,25 @@ Example sentence: _I have a very big house_
 \(I have\), \(have a\), \(a very\), \(very big\), \(big house\)  
 Feature 1 = `I have`  
 Feature 2 = `have a`  
-Feature 3 = a very  
-Feature 4 = very big  
-Feature 5 = big house
+Feature 3 = `a very`  
+Feature 4 = `very big`
+Feature 5 = `big house`
 
 **Trigramshingling**  
 \(_trigram_ = an _n_-gram of size 3\)  
 \(I have a\), \(have a very\), \(a very big\), \(very big  
 house\)  
-Feature 1 = I have a  
-Feature 2 = have a very  
-Feature 3 = a very big  
-Feature 4 = very big house
+Feature 1 = `I have a`  
+Feature 2 = `have a very` 
+Feature 3 = `a very big`  
+Feature 4 = `very big house`
 
 **Tetragram shingling**  
 \(_tetragram_ = an _n_-gram of size 4\)  
 \(I have a very\), \(have a very big\), \(a very big house\)  
-Feature 1 = I have a very  
-Feature 2 = have a very big  
-Feature 3 = a very big house
+Feature 1 = `I have a very`  
+Feature 2 = `have a very big`  
+Feature 3 = `a very big house`
 
 Shingling createsmore features, so your detector will need more time to compute similarity.
 

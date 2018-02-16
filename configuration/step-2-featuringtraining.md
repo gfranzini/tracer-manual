@@ -90,6 +90,17 @@ Example sentence: _I have a big house_
 
 ### Shingling or hash-breaking?
 
+Let us assume you’re attempting to find the following string:
+
+`ABCDE`
+
+in the following reuse units:
+
+`GHABCDELM`
+`NABCDEXYZ`
+
+What would be the best algorithm to do so, _shingling_ or _hash-breaking_? Let’s compare these two methods.
+
 #### Hash-breaking
 
 #### Shingling

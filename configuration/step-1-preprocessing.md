@@ -58,17 +58,23 @@ To view the results of TRACER's Preprocessing step look for files with the `.pre
 
 This is the result file of the preprocessing step. If you look carefully, you’ll notice that sentence `4000001` contains the words `get` and `make`, which are the preprocessed versions of the original `beginning` and `created` \(see Figure 4.9\). The lemmatisation settings have erroneously replaced `beginning` with `get` and the synonym replacement has changed `created` to `make`. These settings can be changed in order to correct any mistakes. Similarly, in sentence `4000006`, the archaic term `midst` has not been replaced with the modern equivalent middle but it could if we wanted! For this reason, it’s important that you thoroughly check the `KJV.prep` file before moving onto the next step.
 
+![](/assets/prep.png)
+
 ### `KJV.prep.inv`
 
 `inv` stands for _inverted_ list. It shows you that a specific word \(first number\) appears in a specific verse \(second number\) in a specific position \(third number\).
+
+![](/assets/prep_inv.png)
 
 ### `KJV.prep.meta`
 
 This file provides overview information about the preprocessing tasks, the settings and the results. For example, it tells us that 103,673 words out of the entire corpus were lemmatised.
 
+![](/assets/prep_meta.png)
+
 ## Understanding Preprocessing
 
-The processing techniques described so far are common practice in Natural Language Processing \(NLP\). One of the laws of NLP is known as [_Zipf’s law_](https://en.wikipedia.org/wiki/Zipf's_law). According to Zipf, 90% of words in a text are rare, occurring 10 times or less; 50% of all words occur only once; 16% of all words occur only twice and 8% only three times, and so on. This means that the frequency of any word is inversely proportional to its statistical rank. For example, according to [wordcount.org](http://www.wordcount.org/), the most popular word in the English language is ‘the’. As such, its rank is 1 \(see Figure below\).
+The processing techniques described so far are common practice in Natural Language Processing \(NLP\). One of the laws of NLP is known as \[_Zipf’s law_\]\([https://en.wikipedia.org/wiki/Zipf's\_law](https://en.wikipedia.org/wiki/Zipf's_law)\). According to Zipf, 90% of words in a text are rare, occurring 10 times or less; 50% of all words occur only once; 16% of all words occur only twice and 8% only three times, and so on. This means that the frequency of any word is inversely proportional to its statistical rank. For example, according to [wordcount.org](http://www.wordcount.org/), the most popular word in the English language is ‘the’. As such, its rank is 1 \(see Figure below\).
 
 ![wordcount1](/assets/wordcount_1.png "THE is the most popular word in the English language.")
 

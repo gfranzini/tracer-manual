@@ -25,4 +25,8 @@ There aremany different selection strategies, including:
 * _Winnowing_: with this strategy we can pick a window. For example window size w = 2 means that the selection will work for every two features. If one word is a feature: 
 
 
+TABLE
+
+The selection is made based on the rarest parts of the winnowing window - i.e. the most infrequent features. But in this way function words are not entirely removed, since sometimes they can still be useful. With the winnowing algorithm it’s possible to select features all over the reuse unit and avoid clusters. For example, “To be or not to be that is the question". It would appear that the only interesting word here is ‘question’ but we don’t want to be eliminating all of the rest. Winnowing, with its windows, allows us to pick the lowest ranked feature (in frequency) for every window - so there is a selected feature for every window and features are distributed evenly.
+
 

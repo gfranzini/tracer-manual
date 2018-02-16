@@ -4,7 +4,7 @@ By now, the reader will have realised that multiple detection tasks are needed p
 
 |  Word-based Featuring |
 | :--- | :--- |
-| Task N | Preprocessing | Selection | Scoring | Result |
+| **Task N** | Preprocessing | Selection | Scoring | Result |
 | 1 | syn. repl; lemmatiz. | local max feat. freq.; 0.6 feat. dens. | 0.5 sim. thresh. | 5 reuses |
 | 2 | ... | ... | ... | ... |
 | 3 | ... | ... | ... | ... |

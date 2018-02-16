@@ -50,9 +50,34 @@ If users want to detect non-literal text reuse, the value of the property `boolR
 
 ![hyper-hypo-cohyponym](/assets/hyper-hypo-cohyponym.png "Linguistic tree illustrating relationships between terms describing colour. Source: Wikimedia Commons.")
 
+
 ## Customising parameters or _properties_
 
 To change preprocessing properties simply enable/disable them in the `tracer_config.xml` as you see fit. For example, to switch off `lemmatisation`, replace its corresponding value true with the value `false` and save the changes. When all the changes have been made, rerun TRACER and a new folder within `TRACER_DATA` will be produced with the updated results.[^1] Lemmatisation helps to, for example, discriminate nouns fromverbs \(e.g. the word ‘power’, which can be both a verb and a noun\). Lemmatisation is especially important when we wish to analyse paraphrases and allusions. If we wanted to find direct quotations \(verbatim or near verbatim\), lemmatisation is not going to be useful so we would switch its value in the `tracer_config.xml`file back to `false`.
+
+## How to read Preprocessing computed files
+
+To view the results of TRACER's Preprocessing step look for files with the `.prep` suffix in `TRACER_DATA`. Let’s look at these one by one.
+
+### KJV.prep
+
+This is the result file of the preprocessing step. If you look carefully, you’ll notice that sentence
+4000001 contains the words get and make, which are the preprocessed versions of the original
+beginning and created (see Figure 4.9). The lemmatisation settings have erroneously replaced
+beginning with get and the synonym replacement has changed created to make. These settings
+can be changed in order to correct any mistakes.
+Similarly, in sentence 4000006, the archaic term midst has not been replaced with the modern
+equivalent middle but it could if we wanted! For this reason, it’s important that you thoroughly check
+the KJV.prep file beforemoving onto the next step.
+
+### KJV.prep.inv
+
+inv stands for inverted list. It shows you that a specific word (first number) appears in a specific verse (second number) in a specific position (third number).
+
+### KJV.prep.meta
+
+This file provides overview information about the preprocessing tasks, the settings and the results. For example, it tells us that 103,673 words out of the entire corpus were lemmatised.
+
 
 ## Understanding Preprocessing
 

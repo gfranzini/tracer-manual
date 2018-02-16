@@ -40,7 +40,6 @@ Word-level preprocessing is the default preprocessing technique and it is used t
 * The value of `intMinWordLengthThreshold` is tied to the `boolReplaceStringSimilarWords` property and defines the minimum word length \(in characters\) that both words have to have in order for the replacement to happen. The default number is set to `5` characters but it can be changed to any value. This feature is language-dependent so it's up to the user to decide what works best for their language. For English, the lower this value is the more noise TRACER will generate.
 
 * > **\[danger\] The value of **`intNGramSize`**... -COMPLETE-**
-
 * > **\[danger\] If the value of **`weigthByLogLikelihoodRatio`** \(sic!\) is set to **`true`**, TRACER will... -COMPLETE-**
 
 If users want to detect non-literal text reuse, the value of the property `boolReplaceSynonyms` needs to be `true`. And although the name of the property misleadingly suggests that TRACER can only work with synonyms, this is not the case. Users can supply TRACER with lists of hyponyms, cohyponyms or even hypernyms if they so wish. The image below explains what these are and their relation to one another.
@@ -55,15 +54,15 @@ To change preprocessing properties simply enable/disable them in the `tracer_con
 
 To view the results of TRACER's Preprocessing step look for files with the `.prep` suffix in `TRACER_DATA`. Let’s look at these one by one.
 
-### KJV.prep
+### `KJV.prep`
 
 This is the result file of the preprocessing step. If you look carefully, you’ll notice that sentence `4000001` contains the words `get` and `make`, which are the preprocessed versions of the original `beginning` and `created` \(see Figure 4.9\). The lemmatisation settings have erroneously replaced `beginning` with `get` and the synonym replacement has changed `created` to `make`. These settings can be changed in order to correct any mistakes. Similarly, in sentence `4000006`, the archaic term `midst` has not been replaced with the modern equivalent middle but it could if we wanted! For this reason, it’s important that you thoroughly check the `KJV.prep` file before moving onto the next step.
 
-### KJV.prep.inv
+### `KJV.prep.inv`
 
 `inv` stands for _inverted_ list. It shows you that a specific word \(first number\) appears in a specific verse \(second number\) in a specific position \(third number\).
 
-### KJV.prep.meta
+### `KJV.prep.meta`
 
 This file provides overview information about the preprocessing tasks, the settings and the results. For example, it tells us that 103,673 words out of the entire corpus were lemmatised.
 

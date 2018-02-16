@@ -74,6 +74,7 @@ The processing techniques described so far are common practice in Natural Langua
 
 The word 'cat' ranks 2532 and does not appear as often as the word ‘the’ \(Figure below\).
 
+![wordcount2](/assets/wordcount_2.png "Rank of the English word 'cat'.")
 
 So, again, the higher the rank, the less frequent theword and vice versa. We can visualise this proportion as a log-log graph, which reveals a 'straight line' relation between word frequency and ranking \(Figure below\). Amazingly, Zipf’s law applies to all languages.
 

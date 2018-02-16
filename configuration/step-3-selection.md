@@ -27,6 +27,27 @@ There aremany different selection strategies, including:
 To change the selection strategy in TRACER, locate the _Selection_ strategy in the `tracer_config.xml` file, as shown in the Figure below.
 
 
+IMAGE
+
+Different selection strategies require different parameters, and it’s often difficult to compare and decide which strategy works best for a given case. For this reason, we use the Feature Density or, in other words, the comparison between the overall number of features and the number of features selected. The Feature density parameter accepts value ranges between 0 and 1; for, for example, if it is set to 0.8, TRACER will keep 80% of the features and ignore the remaining 20%. Here’s how TRACER computes feature density:
+
+FORMULA
+
+
+Simply put:
+
+* Global knowledge: Information derived fromthe entire corpus; global knowledge is, for example, the computed feature frequency in a corpus.
+* Local knowledge: Information derived from the reuse unit (e.g. a sentence); local knowledge is the context of the reuse unit or, for instance, the length of its words.
+* Global usage: Selection is applied to, for example, the entire text or corpus. Local usage: Selection is applied to the reuse unit.
+
+These can be combined in the tracer_config.xml file in the following ways:
+
+* localglobal: Local knowledge in a global context. This is the default setting of TRACER and the most used.
+* globallocal: Global knowledge in local context.
+* globalglobal: Global knowledge in a global context. TRACER treats every reuse unit in the same way but it can easily create empty reuse units.
+* locallocal: Local knowledge in a local context. For example, given a certain word-length, TRACER removes from the reuse unit all words that are shorter than the specified length.
+
+IMAGE
 
 
 

@@ -59,6 +59,10 @@ Shingling createsmore features, so your detector will need more time to compute 
 
 ### Non-overlapping
 
+A non-overlapping type of featuring is hash-breaking, a process typically used to detect duplicates or exact copies. Hash-breaking creates features with no overlap. Here are some examples of hashbreaking:
+
+Example sentence: _I have a very big house_
+
 ### Shingling or hash-breaking?
 
 #### Hash-breaking

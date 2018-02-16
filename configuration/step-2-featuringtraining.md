@@ -67,7 +67,7 @@ Example sentence: _I have a very big house_
 \(_bigram_= an _n_-gram of size 2\)  
 \(I have\), \(a very\), \(big house\)  
 Feature 1 = `I have`  
-Feature 2 = `a very`
+Feature 2 = `a very`  
 Feature 3 = `big house`
 
 **Trigram hash-breaking**  
@@ -82,12 +82,11 @@ The _Distance-based Bigram_ can be used to improve retrieval performance. Distan
 
 Example sentence: _I have a big house_
 
-
-**Bigram**
-I have 1 where 1 describes the distance between ‘I’ and ‘have’ (one word)
-have a 2 where 2 describes the distance between ’I’ and ’a’
-a big 3 where 3 describes the distance between ‘I’ and ‘big’
-big house 4 where 4 describes the distance between ‘I’ and ‘house’
+**Bigram**  
+`I have 1` where 1 describes the distance between ‘I’ and ‘have’ \(one word\)  
+`have a 2` where 2 describes the distance between ’I’ and ’a’  
+`a big 3` where 3 describes the distance between ‘I’ and ‘big’  
+`big house 4` where 4 describes the distance between ‘I’ and ‘house’
 
 ### Shingling or hash-breaking?
 

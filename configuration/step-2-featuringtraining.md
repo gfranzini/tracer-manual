@@ -16,6 +16,8 @@ TRACER supports 10 different features or featuring units, from words as features
 
 ### Feature density
 
+The _Selection_ step in TRACER asks users to define a Feature density for every detection task. For more information about Feature density, see section 7.
+
 ## Types of Featuring
 
 ### Overlapping

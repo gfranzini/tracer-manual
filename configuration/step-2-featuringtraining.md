@@ -10,3 +10,25 @@ Now that we’ve preprocessed the text, we can proceed to breaking it down into 
 
 As you can see, there exists also a third type of _Featuring_ implementation, _Non-statistic Approaches_. These aren’t part of TRACER. Among these, _Verba dicendi_ featuring could be used for fragmentary texts but it’s not a stable feature; _Surface Features_, for example quotation marks, are also an unstable feature as they don’t always occur in historical texts; for _Canonical References_, please consult the research of Dr Matteo Romanello; for _Signal Processing_ see [Seo and Croft \(2008\)](/references.md).
 
+## Features
+
+TRACER supports 10 different features or featuring units, from words as features to 10-gram features. Generally, features of 3-4 grams are sufficient for text reuse analyses. The _n_ in 'n-gram' could be a character or a word.
+
+### Feature density
+
+## Types of Featuring
+
+### Overlapping
+
+### Non-overlapping
+
+### Shingling or hash-breaking?
+
+#### Hash-breaking
+
+#### Shingling
+
+Both bigram and trigram shingling work to detect the example reuse above in strings 1 and 2. It doesn’t matter what method we use. What changes, however, is _performance_.
+
+## Customising parameters or _properties_
+

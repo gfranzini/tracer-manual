@@ -70,11 +70,11 @@ This file provides overview information about the preprocessing tasks, the setti
 
 The processing techniques described so far are common practice in Natural Language Processing \(NLP\). One of the laws of NLP is known as [_Zipf’s law_](https://en.wikipedia.org/wiki/Zipf's_law). According to Zipf, 90% of words in a text are rare, occurring 10 times or less; 50% of all words occur only once; 16% of all words occur only twice and 8% only three times, and so on. This means that the frequency of any word is inversely proportional to its statistical rank. For example, according to [wordcount.org](http://www.wordcount.org/), the most popular word in the English language is ‘the’. As such, its rank is 1 \(see Figure below\).
 
-![wordcount1](/assets/wordcount_1.png "The is the most popular word in the English language.")
+![wordcount1](/assets/wordcount_1.png "THE is the most popular word in the English language.")
 
 The word 'cat' ranks 2532 and does not appear as often as the word ‘the’ \(Figure below\).
 
-![wordcount2](/assets/wordcount_2.png "Rank of the English word cat.")
+![wordcount2](/assets/wordcount_2.png "Rank of the English word CAT.")
 
 So, again, the higher the rank, the less frequent theword and vice versa. We can visualise this proportion as a log-log graph, which reveals a 'straight line' relation between word frequency and ranking \(Figure below\). Amazingly, Zipf’s law applies to all languages.
 

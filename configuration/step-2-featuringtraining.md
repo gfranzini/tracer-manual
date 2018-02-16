@@ -76,6 +76,19 @@ Feature 3 = `big house`
 Feature 1 = `I have a`  
 Feature 2 = `very big house`
 
+### Distance-based
+
+The _Distance-based Bigram_ can be used to improve retrieval performance. Distance-based bigrams are good for detecting paraphrases or reuse that is not 100% literal. The Distance-based bigram is a word pair whose distance between the two components is ≥ 1.
+
+Example sentence: _I have a big house_
+
+
+**Bigram**
+I have 1 where 1 describes the distance between ‘I’ and ‘have’ (one word)
+have a 2 where 2 describes the distance between ’I’ and ’a’
+a big 3 where 3 describes the distance between ‘I’ and ‘big’
+big house 4 where 4 describes the distance between ‘I’ and ‘house’
+
 ### Shingling or hash-breaking?
 
 #### Hash-breaking

@@ -48,5 +48,5 @@ These can be combined in the `tracer_config.xml` file in the following ways:
 * `globalglobal`: Global knowledge in a global context. TRACER treats every reuse unit in the same way but it can easily create empty reuse units.
 * `locallocal`: Local knowledge in a local context. For example, given a certain word-length, TRACER removes from the reuse unit all words that are shorter than the specified length.
 
-![](/assets/selection-knowledge.png)
+![selection-knowledge](/assets/selection-knowledge.png "Selection Knowledge vs. Selection Usage. The matrix compares Pros and Cons between the respective categories of Selection processes. Global Selection Knowledge with Local Selection Usage offers the best compromise between the mentioned advantages and disadvantages.")
 

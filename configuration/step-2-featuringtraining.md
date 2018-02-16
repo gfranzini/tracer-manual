@@ -26,6 +26,10 @@ The _Selection_ step in TRACER asks users to define a _Feature density_ for ever
 
 ### Overlapping
 
+An overlapping type of featuring is **_shingling_**, a process typically used to detect near-verbatim reuse. In NLP or text mining, a shingle is an _n_-gram and the process of shingling creates a sequence of overlapping tokens in a document. Here are some examples of shingling.
+
+Example sentence: _I have a very big house_
+
 ### Non-overlapping
 
 ### Shingling or hash-breaking?

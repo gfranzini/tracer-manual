@@ -4,7 +4,7 @@
 
 With TRACER you can perform two types of preprocessing, **letter-level** and **word-level processing**.
 
-## **Letter-level preprocessing**
+## Letter-level preprocessing
 
 Letter-level preprocessing can be useful to, for example, process _scriptura continua (=continuous script)_, a style of writing used in antiquity without spaces or marks between words, or to detect patterns of letters, such as alliteration. The letter-level preprocessing section of `tracer_config.xml` contains the following properties, which you can activate or deactivate depending on the type of detection you need to run:
 
@@ -18,7 +18,7 @@ Letter-level preprocessing can be useful to, for example, process _scriptura con
 
 * If the value of `boolMakeAllLowerCase` is set to `true`, TRACER will transform all uppercase letters in your text to lowercase. 
 
-## **Word-level preprocessing** {#word-level-preprocessing}
+## Word-level preprocessing {#word-level-preprocessing}
 
 Word-level preprocessing is the default preprocessing technique and it is used to process words. The word-level preprocessing section of `tracer_config.xml` contains the following properties, which you can activate or deactivate depending on the type of detection you need to run:
 
@@ -42,5 +42,24 @@ Word-level preprocessing is the default preprocessing technique and it is used t
 * > The value of `intNGramSize` is a number defining...
 * > If the value of `weigthByLogLikelihoodRatio` (sic!) is set to `true`, TRACER will...
 
-If users want to detect non-literal text reuse, the value of the property `boolReplaceSynonyms` needs to be `true`. And although the name of the property misleadingly suggests that TRACER can only work with synonyms, this is not the case. Users can supply TRACER with lists of hyponyms, cohyponyms or even hypernyms if they so wish. The image below explains what these are and their relation to one another.![](/assets/hyper-hypo-cohyponym.png "Linguistic tree illustrating relationships between terms describing colour. Source: Wikimedia Commons.")
+If users want to detect non-literal text reuse, the value of the property `boolReplaceSynonyms` needs to be `true`. And although the name of the property misleadingly suggests that TRACER can only work with synonyms, this is not the case. Users can supply TRACER with lists of hyponyms, cohyponyms or even hypernyms if they so wish. The image below explains what these are and their relation to one another.
+
+![hyper-hypo-cohyponym](/assets/hyper-hypo-cohyponym.png "Linguistic tree illustrating relationships between terms describing colour. Source: Wikimedia Commons.")
+
+
+## Customising parameters or _properties_
+To change preprocessing properties simply enable/disable them in the `tracer_config.xml` as
+you see fit. For example, to switch off `lemmatisation`, replace its corresponding value true with
+the value `false` (as illustrated in Figure 5.6) and save the changes. When all the changes have been
+made, rerun TRACER and a new folder within `TRACER_DATA` will be produced with the updated
+results.9 Lemmatisation helps to, for example, discriminate nouns fromverbs (e.g. the word ‘power’,
+which can be both a verb and a noun). Lemmatisation is especially important when we wish to
+analyse paraphrases and allusions. If we wanted to find direct quotations (verbatim or near verbatim),
+lemmatisation is not going to be useful so we would switch its value in the `tracer_config.xml`
+file back to `false`.
+
+
+## Understanding Preprocessing
+
+
 

@@ -16,7 +16,7 @@ TRACER supports 10 different features or featuring units, from words as features
 
 ### Feature density
 
-The _Selection_ step in TRACER asks users to define a Feature density for every detection task. For more information about Feature density, see section 7.
+The _Selection_ step in TRACER asks users to define a _Feature density_ for every detection task. By default TRACER sets the feature density to 0.5 \(=50%\), meaning that it will return only reuse pairs that are at least 50% similar or \(share 50% of their features\). For more information about Feature density, see [Step 3. Selection](/configuration/step-3-selection.md).
 
 ## Types of Featuring
 

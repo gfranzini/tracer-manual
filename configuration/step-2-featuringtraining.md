@@ -8,7 +8,7 @@ Now that we’ve preprocessed the text, we can proceed to breaking it down into 
 
 ![featuring](/assets/featuring-overview.png "Overview of Featuring.")
 
-As you can see, there exists also a third type of _Featuring_ implementation, _Non-statistic Approaches_. These aren’t part of TRACER. Among these, _Verba dicendi_ featuring could be used for fragmentary texts but it’s not a stable feature; _Surface Features_, for example quotation marks, are also an unstable feature as they don’t always occur in historical texts; for _Canonical References_, please consult the research of Dr Matteo Romanello; for _Signal Processing_ see [Seo and Croft \(2008\)](/references.md).
+As you can see, there exists also a third type of _Featuring_ implementation, _Non-statistic Approaches_. These aren’t part of TRACER. Among these, _Verba dicendi_ featuring could be used for fragmentary texts but it’s not a stable feature; _Surface Features_, for example quotation marks, are also an unstable feature as they don’t always occur in historical texts; for _Canonical References_, please consult the research of [Dr Matteo Romanello](https://www.researchgate.net/profile/Matteo_Romanello); for _Signal Processing_ see [Seo and Croft \(2008\)](/references.md).
 
 ## Features
 
@@ -31,4 +31,6 @@ TRACER supports 10 different features or featuring units, from words as features
 Both bigram and trigram shingling work to detect the example reuse above in strings 1 and 2. It doesn’t matter what method we use. What changes, however, is _performance_.
 
 ## Customising parameters or _properties_
+
+
 

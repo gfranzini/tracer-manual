@@ -32,18 +32,21 @@ Different selection strategies require different parameters, and it’s often di
 
 FORMULA
 
+> **[danger] EXPLAIN FORMULA**
+
 Simply put:
 
 * _Global knowledge_: Information derived fromthe entire corpus; global knowledge is, for example, the computed feature frequency in a corpus.
 * _Local knowledge_: Information derived from the reuse unit \(e.g. a sentence\); local knowledge is the context of the reuse unit or, for instance, the length of its words.
 * _Global usage_: Selection is applied to, for example, the entire text or corpus. Local usage: Selection is applied to the reuse unit.
+* _Local usage_: Selection is applied to the reuse unit.
 
-These can be combined in the tracer\_config.xml file in the following ways:
+These can be combined in the `tracer_config.xml` file in the following ways:
 
-* localglobal: Local knowledge in a global context. This is the default setting of TRACER and the most used.
-* globallocal: Global knowledge in local context.
-* globalglobal: Global knowledge in a global context. TRACER treats every reuse unit in the same way but it can easily create empty reuse units.
-* locallocal: Local knowledge in a local context. For example, given a certain word-length, TRACER removes from the reuse unit all words that are shorter than the specified length.
+* `localglobal`: Local knowledge in a global context. This is the default setting of TRACER and the most used.
+* `globallocal`: Global knowledge in local context.
+* `globalglobal`: Global knowledge in a global context. TRACER treats every reuse unit in the same way but it can easily create empty reuse units.
+* `locallocal`: Local knowledge in a local context. For example, given a certain word-length, TRACER removes from the reuse unit all words that are shorter than the specified length.
 
 IMAGE
 

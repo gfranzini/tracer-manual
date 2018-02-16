@@ -26,38 +26,36 @@ The _Selection_ step in TRACER asks users to define a _Feature density_ for ever
 
 ### Overlapping
 
-An overlapping type of featuring is **_shingling_**, a process typically used to detect near-verbatim reuse. In NLP or text mining, a shingle is an _n_-gram and the process of shingling creates a sequence of overlapping tokens in a document. Here are some examples of shingling.
+An overlapping type of featuring is _**shingling**_, a process typically used to detect near-verbatim reuse. In NLP or text mining, a shingle is an _n_-gram and the process of shingling creates a sequence of overlapping tokens in a document. Here are some examples of shingling.
 
 Example sentence: _I have a very big house_
 
-**Bigramshingling**
-(bigram = an n-gram of size 2)
-(I have), (have a), (a very), (very big), (big house)
-Feature 1 = I have
-Feature 2 = have a
-Feature 3 = a very
-Feature 4 = very big
+**Bigramshingling**  
+\(_bigram_ = an _n_-gram of size 2\)  
+\(I have\), \(have a\), \(a very\), \(very big\), \(big house\)  
+Feature 1 = `I have`  
+Feature 2 = `have a`  
+Feature 3 = a very  
+Feature 4 = very big  
 Feature 5 = big house
 
-**Trigramshingling**
-(trigram = an n-gram of size 3)
-(I have a), (have a very), (a very big), (very big
-house)
-Feature 1 = I have a
-Feature 2 = have a very
-Feature 3 = a very big
+**Trigramshingling**  
+\(_trigram_ = an _n_-gram of size 3\)  
+\(I have a\), \(have a very\), \(a very big\), \(very big  
+house\)  
+Feature 1 = I have a  
+Feature 2 = have a very  
+Feature 3 = a very big  
 Feature 4 = very big house
 
-**Tetragram shingling**
-(tetragram = an n-gram of size 4)
-(I have a very), (have a very big), (a very big house)
-Feature 1 = I have a very
-Feature 2 = have a very big
+**Tetragram shingling**  
+\(_tetragram_ = an _n_-gram of size 4\)  
+\(I have a very\), \(have a very big\), \(a very big house\)  
+Feature 1 = I have a very  
+Feature 2 = have a very big  
 Feature 3 = a very big house
 
-
 Shingling createsmore features, so your detector will need more time to compute similarity.
-
 
 ### Non-overlapping
 

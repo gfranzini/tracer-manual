@@ -66,15 +66,15 @@ Example sentence: _I have a very big house_
 **Bigram hash-breaking**  
 \(_bigram_= an _n_-gram of size 2\)  
 \(I have\), \(a very\), \(big house\)  
-Feature 1 = I have  
-Feature 2 = a very  
-Feature 3 = big house
+Feature 1 = `I have`  
+Feature 2 = `a very`
+Feature 3 = `big house`
 
 **Trigram hash-breaking**  
 \(_trigram_ = an _n_-gram of size 3\)  
 \(I have a\), \(very big house\)  
-Feature 1 = I have a  
-Feature 2 = very big house
+Feature 1 = `I have a`  
+Feature 2 = `very big house`
 
 ### Shingling or hash-breaking?
 

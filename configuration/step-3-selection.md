@@ -22,7 +22,7 @@ There aremany different selection strategies, including:
 
 * _RandomSelection_: random selection of features. Very good if you don’t have a clue of what to expect from your data.
 
-* _Winnowing_: with this strategy we can pick a window. For example window size w = 2 means that the selection will work for every two features. If one word is a feature: 
+* > **[danger] _Winnowing_: with this strategy we can pick a window... EXPLAIN**
 
 
 TABLE

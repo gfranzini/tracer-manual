@@ -118,8 +118,8 @@ Both bigram and trigram shingling work to detect the example reuse above in stri
 
 ## Customising parameters or _properties_
 
-In TRACER, the featuring settings can be changed in the `tracer_config.xml` \(see Figure below\).
-![training-1](/assets/training.png "The value of the highlighted property can be changed to perform shingling or hashbreaking tasks.")
+In TRACER, the featuring settings can be changed in the `tracer_config.xml`.
+![training](/assets/training.png "The value of the highlighted property can be changed to perform shingling or hashbreaking tasks.")
 
 Let’s assume we want to change the above property in order to run trigram shingling on the text. The changed property will look like this:
 

@@ -8,5 +8,5 @@ Now that we’ve preprocessed the text, we can proceed to breaking it down into 
 
 ![featuring](/assets/featuring-overview.png "Overview of Featuring.")
 
-As you can see, there exists also a third type of Featuring implementation, Non-statistic Approaches. These aren’t part of TRACER. Among these, Verba dicendi featuring could be used for fragmentary texts but it’s not a stable feature; Surface Features, for example quotation marks, are also an unstable feature as they don’t always occur in historical texts; for Canonical References, please consult the research of Dr Matteo Romanello; for Signal Processing see \[SC08\].
+As you can see, there exists also a third type of _Featuring_ implementation, _Non-statistic Approaches_. These aren’t part of TRACER. Among these, _Verba dicendi_ featuring could be used for fragmentary texts but it’s not a stable feature; _Surface Features_, for example quotation marks, are also an unstable feature as they don’t always occur in historical texts; for _Canonical References_, please consult the research of Dr Matteo Romanello; for _Signal Processing_ see Seo and Croft \(2008\).
 

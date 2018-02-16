@@ -6,6 +6,9 @@ The _Scoring_ step of TRACER assigns a weight to a reuse pair based on an intern
 
 ![](/assets/scoring-formula.png)
 
+
+> **[danger] EXPLAIN FORMULA**
+
 The extension of the file in which the scores are recorded is `.score`. This file contains four columns of data, for example:
 
 `4000237   4010258   13.0   1.0`

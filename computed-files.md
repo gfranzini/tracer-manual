@@ -34,7 +34,12 @@ This folder represents the first step in your detection task, _Preprocessing_. T
 
 
 ### Computed files for Preprocessing
-The _Preprocessing_ folder in TRACER_DATA includes the following files:
+CLARIFY HERE.
+
+#### `.inv`
+`inv` stands for _inverted list_. This file works like a word index and is the heart of any retrieval system. It shows you that a specific word appears in a specific verse in a specific position, so:
+
+
 
 #### `.wnc`
 
@@ -43,8 +48,11 @@ The _Preprocessing_ folder in TRACER_DATA includes the following files:
 #### `.tok`
 
 #### `.tok.dist.char`
+This file displays the distribution of the characters across the corpus.  This file is useful to clean up overlooked dirt in the text(s) under analysis. If the file contains an unexpected character, thanks to the `.char`
+information the user can more easily identify and remove it from the text(s).
 
 #### `.tok.dist.letter.02gram`
+This file displays the distribution of letter bigrams across the corpus.
 
 #### `.ssim`
 

@@ -12,7 +12,7 @@ If you’re working with your own texts –not TRACER’s default Bible data– 
 
 TRACER organises the results in a deep folder structure with long folder names that describe the parameters used for a particular analysis. For every new analysis, TRACER creates a separate folder.
 
-![folder-name](/assets/tracer_data_sub.png "The folder structure within TRACER\_DATA. Long folder names are used to reflect the property settings in the TRACER tracer\_config.xml file. This system allows users to better locate their results, especially when running TRACER multiple times with modified parameters.")
+![folder-name](/assets/tracer_data_sub.png "The folder structure within TRACER_DATA. Long folder names are used to reflect the property settings in the TRACER tracer_config.xml file. This system allows users to better locate their results, especially when running TRACER multiple times with modified parameters.")
 
 The folder name in the Figure above reads as follows:
 

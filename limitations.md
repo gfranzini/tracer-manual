@@ -12,5 +12,5 @@ Another limitation of TRACER concerns the visualisation of the computed text reu
 
 ## Absence of _code_ documentation
 
-The ca. 700 algorithms constituting TRACER are accessible through TRACER's Javadoc but are not documented in detail. This is an issue for those wishing to reuse TRACER's code in other projects. However, if one were to provide half a page description for every algorithm in TRACER, we would end up with a gigantic volume of text.
+The ca. 700 algorithms constituting TRACER are accessible through TRACER's Javadoc but are not documented in detail. This is an issue for those wishing to reuse TRACER's code in other projects but to provide a short description for every algorithm in TRACER would require significant resources. This user manual serves as a compromise and describes the most popular algorithms for this type of textual analysis.
 

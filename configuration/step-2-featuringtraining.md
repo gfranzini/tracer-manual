@@ -4,8 +4,8 @@
 
 Now that we’ve preprocessed the text, we can proceed to breaking it down into units or _features_ that can be compared \(e.g. words, bigrams, trigrams\). For this reason, this step is known as _Featuring_ or _Training_. The chart below provides an overview of _Featuring_. TRACER can perform two types of featuring, _Syntactic_ and _Semantic_. _Syntactic_ dependency parsing is not always accurate because parsers \(and the TRACER parser\) are not yet able to infer dependencies. But if TRACER takes manually annotated data from treebanks, for example, then the parser would be able to produce usable results.
 
-> ** [warning] To update** 
-> 
+> ** \[warning\] To update**
+>
 > Explain SEMANTIC DEPENDENCY PARSING
 
 ![featuring](/assets/featuring-overview.png "Overview of Featuring.")
@@ -119,51 +119,45 @@ Both bigram and trigram shingling work to detect the example reuse above in stri
 
 ## Customising parameters or _properties_
 
-In TRACER, the featuring settings can be changed in the `tracer_config.xml`.
+In TRACER, the featuring settings can be changed in the `tracer_config.xml`.  
 ![training](/assets/training.png "The value of the highlighted property can be changed to perform shingling or hashbreaking tasks.")
 
 Let’s assume we want to change the above property in order to run trigram shingling on the text. The changed property will look like this:
 
-![training-2](/assets/training_2.png "The value of the highlighted property has been changed from `BiGramShinglingTrainingImpl` to `TriGramShinglingTrainingImpl`.")
+![training-2](/assets/training_2.png "The value of the highlighted property has been changed from \`BiGramShinglingTrainingImpl\` to \`TriGramShinglingTrainingImpl\`.")
 
 We save the document and rerun TRACER. This reuse detection task produces a number of files, including:
 
 ##### KJV.meta
+
 This file provides a human-readable overview of the trigram shingling training.
 
+![](/assets/training_meta.png)
 
 ##### KJV.train
-This file is organised as follows:
+
+This file is organised as follows:  
 `FEATURE ID - REUSE UNIT ID - POSITION IN REUSE UNIT`
 
+![](/assets/training_train.png)
 
 ##### KJV.fmap
-This file provides a map or breakdown of each feature:
+
+This file provides a map or breakdown of each feature:  
 `FEATURE ID - WORD ID - WORD ID - WORD ID`
 
+![](/assets/training_fmap.png)
 
 ##### KJV.feats
-This document is the word index, where words are sorted by frequency:
+
+This document is the word index, where words are sorted by frequency:  
 `WORD ID - WORD - FREQUENCY`
 
+![](/assets/training_feats.png)
 
-
-If you look at the _Training_ default property in TRACER’s `tracer_config.xml`, you’ll notice that the trigram shingling training we’ve done is _syntactic_. TRACER also contains a _semantic_ featuring property, immediately preceding the syntactic property (Figure below). This property is commented out by default but can be enabled by removing the comment syntax (`<!-....->`).
+If you look at the _Training_ default property in TRACER’s `tracer_config.xml`, you’ll notice that the trigram shingling training we’ve done is _syntactic_. TRACER also contains a _semantic_ featuring property, immediately preceding the syntactic property \(Figure below\). This property is commented out by default but can be enabled by removing the comment syntax \(`<!-....->`\).
 
 ![trainingSem](/assets/training-semantic.png "TRACER’s training or featuring can also be semantic.")
 
 For semantic training, TRACER looks at words and co-occurrences.
-
-
-
-
-
-
-
-
-
-
-
-
-
 

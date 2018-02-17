@@ -4,7 +4,9 @@
 
 Now that we’ve preprocessed the text, we can proceed to breaking it down into units or _features_ that can be compared \(e.g. words, bigrams, trigrams\). For this reason, this step is known as _Featuring_ or _Training_. The chart below provides an overview of _Featuring_. TRACER can perform two types of featuring, _Syntactic_ and _Semantic_. _Syntactic_ dependency parsing is not always accurate because parsers \(and the TRACER parser\) are not yet able to infer dependencies. But if TRACER takes manually annotated data from treebanks, for example, then the parser would be able to produce usable results.
 
-> ** [danger] Explain SEMANTIC DEPENDENCY PARSING**
+> ** [warning] To update** 
+> 
+> Explain SEMANTIC DEPENDENCY PARSING
 
 ![featuring](/assets/featuring-overview.png "Overview of Featuring.")
 
@@ -41,8 +43,7 @@ Feature 5 = `big house`
 
 **Trigramshingling**  
 \(_trigram_ = an _n_-gram of size 3\)  
-\(I have a\), \(have a very\), \(a very big\), \(very big  
-house\)  
+\(I have a\), \(have a very\), \(a very big\), \(very big house\)  
 Feature 1 = `I have a`  
 Feature 2 = `have a very`  
 Feature 3 = `a very big`  

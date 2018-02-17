@@ -8,7 +8,10 @@ TRACER integrates a variant graph visualisation tool called [TRAViz](http://www.
 
 Here, the user can explore three different visualisations of the results:
 
-1. > The Text Reuse Grid:
+> **[warning] To update** 
+> 
+> The Text Reuse Grid
+
 2. The _Text Reuse Browser_ compares two works or texts only.
 3. The _Text Reuse Alignment_ compares multiple texts. 
 

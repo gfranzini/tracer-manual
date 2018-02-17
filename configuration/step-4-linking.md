@@ -36,5 +36,5 @@ What does TRACER mean by _absolute overlap_? The absolute overlap is the minimal
 
 [^1]: A basic explanation of _squared complexity_ is available under Wikipedia's [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) page.
 
-[^2]: Enter footnote here.
+[^2]: The overlap is computed based on the preprocessing and selected features.
 

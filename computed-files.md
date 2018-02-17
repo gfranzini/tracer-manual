@@ -38,7 +38,7 @@ CLARIFY HERE.
 
 #### `.inv`
 
-`inv` stands for _inverted list_. This file works like a word index and is the heart of any retrieval system. It shows you the position of a given word or letter (depending on the Preprocessing level selected) in a given textual segment/unit. For example, the row `114    4003870    2` in an `.inv` TRACER file means that word/letter `114` can be found in segment `4003870` in position `2`.
+`inv` stands for _inverted list_. This file works like a word index and is the heart of any retrieval system. It shows you the position of a given word in a given textual segment/unit. For example, the row `114    4003870    2` in an `.inv` TRACER file means that word `114` can be found in segment `4003870` in position `2`.
 
 
 #### `.wnc`

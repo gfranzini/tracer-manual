@@ -32,24 +32,8 @@ Let's break it down:
 
 
 
-This folder represents the first step in your detection task,
-Preprocessing
-. The other five steps of the
-detection process are all nested within this folder.  So, if you open the
-Preprocessing
-folder, you’ll
-find the second folder in the sequence, the
-Featuring/Training
-folder. Within the
-Featuring/Training
-folder, you’ll find the
-Selection
-folder, and so on and so forth until you reach the final
-Scoring
-folder.
-In each and every folder you’ll find the relevant files resulting from the settings you specified in the
-tracer_config.xml
-file.
+This folder represents the first step in your detection task, Preprocessing. The other five steps of the detection process are all nested within this folder.  So, if you open the Preprocessing folder, you’ll find the second folder in the sequence, the Featuring/Training folder. Within the Featuring/Training folder, you’ll find the Selection
+folder, and so on and so forth until you reach the final Scoring folder. In each and every folder you’ll find the relevant files resulting from the settings you specified in the tracer_config.xml file.
 
 ---
 

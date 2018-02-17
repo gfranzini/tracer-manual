@@ -32,7 +32,6 @@ Let's break it down:
 
 This folder represents the first step in your detection task, _Preprocessing_. The other five steps of the detection process are all nested within this folder.  So, if you open the _Preprocessing_ folder, you’ll find the second folder in the sequence, the _Featuring/Training_ folder. Within the _Featuring/Training_ folder, you’ll find the _Selection_ folder, and so on until you reach the final _Scoring_ folder. In each and every folder you’ll find the relevant files resulting from the settings you specified in the `tracer_config.xml` file.
 
-In the following section, we show and explain a number of files computed by TRACER resulting from a text reuse detection task on the King James Version of the Bible (KJV.txt).
 
 ### Computed files for Preprocessing
 The _Preprocessing_ folder in TRACER_DATA includes the following files:
@@ -43,19 +42,23 @@ The _Preprocessing_ folder in TRACER_DATA includes the following files:
 
 ### Computed files for Featuring/Training
 
+> **[warning] To update**
+>
+> Describe files
+
 ### Computed files for Selection
+
+> **[warning] To update**
+>
+> Describe files
 
 ### Computed files for Linking
 
+> **[warning] To update**
+>
+> Describe files
+
 ### Computed files for Scoring
-
-
-For example, running TRACER on the KJV.txt file will automatically produce the following files \(also depending on the parameters set in the  
-tracer\_config.xml file, as already described in section 6.4\):  
-KJV.txt.inv inv stands for inverted list  
-. This file works like a word index and is the heart of any retrieval system. It
-
-## How to read TRACER result files
 
 The `.score` file contains all computed reuse pairs. The first two columns list the IDs of the aligned reuse units, the third column displays the number of shared features \(absolute overlap\) and the fourth column the degree of similarity \(weighted overlap\). A similarity of `0.1` is 10%, of `0.2` is 20% and so on until `1` = 100%. In the example below, the two sentences have two features in common for a total similarity of 50%:
 
@@ -65,4 +68,3 @@ The `.score` file contains all computed reuse pairs. The first two columns list 
 
 `1102581    1300887    2.0    0.5`  
 `1300887    1102581    2.0    0.5`
-

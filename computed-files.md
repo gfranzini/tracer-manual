@@ -64,8 +64,7 @@ This file is a _tokenized_ version of the source text. This means that all punct
 
 #### `.tok.dist.char`
 
-This file displays the distribution of the characters across the corpus.  This file is useful to clean up overlooked dirt in the text\(s\) under analysis. If the file contains an unexpected character, thanks to the `.char`  
-information the user can more easily identify and remove it from the text\(s\).
+This file displays the distribution of the characters across the corpus.  This file is useful to clean up overlooked dirt in the text\(s\) under analysis. If the file contains an unexpected character, thanks to the `.char` information the user can more easily identify and remove it from the text\(s\).
 
 #### `.tok.dist.letter.02gram`
 

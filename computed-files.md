@@ -34,7 +34,9 @@ This folder represents the first step in your detection task, _Preprocessing_. T
 
 ### Computed files for Preprocessing
 
-CLARIFY HERE.
+> **[warning] To update**
+>
+> Explain here in which folder these files are stored.
 
 #### `.inv`
 
@@ -71,6 +73,16 @@ This file displays the distribution of the characters across the corpus.  This f
 This file displays the distribution of letter bigrams across the corpus.
 
 #### `.ssim`
+Everything comes together in this file. The first and second columns represent the two words; the third column is the overlap of letter bigrams; the fourth column is the weighted overlap `§w§` between:
+
+
+by Broder’s Resemblance measure.
+
+> **[warning] To update**
+>
+> Explain formula
+
+
 
 ### Computed files for Featuring/Training
 

@@ -55,7 +55,7 @@ This file provides an overview (the "metadata" as it were) of the corpus segment
 * `SSIM_EDGES`: number of links or word pairs satisfying the similarity requirements stated in `SSIM_THRESHOLD`.
 * `BOW_WORD_TOKENS`: tokens or unique words that appear in a line.
 
-> **[warning] To update** 
+* > **[warning] To update** 
 > 
 > `SSIM_`: explain
 

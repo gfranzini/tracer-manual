@@ -33,9 +33,18 @@ We greatly appreciate your feedback on this handbook. Your suggestions and comme
 
 
 
+## Citation
+
+You can cite this manual as follows:
+
+> **[warning] To update**
+>
+> Franzini, G., Franzini E., Bulert, K., Büchler M. (2016-) TRACER Text Reuse Detection Machine: A user manual. DOI:
+
+
 ## Version history
 
-* Version 1.3 onwards \(2017-12\): Updated following a tutorial in Verona \[Gitbook\].
+* Version 1.3 onwards \(2018-12\): Switched to \[Gitbook\].
 
 * Version 1.2 \(2017-05-23\): Updated version following a tutorial at the AIUCD \(Associazione per l’Informatica Umanistica e la Cultura Digitale\) Conference in Rome \[LaTeX\].
 

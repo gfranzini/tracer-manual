@@ -38,5 +38,5 @@ Despite the fact that Text B is quoting TEXT A word for word, the different leng
 
 To avoid this from happening, we must change the default _Scoring_ `SelectedFeatureResemblanceSimilarityImpl` property value in `tracer_config.xml` to `SelectedFeatureContainmentSimilarityImpl`, as so:
 
-![scoringContainment](/assets/scoring-containment.png "The default Scoring Resemblance measure in  configuration file is commented out and replaced by the alternative Scoring Containment measure to address imbalanced reuse length.")
+![scoringContainment](/assets/scoring-containment.png "The default Scoring Resemblance measure in the tracer_config.xml file is commented out and replaced by the alternative Scoring Containment measure to address imbalanced reuse length.")
 

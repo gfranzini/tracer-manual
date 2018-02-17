@@ -6,13 +6,13 @@ For every detection task TRACER computes a number of files, including, [as previ
 
 The results of every TRACER run are automatically stored in a newly generated folder called `TRACER_DATA` under TRACER's `data > corpora > Bible`:
 
-![](/assets/tracer_data.png)
+![folder-structure](/assets/tracer_data.png "The folder path and location of the text reuse results produced by TRACER.")
 
 If you’re working with your own texts –not TRACER’s default Bible data– the `TRACER_DATA` folder would be created in your specified directory \(e.g. `data > corpora > MyTexts`\).
 
 TRACER organises the results in a deep folder structure with long folder names that describe the parameters used for a particular analysis. For every new analysis, TRACER creates a separate folder.
 
-![](/assets/tracer_data_sub.png)
+![folder-name](/assets/tracer_data_sub.png "The folder structure within TRACER_DATA. Long folder names are used to reflect the property settings in the TRACER tracer_config.xml file. This system allows users to better locate their results, especially when running TRACER multiple times with modified parameters.")
 
 The folder name in the Figure above reads as follows:
 
@@ -29,6 +29,30 @@ Let's break it down:
 | `toLC_false_` | Everything to lower case DISABLED |
 | `rDia_false_` | Remove diacritics DISABLED |
 | `w2wl_false-wlt_5` | Replace word by word length DISABLED-For words of 5 letters or more |
+
+
+
+This folder represents the first step in your detection task,
+Preprocessing
+. The other five steps of the
+detection process are all nested within this folder.  So, if you open the
+Preprocessing
+folder, you’ll
+find the second folder in the sequence, the
+Featuring/Training
+folder. Within the
+Featuring/Training
+folder, you’ll find the
+Selection
+folder, and so on and so forth until you reach the final
+Scoring
+folder.
+In each and every folder you’ll find the relevant files resulting from the settings you specified in the
+tracer_config.xml
+file.
+
+---
+
 
 Every run of TRACER automatically produces a number of files, which can be viewed in the corpora directory. For example, running TRACER on the KJV.txt file will automatically produce the following files \(also depending on the parameters set in the  
 tracer\_config.xml file, as already described in section 6.4\):  

@@ -36,11 +36,19 @@ Word-level preprocessing is the default preprocessing technique and it is used t
 
 * If the value of `boolReplaceWordByWordLength` is set to `true`, TRACER will replace all words with a number representing their length in characters \(so, the word _HOUSE_ would become _5_\).
 
-* > **\[warning\] To update. If the value of **`boolReplaceByReducedString`** is set to **`true`**, TRACER will...-COMPLETE-**
+> **\[warning\] To update.** 
+>
+> If the value of `boolReplaceByReducedString` is set to `true`, TRACER will...
+
 * The value of `intMinWordLengthThreshold` is tied to the `boolReplaceStringSimilarWords` property and defines the minimum word length \(in characters\) that both words have to have in order for the replacement to happen. The default number is set to `5` characters but it can be changed to any value. This feature is language-dependent so it's up to the user to decide what works best for their language. For English, the lower this value is the more noise TRACER will generate.
 
-* > **\[warning\] To updateThe value of **`intNGramSize`**... -COMPLETE-**
-* > **\[warning\] To update If the value of **`weigthByLogLikelihoodRatio`** \(sic!\) is set to **`true`**, TRACER will... -COMPLETE-**
+> **\[warning\] To update**
+> 
+> The value of `intNGramSize`
+
+> **\[warning\] To update**
+> 
+> If the value of `weigthByLogLikelihoodRatio` \(sic!\) is set to `true`, TRACER will...
 
 If users want to detect non-literal text reuse, the value of the property `boolReplaceSynonyms` needs to be `true`. And although the name of the property misleadingly suggests that TRACER can only work with synonyms, this is not the case. Users can supply TRACER with lists of hyponyms, cohyponyms or even hypernyms if they so wish. The image below explains what these are and their relation to one another.
 

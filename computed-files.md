@@ -42,8 +42,10 @@ CLARIFY HERE.
 
 
 #### `.wnc`
+`wnc` stands for _words number complete_. This file gives more information about the word types in the corpus including frequency, rank and word length. IDs are frequency-sorted.
 
 #### `.meta`
+This file provides an overview (the "metadata" as it were) of the corpus segmentation:
 
 #### `.tok`
 

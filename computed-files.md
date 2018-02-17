@@ -23,13 +23,13 @@ Let's break it down:
 
 | `01-02-WLP-` | Preprocessing step (01)-word-level (02)-Word Level Processing |
 | :--- | :--- |
-| `lem\_true\_` |  |
-| `syn\_true\_` |  |
-| `ssim\_false\_` |  |
-| `redwo\_false-ngram\_5-LLR\_true\_` |  |
-| `toLC\_false\_` |  |
-| `rDia\_false\_` |  |
-| `w2wl\_false-wlt\_5` |  |
+| `lem_true_` | Lemmatisation ENABLED |
+| `syn_true_` | Synonym replacement ENABLED |
+| `ssim_false_` | Replace String Similar words DISABLED |
+| `redwo_false-ngram_5-LLR_true_` | Reduced words option DISABLED-to the most significant 5 letter ngram-significance is measured by the Log-Likelihood Ratio ENABLED |
+| `toLC_false_` | Everything to lower case DISABLED |
+| `rDia_false_` | Remove diacritics DISABLED |
+| `w2wl_false-wlt_5` | Replace word by word length DISABLED-For words of 5 letters or more |
 
 Every run of TRACER automatically produces a number of files, which can be viewed in the corpora directory. For example, running TRACER on the KJV.txt file will automatically produce the following files \(also depending on the parameters set in the  
 tracer\_config.xml file, as already described in section 6.4\):  

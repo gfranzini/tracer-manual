@@ -58,7 +58,7 @@ Where the `data/...yourcorpus.txt` path points to the location of your text in T
 
 Next, you need to make some changes in TRACER’s configuration file. First, make sure that the `SENTENCE_FILE_NAME` property points to your new `yourcorpus-W15.txt` file \(as described in [Corpus preparation](/corpus-preparation.md)\). Next, locate the _Linking_ property in the `tracer_config.xml` file and ensure you have the right class, `MovingWindowInterCorpusLinking` or `MovingWindowIntraCorpusLinking` \(depending on whether you want to run _Inter-_ or _Intracorpus_ linking\):
 
-![moving-window-config](/assets/moving-window-config.png "The class of the LINKING\_IMPL property in TRACER’s configuration file should read MovingWindowInterCorpusLinking or MovingWindowIntraCorpusLinking, depending on the type of Linking you’re interested in.")
+![moving-window-config](/assets/moving-window-config.png "The class of the LINKING_IMPL property in TRACER’s configuration file should read MovingWindowInterCorpusLinking or MovingWindowIntraCorpusLinking, depending on the type of Linking you’re interested in.")
 
 Next, define the length of your Window in the _Linking_ category of the `tracer_config.xml` file, in the `intWindowSize` property:
 

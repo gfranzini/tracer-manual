@@ -46,6 +46,8 @@ Word-level preprocessing is the default preprocessing technique and it is used t
 > 
 > The value of `intNGramSize`
 
+
+
 > **\[warning\] To update**
 > 
 > If the value of `weigthByLogLikelihoodRatio` \(sic!\) is set to `true`, TRACER will...

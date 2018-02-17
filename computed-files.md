@@ -47,7 +47,20 @@ CLARIFY HERE.
 #### `.meta`
 This file provides an overview (the "metadata" as it were) of the corpus segmentation:
 
+* `SENTENCES`: lines.
+* `WORD_TYPES`: number of unique words as dictionary entries.
+* `WORD_TOKENS`: occurrences of a word; every word in a text, no matter how many times it occurs.
+* `SOURCES`: for example, a book.
+* `SSIM_THRESHOLD`: degree of similarity required to consider two words as similarly written.
+* `SSIM_EDGES`: number of links or word pairs satisfying the similarity requirements stated in `SSIM_THRESHOLD`.
+* `BOW_WORD_TOKENS`: tokens or unique words that appear in a line.
+
+> **[warning] To update** 
+> 
+> `SSIM_`: explain
+
 #### `.tok`
+This file is a _tokenized_ version of the source text. This means that all punctuation has been removed or separated from the word (depending on the settings). The default setting in TRACER is `delete`.
 
 #### `.tok.dist.char`
 

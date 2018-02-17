@@ -1,4 +1,4 @@
-# Step 6. Postprocessing
+# Postprocessing
 
 ![](/assets/architecture.png)
 
@@ -8,12 +8,12 @@ TRACER integrates a variant graph visualisation tool called [TRAViz](http://www.
 
 Here, the user can explore three different visualisations of the results:
 
-> **[warning] To update** 
-> 
+> **\[warning\] To update**
+>
 > The Text Reuse Grid
 
-2. The _Text Reuse Browser_ compares two works or texts only.
-3. The _Text Reuse Alignment_ compares multiple texts. 
+1. The _Text Reuse Browser_ compares two works or texts only.
+2. The _Text Reuse Alignment_ compares multiple texts. 
 
 ![](/assets/traviz_2.png)
 

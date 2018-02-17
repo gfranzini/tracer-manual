@@ -10,7 +10,9 @@ Properties 2-7 are the six steps of the TRACER [architecture described earlier](
 
 ![](/assets/architecture.png)
 
-
-
 Properties 8-10 define the paths to the texts or corpus to be analysed and to other supporting files. The eighth property in your configuration file, `SENTENCE_FILE_NAME`, is set to `KJV.txt` as default. _KJV_ stands for _King James Version _\(of the Bible\) and is an example text to analyse stored in `data/corpora/Bible`. If you want to work with a different text, you must [first format it in accordance with TRACER requirements](/corpus-preparation.md), store it the `corpora` subfolder of TRACER and change the path in the configuration file from `data/corpora/Bible/KJV.txt` to `data/corpora/MyFolder/MyText.txt`.
+
+---
+
+In the upcoming subsections we describe how to set parameters in the `tracer_config.xml` for the first five steps of TRACER and explain what these steps do. The sixth and final step, _Postprocessing_, doesn't require any particular settings, hence why  
 

@@ -36,11 +36,11 @@ Word-level preprocessing is the default preprocessing technique and it is used t
 
 * If the value of `boolReplaceWordByWordLength` is set to `true`, TRACER will replace all words with a number representing their length in characters \(so, the word _HOUSE_ would become _5_\).
 
-* > **\[danger\] If the value of **`boolReplaceByReducedString`** is set to **`true`**, TRACER will...-COMPLETE-**
+* > **\[warning\] To update. If the value of **`boolReplaceByReducedString`** is set to **`true`**, TRACER will...-COMPLETE-**
 * The value of `intMinWordLengthThreshold` is tied to the `boolReplaceStringSimilarWords` property and defines the minimum word length \(in characters\) that both words have to have in order for the replacement to happen. The default number is set to `5` characters but it can be changed to any value. This feature is language-dependent so it's up to the user to decide what works best for their language. For English, the lower this value is the more noise TRACER will generate.
 
-* > **\[danger\] The value of **`intNGramSize`**... -COMPLETE-**
-* > **\[danger\] If the value of **`weigthByLogLikelihoodRatio`** \(sic!\) is set to **`true`**, TRACER will... -COMPLETE-**
+* > **\[warning\] To updateThe value of **`intNGramSize`**... -COMPLETE-**
+* > **\[warning\] To update If the value of **`weigthByLogLikelihoodRatio`** \(sic!\) is set to **`true`**, TRACER will... -COMPLETE-**
 
 If users want to detect non-literal text reuse, the value of the property `boolReplaceSynonyms` needs to be `true`. And although the name of the property misleadingly suggests that TRACER can only work with synonyms, this is not the case. Users can supply TRACER with lists of hyponyms, cohyponyms or even hypernyms if they so wish. The image below explains what these are and their relation to one another.
 
@@ -74,7 +74,7 @@ This file provides overview information about the preprocessing tasks, the setti
 
 ## Understanding Preprocessing
 
-The processing techniques described so far are common practice in Natural Language Processing \(NLP\). One of the laws of NLP is known as \[_Zipf’s law_\]\([https://en.wikipedia.org/wiki/Zipf's\_law](https://en.wikipedia.org/wiki/Zipf's_law)\). According to Zipf, 90% of words in a text are rare, occurring 10 times or less; 50% of all words occur only once; 16% of all words occur only twice and 8% only three times, and so on. This means that the frequency of any word is inversely proportional to its statistical rank. For example, according to [wordcount.org](http://www.wordcount.org/), the most popular word in the English language is ‘the’. As such, its rank is 1 \(see Figure below\).
+The processing techniques described so far are common practice in Natural Language Processing \(NLP\). One of the laws of NLP is known as \[_Zipf’s law_\]\(\[[https://en.wikipedia.org/wiki/Zipf's\_law\]\(https://en.wikipedia.org/wiki/Zipf's\_law\)\](https://en.wikipedia.org/wiki/Zipf's_law]%28https://en.wikipedia.org/wiki/Zipf's_law%29\)\). According to Zipf, 90% of words in a text are rare, occurring 10 times or less; 50% of all words occur only once; 16% of all words occur only twice and 8% only three times, and so on. This means that the frequency of any word is inversely proportional to its statistical rank. For example, according to [wordcount.org](http://www.wordcount.org/), the most popular word in the English language is ‘the’. As such, its rank is 1 \(see Figure below\).
 
 ![wordcount1](/assets/wordcount_1.png "THE is the most popular word in the English language.")
 

@@ -36,5 +36,7 @@ TEXT B \(target text\): _ubi , cum primo dicatur , **in principio creavit deus c
 
 Despite the fact that Text B is quoting TEXT A word for word, the different length of the reuse unit \(that is, the sentence within which the text reuse appears\) coupled with configuration parameters set for this particular analysis eluded TRACER.
 
-To avoid this from happening, we must change the default _Scoring_ `SelectedFeatureResemblanceSimilarityImpl` property value in `tracer_config.xml` to `SelectedFeatureContainmentSimilarityImpl , as so:`![](/assets/scoring-containment.png)
+To avoid this from happening, we must change the default _Scoring_ `SelectedFeatureResemblanceSimilarityImpl` property value in `tracer_config.xml` to `SelectedFeatureContainmentSimilarityImpl`, as so:
+
+![scoring-containment](/assets/scoring-containment.png "The default Scoring Resemblance measure in TRACER's configuration file is commented out and followed by the alternative Scoring Containment measure (highlighted in the image) to address imbalanced reuse length.")
 

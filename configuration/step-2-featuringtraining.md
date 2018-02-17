@@ -157,7 +157,7 @@ This document is the word index, where words are sorted by frequency:
 
 If you look at the _Training_ default property in TRACER’s `tracer_config.xml`, you’ll notice that the trigram shingling training we’ve done is _syntactic_. TRACER also contains a _semantic_ featuring property, immediately preceding the syntactic property \(Figure below\). This property is commented out by default but can be enabled by removing the comment syntax \(`<!-....->`\).
 
-![trainingSem](/assets/training_semantic.png "TRACER’s training or featuring can also be semantic.")
+![trainingSem](/assets/training_semantic_active.png "TRACER’s training or featuring can also be semantic.")
 
 For semantic training, TRACER looks at words and co-occurrences.
 

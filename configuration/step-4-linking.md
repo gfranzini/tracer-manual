@@ -34,6 +34,8 @@ Here’s how this structure looks like in the corresponding file:
 
 What does TRACER mean by _absolute overlap_? The absolute overlap is the minimal number of common features shared by the first two columns \(`REUSE ID 1` and `REUSE ID 2`\), which TRACER sets as default to `5`.[^2] This overlap number can be changed and is used to cut the long tail of reuses which would likely not be relevantmatches or reuses at all. The `.meta` _Linking_ file will provide you with an overview of the features linked:
 
+![](/assets/linking_meta.png)
+
 [^1]: A basic explanation of _squared complexity_ is available under Wikipedia's [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) page.
 
 [^2]: The overlap is computed based on the preprocessing and selected features.

@@ -19,10 +19,9 @@ The folder name in the Figure above reads as follows:
 `01-02-WLP-lem_true_syn_true_ssim_false_redwo_false-ngram_5-LLR_true_toLC_false_rDia_false_w2wl_false-wlt_5`  
 Let's break it down:
 
-
-
-| `01-02-WLP-` | Preprocessing step (01)-word-level (02)-Word Level Processing |
+| Abbreviation in folder name | Meaning of abbreviation |
 | :--- | :--- |
+| `01-02-WLP-` | Preprocessing step (01)-word-level (02)-Word Level Processing |
 | `lem_true_` | Lemmatisation ENABLED |
 | `syn_true_` | Synonym replacement ENABLED |
 | `ssim_false_` | Replace String Similar words DISABLED |

@@ -42,29 +42,10 @@ _Linking_ is the most time-consuming step and the step that can be best parallel
 
 ## Moving Window Linking Implementation for short reuse
 
-The two types of Linking implementation described above work well when linking text reuse units
-(e.g. sentences) of a similar size and for detecting close reuse or rewording (i.e. where the reuse covers
-roughly more than 50% of the unit). One example of where we could use these implementations is
-the Bible: we could, for instance, compareMark with Luke. The reuse units, the verses, are similar in
-length and our knowledge of the Bible tells us that Luke copied fromMark. If, however, you’re looking
-for paraphrase or allusions, or if the reuse covers less than 50% of the unit, these two implementations
-will not perform well. That is not to say that you can’t use them. But if you do, you must lower the
-similarity thresholds in the tracer_config.xml file, and by doing so TRACER will contaminate
-your results with many false positives.
-For these cases, TRACER provides another Linking implementation, the Moving Window. This approach
-is well-suited, if not necessary, for the detection of very small reuse; for example, to detect
-a four-word overlap in two sentences (as reuse units) of 20 and 25 words each. If we set a Moving
-Window of, for example, 10 words, TRACER will read the reuse unit 10 words at a time with a one-word
-overlap, as shown in the Latin example below:
-
-
-
-
-
+The two types of Linking implementation described above work well when linking text reuse units \(e.g. sentences\) of a similar size and for detecting close reuse or rewording \(i.e. where the reuse covers roughly more than 50% of the unit\). One example of where we could use these implementations is the Bible: we could, for instance, compare Mark with Luke. The reuse units, the verses, are similar in length and our knowledge of the Bible tells us that Luke copied from Mark. If, however, you’re looking for paraphrase or allusions, or if the reuse covers less than 50% of the unit, these two implementations will not perform well. That is not to say that you can’t use them. But if you do, you must lower the similarity thresholds in the tracer\_config.xml file, and by doing so TRACER will contaminate your results with many false positives.  
+For these cases, TRACER provides another Linking implementation, the Moving Window. This approach is well-suited, if not necessary, for the detection of very small reuse; for example, to detect a four-word overlap in two sentences \(as reuse units\) of 20 and 25 words each. If we set a Moving Window of, for example, 10 words, TRACER will read the reuse unit 10 words at a time with a one-word overlap, as shown in the Latin example below:
 
 ## Containment measure for imbalanced length of reuse
-
-
 
 [^1]: A basic explanation of _squared complexity_ is available under Wikipedia's [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) page.
 

@@ -36,7 +36,17 @@ This folder represents the first step in your detection task, _Preprocessing_. T
 ### Computed files for Preprocessing
 The _Preprocessing_ folder in TRACER_DATA includes the following files:
 
+#### `.wnc`
 
+#### `.meta`
+
+#### `.tok`
+
+#### `.tok.dist.char`
+
+#### `.tok.dist.letter.02gram`
+
+#### `.ssim`
 
 
 

@@ -10,9 +10,9 @@ The results of every TRACER run are automatically stored in a newly generated fo
 
 If you’re working with your own texts –not TRACER’s default Bible data– the `TRACER_DATA` folder would be created in your specified directory \(e.g. `data > corpora > MyTexts`\).
 
-TRACER organises the results in a deep folder structure with long folder names that describe the parameters used for a particular analysis. For every new analysis, TRACER creates a separate folder. 
+TRACER organises the results in a deep folder structure with long folder names that describe the parameters used for a particular analysis. For every new analysis, TRACER creates a separate folder.
 
-![](/assets/tracer_data_sub.png) 
+![](/assets/tracer_data_sub.png)
 
 The folder name in the Figure above reads as follows:
 
@@ -21,15 +21,15 @@ Let's break it down:
 
 
 
-
-
-
-
-
-
-
-
-
+| 01-02-WLP- |  |
+| :--- | :--- |
+| lem\_true\_ |  |
+| syn\_true\_ |  |
+| ssim\_false\_ |  |
+| redwo\_false-ngram\_5-LLR\_true\_ |  |
+| toLC\_false\_ |  |
+| rDia\_false\_ |  |
+| w2wl\_false-wlt\_5 |  |
 
 Every run of TRACER automatically produces a number of files, which can be viewed in the corpora directory. For example, running TRACER on the KJV.txt file will automatically produce the following files \(also depending on the parameters set in the  
 tracer\_config.xml file, as already described in section 6.4\):  

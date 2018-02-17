@@ -124,7 +124,7 @@ In TRACER, the featuring settings can be changed in the `tracer_config.xml`.
 
 Let’s assume we want to change the above property in order to run trigram shingling on the text. The changed property will look like this:
 
-![training-2](/assets/training_2.png "The value of the highlighted property has been changed from \`BiGramShinglingTrainingImpl\` to \`TriGramShinglingTrainingImpl\`.")
+![training-2](/assets/training_2.png "The value of the highlighted property has been changed from `BiGramShinglingTrainingImpl` to `TriGramShinglingTrainingImpl`.")
 
 We save the document and rerun TRACER. This reuse detection task produces a number of files, including:
 

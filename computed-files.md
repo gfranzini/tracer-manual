@@ -12,7 +12,7 @@ If you’re working with your own texts –not TRACER’s default Bible data– 
 
 TRACER organises the results in a deep folder structure with long folder names that describe the parameters used for a particular analysis. For every new analysis, TRACER creates a separate folder.
 
-![folder-name](/assets/tracer_data_sub.png "The folder structure within TRACER_DATA. Long folder names are used to reflect the property settings in the TRACER tracer_config.xml file. This system allows users to better locate their results, especially when running TRACER multiple times with modified parameters.")
+![folder-name](/assets/tracer_data_sub.png "The folder structure within TRACER\_DATA. Long folder names are used to reflect the property settings in the TRACER tracer\_config.xml file. This system allows users to better locate their results, especially when running TRACER multiple times with modified parameters.")
 
 The folder name in the Figure above reads as follows:
 
@@ -32,14 +32,19 @@ Let's break it down:
 
 This folder represents the first step in your detection task, _Preprocessing_. The other five steps of the detection process are all nested within this folder.  So, if you open the _Preprocessing_ folder, you’ll find the second folder in the sequence, the _Featuring/Training_ folder. Within the _Featuring/Training_ folder, you’ll find the _Selection_ folder, and so on until you reach the final _Scoring_ folder. In each and every folder you’ll find the relevant files resulting from the settings you specified in the `tracer_config.xml` file.
 
-
 ### Computed files for Preprocessing
+
 CLARIFY HERE.
 
 #### `.inv`
-`inv` stands for _inverted list_. This file works like a word index and is the heart of any retrieval system. It shows you that a specific word appears in a specific verse in a specific position, so:
 
+`inv` stands for _inverted list_. This file works like a word index and is the heart of any retrieval system. It shows you the position of a given word in a given textual segment/unit. For example, the row `114    4003870    2 in an .inv TRACER file means:`
 
+ 
+
+| Word number | Segment/Unit ID | Position of word in segment/unit |
+| :--- | :--- | :--- |
+| 114 | 4003870 | 2 |
 
 #### `.wnc`
 
@@ -48,31 +53,31 @@ CLARIFY HERE.
 #### `.tok`
 
 #### `.tok.dist.char`
-This file displays the distribution of the characters across the corpus.  This file is useful to clean up overlooked dirt in the text(s) under analysis. If the file contains an unexpected character, thanks to the `.char`
-information the user can more easily identify and remove it from the text(s).
+
+This file displays the distribution of the characters across the corpus.  This file is useful to clean up overlooked dirt in the text\(s\) under analysis. If the file contains an unexpected character, thanks to the `.char`  
+information the user can more easily identify and remove it from the text\(s\).
 
 #### `.tok.dist.letter.02gram`
+
 This file displays the distribution of letter bigrams across the corpus.
 
 #### `.ssim`
 
-
-
 ### Computed files for Featuring/Training
 
-> **[warning] To update**
+> **\[warning\] To update**
 >
 > Describe files
 
 ### Computed files for Selection
 
-> **[warning] To update**
+> **\[warning\] To update**
 >
 > Describe files
 
 ### Computed files for Linking
 
-> **[warning] To update**
+> **\[warning\] To update**
 >
 > Describe files
 
@@ -86,3 +91,4 @@ The `.score` file contains all computed reuse pairs. The first two columns list 
 
 `1102581    1300887    2.0    0.5`  
 `1300887    1102581    2.0    0.5`
+

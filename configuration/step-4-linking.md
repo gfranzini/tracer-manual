@@ -22,7 +22,7 @@ Interlinking looks for matches between different texts or works. Given _Work A_ 
 
 Remember that Edition A and Edition B are actually stored in the same `.txt` file, one under the other, as described in [Corpus preparation](/corpus-preparation.md). The _Inter/Intra_ parameter can be changed in the TRACER `tracer_config.xml`:
 
-![linking](/assets/linking.png "The value of the highlighted property in the TRACER `tracer_config.xml` can be changed to `InterCorpusLinkingImpl`, if needed.")
+![linking](/assets/linking.png "The value of the highlighted property in the TRACER \`tracer\_config.xml\` can be changed to \`InterCorpusLinkingImpl\`, if needed.")
 
 TRACER outputs _Linking_ results in a `.link` file in a three column structure:
 
@@ -30,16 +30,15 @@ TRACER outputs _Linking_ results in a `.link` file in a three column structure:
 
 Here’s how this structure looks like in the corresponding file:
 
-![linking-link](/assets/linking_link.png "The three-column structure in the Linking output file of the King James Version Bible text: `REUSE ID 1 - REUSE ID 2 - ABSOLUTE OVERLAP`.")
+![linking-link](/assets/linking_link.png "The three-column structure in the Linking output file of the King James Version Bible text: \`REUSE ID 1 - REUSE ID 2 - ABSOLUTE OVERLAP\`.")
 
 What does TRACER mean by _absolute overlap_? The absolute overlap is the minimal number of common features shared by the first two columns \(`REUSE ID 1` and `REUSE ID 2`\), which TRACER sets as default to `5`.[^2] This overlap number can be changed and is used to cut the long tail of reuses which would likely not be relevantmatches or reuses at all. The `.meta` _Linking_ file will provide you with an overview of the features linked:
 
-![linking-meta](/assets/linking_meta.png "Overview of Linking results provided by the Linking `.meta` file.")
+![linking-meta](/assets/linking_meta.png "Overview of Linking results provided by the Linking \`.meta\` file.")
 
 _Linking_ is the most time-consuming step and the step that can be best parallelised, as shown in the chart below.
 
-
-
+![](/assets/linking_parallel.png)
 
 [^1]: A basic explanation of _squared complexity_ is available under Wikipedia's [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) page.
 

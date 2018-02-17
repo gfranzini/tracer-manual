@@ -30,7 +30,7 @@ The _Scoring_ section of the `tracer_config.xml` file contains three categories:
 
 If the text segmentation you used has created reuse units of very different lengths, chances are that TRACER will produce many false positives or not be able to match a string in text A against a string in text B at all \(= false negatives\). Here is an example of text reuse in Latin texts that was not identified by TRACER due to very different reuse unit lengths caused by text segmentation:
 
-{% panel %}
+{% panel style="info", title="Example" %}
 TEXT A \(source text\): _**In principio creavit Deus caelum et** **terram**_**.**
 
 TEXT B \(target text\): _ubi , cum primo dicatur , **in principio creavit deus caelum et terram** , subiungit , distinxit deus lucem a tenebris , et sic de aliis :_

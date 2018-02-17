@@ -26,7 +26,7 @@ The _Scoring_ section of the `tracer_config.xml` file contains three categories:
 
 * `SelectedFeatureResemblanceSimilarityImpl`: given selected features from a reuse pair \(_max pruning_ without function words\) this Scoring implementation compares the selected features and gives all words the same weight. The value of this property can range between `0` and `1`. If the user sets a high value, such as `0.9`, TRACER will return reuse pairs that are 90% similar \(near-verbatim\).
 
-## Containment measure for imbalanced length of reuse
+## _Containment_ measure for imbalanced length of reuse
 
 If the text segmentation you used has created reuse units of very different lengths, chances are that TRACER will produce many false positives or not be able to match a string in text A against a string in text B at all \(= false negatives\). Here is an example of text reuse in Latin texts that was not identified by TRACER due to very different reuse unit lengths caused by text segmentation:
 
@@ -38,5 +38,5 @@ Despite the fact that Text B is quoting TEXT A word for word, the different leng
 
 To avoid this from happening, we must change the default _Scoring_ `SelectedFeatureResemblanceSimilarityImpl` property value in `tracer_config.xml` to `SelectedFeatureContainmentSimilarityImpl`, as so:
 
-![scoring-containment](/assets/scoring-containment.png "The default Scoring Resemblance measure in TRACER's configuration file is commented out and followed by the alternative Scoring Containment measure to address imbalanced reuse length.")
+!\[scoring-containment\]\(/assets/scoring-containment.png "The default Scoring Resemblance measure in TRACER's configuration file is commented out and followed by the alternative Scoring Containment measure to address imbalanced reuse length."\)
 

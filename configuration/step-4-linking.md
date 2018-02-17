@@ -22,7 +22,7 @@ Interlinking looks for matches between different texts or works. Given _Work A_ 
 
 **Remember** that Edition A and Edition B are actually stored in the same `.txt` file, one under the other, as described in [Corpus preparation](/corpus-preparation.md). The _Inter/Intra_ parameter can be changed in the TRACER `tracer_config.xml`:
 
-![linking](/assets/linking.png "The value of the highlighted property in the TRACER tracer_config.xml can be changed to InterCorpusLinkingImpl, if needed.")
+![linking](/assets/linking.png "The value of the highlighted property in the TRACER tracer\_config.xml can be changed to InterCorpusLinkingImpl, if needed.")
 
 TRACER outputs _Linking_ results in a `.link` file in a three column structure:
 
@@ -56,9 +56,9 @@ First, ensure your corpus `.txt` file is in TRACER’s `corpora` folder. Then, i
 
 Where the `data/...yourcorpus.txt` path points to the location of your text in TRACER’s data folder and `15` tells TRACER to split reuse units into windows of 15 words. Press `ENTER` and wait a few seconds for TRACER to compute the result. This command creates a version of the `yourcorpus.txt` where reuse units are formatted into 15-word windows. This file version is automatically named `yourcorpus-W15.txt` and saved in the TRACER `corpora` folder. If you want to break the text into windows of 10 words, change the final `15` to `10` in the java command.
 
-Next, you need to make some changes in TRACER’s configuration file. First, make sure that the `SENTENCE_FILE_NAME` property points to your new `yourcorpus-W15.txt` file (as described in [Corpus preparation](/configuration/corpus-preparation.md)). Next, locate the _Linking_ property in the `tracer_config.xml` file and ensure you have the right class, `MovingWindowInterCorpusLinking` or `MovingWindowIntraCorpusLinking` \(depending on whether you want to run _Inter-_ or _Intracorpus_ linking\):
+Next, you need to make some changes in TRACER’s configuration file. First, make sure that the `SENTENCE_FILE_NAME` property points to your new `yourcorpus-W15.txt` file \(as described in [Corpus preparation](/corpus-preparation.md)\). Next, locate the _Linking_ property in the `tracer_config.xml` file and ensure you have the right class, `MovingWindowInterCorpusLinking` or `MovingWindowIntraCorpusLinking` \(depending on whether you want to run _Inter-_ or _Intracorpus_ linking\):
 
-![moving-window-config](/assets/moving-window-config.png "The class of the LINKING_IMPL property in TRACER’s configuration file should read MovingWindowInterCorpusLinking or MovingWindowIntraCorpusLinking, depending on the type of Linking you’re interested in.")
+![moving-window-config](/assets/moving-window-config.png "The class of the LINKING\_IMPL property in TRACER’s configuration file should read MovingWindowInterCorpusLinking or MovingWindowIntraCorpusLinking, depending on the type of Linking you’re interested in.")
 
 Next, define the length of your Window in the _Linking_ category of the `tracer_config.xml` file, in the `intWindowSize` property:
 

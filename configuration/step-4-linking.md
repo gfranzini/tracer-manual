@@ -45,6 +45,12 @@ _Linking_ is the most time-consuming step and the step that can be best parallel
 The two types of _Linking_ implementation described above work well when linking text reuse units \(e.g. sentences\) of a similar size and for detecting close reuse or rewording \(i.e. where the reuse covers roughly more than 50% of the unit\). One example of where we could use these implementations is the Bible: we could, for instance, compare Mark with Luke. The reuse units, the verses, are similar in length and our knowledge of the Bible tells us that Luke copied from Mark. If, however, you’re looking for paraphrase or allusions, or if the reuse covers less than 50% of the unit, these two implementations will not perform well. That is not to say that you can’t use them. But if you do, you must lower the similarity thresholds in the `tracer_config.xml` file, and by doing so TRACER will contaminate your results with many false positives.  
 For these cases, TRACER provides another _Linking_ implementation, the _Moving Window_. This approach is well-suited, if not necessary, for the detection of very small reuse; for example, to detect a four-word overlap in two sentences \(as reuse units\) of 20 and 25 words each. If we set a Moving Window of, for example, 10 words, TRACER will read the reuse unit 10 words at a time with a one-word overlap, as shown in the Latin example below:
 
+
+If you don’t know your data well and would like TRACER to give you a rough idea of the degree of similarity between two or multiple texts, the recommendation is to first run a detection task without the Moving Window implementation in order to detect the closestmatches. Use the Moving Window only if the result-set or recall from this first analysis is too low and/or if you’d like to find smaller reuse.
+
+To use the MovingWindowimplementation, you first need to segmentise your reuse units into windows. We recommend you try with windows of 10 or 15 words as these should detect most reuses. But you may, of course, run more than one detection with bigger or smaller window sizes and compare the results!
+First, ensure your corpus .txt file is in TRACER’s corpora folder. Then, in the terminal, navigate to TRACER’s main folder and type this command (one line, which for formatting reasons doesn’t fit here):
+
 ## Containment measure for imbalanced length of reuse
 
 [^1]: A basic explanation of _squared complexity_ is available under Wikipedia's [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) page.

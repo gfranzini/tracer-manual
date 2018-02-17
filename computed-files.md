@@ -21,15 +21,15 @@ Let's break it down:
 
 
 
-| 01-02-WLP- |  |
+| `01-02-WLP-` | Preprocessing step (01)-word-level (02)-Word Level Processing |
 | :--- | :--- |
-| lem\_true\_ |  |
-| syn\_true\_ |  |
-| ssim\_false\_ |  |
-| redwo\_false-ngram\_5-LLR\_true\_ |  |
-| toLC\_false\_ |  |
-| rDia\_false\_ |  |
-| w2wl\_false-wlt\_5 |  |
+| `lem\_true\_` |  |
+| `syn\_true\_` |  |
+| `ssim\_false\_` |  |
+| `redwo\_false-ngram\_5-LLR\_true\_` |  |
+| `toLC\_false\_` |  |
+| `rDia\_false\_` |  |
+| `w2wl\_false-wlt\_5` |  |
 
 Every run of TRACER automatically produces a number of files, which can be viewed in the corpora directory. For example, running TRACER on the KJV.txt file will automatically produce the following files \(also depending on the parameters set in the  
 tracer\_config.xml file, as already described in section 6.4\):  

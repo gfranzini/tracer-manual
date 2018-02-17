@@ -28,7 +28,7 @@ There are many different selection strategies, including:
 
 To change the selection strategy in TRACER, locate the _Selection_ strategy in the `tracer_config.xml` file, as shown in the Figure below.
 
-![selection](/assets/selection.png "The value of the highlighted Selection property in the \`tracer\_config.xml\` file can be changed according to the preferred strategy.")
+![selection](/assets/selection.png "The value of the highlighted Selection property in the `tracer\_config.xml` file can be changed according to the preferred strategy.")
 
 Different selection strategies require different parameters, and it’s often difficult to compare and decide which strategy works best for a given case. For this reason, we use the Feature Density or, in other words, the comparison between the overall number of features and the number of features selected. The Feature density parameter accepts value ranges between 0 and 1; for, for example, if it is set to 0.8, TRACER will keep 80% of the features and ignore the remaining 20%. Here’s how TRACER computes feature density:
 

@@ -129,19 +129,22 @@ Let’s assume we want to change the above property in order to run trigram shin
 We save the document and rerun TRACER. This reuse detection task produces a number of files, including:
 
 ##### KJV.meta
-
+This file provides a human-readable overview of the trigram shingling training.
 
 
 ##### KJV.train
-
+This file is organised as follows:
+`FEATURE ID - REUSE UNIT ID - POSITION IN REUSE UNIT`
 
 
 ##### KJV.fmap
-
+This file provides a map or breakdown of each feature:
+`FEATURE ID - WORD ID - WORD ID - WORD ID`
 
 
 ##### KJV.feats
-
+This document is the word index, where words are sorted by frequency:
+`WORD ID - WORD - FREQUENCY`
 
 
 

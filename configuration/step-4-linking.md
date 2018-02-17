@@ -50,7 +50,7 @@ For these cases, TRACER provides another _Linking_ implementation, the _Moving W
 If you don’t know your data well and would like TRACER to give you a rough idea of the degree of similarity between two or multiple texts, the recommendation is to first run a detection task _without_ the Moving Window implementation in order to detect the closestmatches. Use the Moving Window only if the result-set or recall from this first analysis is too low and/or if you’d like to find smaller reuse.
 
 To use the `MovingWindowimplementation`, you first need to segmentise your reuse units into windows. We recommend you try with windows of 10 or 15 words as these should detect most reuses. But you may, of course, run more than one detection with bigger or smaller window sizes and compare the results!  
-First, ensure your corpus `.txt` file is in TRACER’s `corpora` folder. Then, in the terminal, navigate to TRACER’s main folder and type this command \(one line, which for formatting reasons doesn’t fit here\):
+First, ensure your corpus `.txt` file is in TRACER’s `corpora` folder. Then, in the terminal, navigate to TRACER’s main folder and type this command:
 
 `java -cp tracer.jar eu.etrap.tracer.preprocessing.MovingAverageSegmentizerMain data/corpora/YourCorpus/yourcorpus.txt 15`
 

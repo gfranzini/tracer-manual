@@ -22,7 +22,7 @@ Interlinking looks for matches between different texts or works. Given _Work A_ 
 
 Remember that Edition A and Edition B are actually stored in the same `.txt` file, one under the other, as described in [Corpus preparation](/corpus-preparation.md). The _Inter/Intra_ parameter can be changed in the TRACER `tracer_config.xml`:
 
-
+![](/assets/linking.png)
 
 TRACER outputs _Linking_ results in a `.link` file in a three column structure:
 

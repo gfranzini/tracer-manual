@@ -54,6 +54,20 @@ First, ensure your corpus `.txt` file is in TRACER’s `corpora` folder. Then, i
 
 `java -cp tracer.jar eu.etrap.tracer.preprocessing.MovingAverageSegmentizerMain data/corpora/YourCorpus/yourcorpus.txt 15`
 
+Where the data/...yourcorpus.txt path points to the location of your text in TRACER’s data
+folder and 15 tells TRACER to split reuse units into windows of 15 words.
+Press ENTER and wait a few seconds for TRACER to compute the result. This command creates a
+version of the yourcorpus.txt where reuse units are formatted into 15-word windows. This file
+version is automatically named yourcorpus-W15.txt and saved in the TRACER corpora folder.
+If you want to break the text into windows of 10 words, change the final 15 to 10 in the java command.
+
+Next, you need to make some changes in TRACER’s configuration file. First, make sure that the
+SENTENCE_FILE_NAME property points to your new yourcorpus-W15.txt file (as described in
+section 4.2). Next, locate the Linking property in the tracer_config.xml file and ensure you have
+the right class, MovingWindowInterCorpusLinking or
+MovingWindowIntraCorpusLinking (depending on whether you want to run Inter- or Intracorpus
+linking):
+
 ![](/assets/moving-window-config.png)
 
 ![](/assets/moving-window-size-config.png)

@@ -73,7 +73,7 @@ The figure below provides an example of the King James Bible Version text format
 
 ![four-cols](/assets/four-columns.png "The King James Bible text formatted into four columns, as per TRACER’s requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Source. This file was opened with Sublime text editor.")
 
-### Where to store your texts
+### Where to store your texts {#store-text}
 
 Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
 
@@ -81,9 +81,9 @@ Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as show
 
 **IMPORTANT: never use white-spaces in file names.**
 
-Next, make sure TRACER's configuration file points to your `.tx` file. For example, if your text file is called `KJV.txt`, locate the `SENTENCE_FILE_NAME` property in the configuration file and add the path of your file to the `value` attribute: 
+Next, make sure TRACER's configuration file points to your `.tx` file. For example, if your text file is called `KJV.txt`, locate the `SENTENCE_FILE_NAME` property in the configuration file and add the path of your file to the `value` attribute:
 
-![path](/assets/path.png "The path to your .txt file must be specified in the tracer_config.xml file in the SENTENCE_FILE_NAME property.")
+![path](/assets/path.png "The path to your .txt file must be specified in the tracer\_config.xml file in the SENTENCE\_FILE\_NAME property.")
 
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

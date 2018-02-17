@@ -14,5 +14,5 @@ Properties 8-10 define the paths to the texts or corpus to be analysed and to ot
 
 ---
 
-In the upcoming subsections we describe how to set parameters in the `tracer_config.xml` for the first five steps of TRACER and explain what these steps do. The sixth and final step, _Postprocessing_, doesn't require any particular settings, hence why  
+In the upcoming subsections we describe how to set parameters in the `tracer_config.xml` for the first five steps of TRACER and explain what these steps do. The sixth and final step, [_Postprocessing_](/configuration/step-6-postprocessing.md), doesn't require any particular settings and is described in the section following _Execution of TRACER_.
 

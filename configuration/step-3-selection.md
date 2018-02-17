@@ -20,11 +20,11 @@ There are many different selection strategies, including:
 
 * _Feature dependencies_: it makes a comparison between paired features and sees if there are features that tend to co-occur.
 
-* _Random selection_: random selection of features. Very good if you don’t have a clue of what to expect from your data.
+* _Random selection_: random selection of features. Very good if you don’t have a clue about what to expect from your data.
 
 > **[warning] To update**
 >
-> Winnowing**_**: PROVIDE CLEARER EXPLANATION. The selection is made based on the rarest parts of the winnowing window - i.e. the most infrequent features. But in this way function words are not entirely removed, since sometimes they can still be useful. With the winnowing algorithm it’s possible to select features all over the reuse unit and avoid clusters. For example, “To be or not to be that is the question". It would appear that the only interesting word here is ‘question’ but we don’t want to be eliminating all of the rest. Winnowing, with its windows, allows us to pick the lowest ranked feature \(in frequency\) for every window - so there is a selected feature for every window and features are distributed evenly.
+> Winnowing: The selection is made based on the rarest parts of the winnowing window - i.e. the most infrequent features. But in this way function words are not entirely removed, since sometimes they can still be useful. With the winnowing algorithm it’s possible to select features all over the reuse unit and avoid clusters. For example, “To be or not to be that is the question". It would appear that the only interesting word here is ‘question’ but we don’t want to be eliminating all of the rest. Winnowing, with its windows, allows us to pick the lowest ranked feature \(in frequency\) for every window - so there is a selected feature for every window and features are distributed evenly.
 
 To change the selection strategy in TRACER, locate the _Selection_ strategy in the `tracer_config.xml` file, as shown in the Figure below.
 

@@ -34,7 +34,7 @@ This folder represents the first step in your detection task, _Preprocessing_. T
 
 ### Computed files for Preprocessing
 
-> **[warning] To update**
+> **\[warning\] To update**
 >
 > Explain here in which folder these files are stored.
 
@@ -42,12 +42,13 @@ This folder represents the first step in your detection task, _Preprocessing_. T
 
 `inv` stands for _inverted list_. This file works like a word index and is the heart of any retrieval system. It shows you the position of a given word in a given textual segment/unit. For example, the row `114    4003870    2` in an `.inv` TRACER file means that word `114` can be found in segment `4003870` in position `2`.
 
-
 #### `.wnc`
+
 `wnc` stands for _words number complete_. This file gives more information about the word types in the corpus including frequency, rank and word length. IDs are frequency-sorted.
 
 #### `.meta`
-This file provides an overview (the "metadata" as it were) of the corpus segmentation:
+
+This file provides an overview \(the "metadata" as it were\) of the corpus segmentation:
 
 * `SENTENCES`: lines.
 * `WORD_TYPES`: number of unique words as dictionary entries.
@@ -57,12 +58,13 @@ This file provides an overview (the "metadata" as it were) of the corpus segment
 * `SSIM_EDGES`: number of links or word pairs satisfying the similarity requirements stated in `SSIM_THRESHOLD`.
 * `BOW_WORD_TOKENS`: tokens or unique words that appear in a line.
 
-* > **[warning] To update** 
-> 
-> `SSIM_`: explain
+* > **\[warning\] To update**
+  >
+  > `SSIM_`: explain
 
 #### `.tok`
-This file is a _tokenized_ version of the source text. This means that all punctuation has been removed or separated from the word (depending on the settings). The default setting in TRACER is `delete`.
+
+This file is a _tokenized_ version of the source text. This means that all punctuation has been removed or separated from the word \(depending on the settings\). The default setting in TRACER is `delete`.
 
 #### `.tok.dist.char`
 
@@ -73,16 +75,16 @@ This file displays the distribution of the characters across the corpus.  This f
 This file displays the distribution of letter bigrams across the corpus.
 
 #### `.ssim`
+
 Everything comes together in this file. The first and second columns represent the two words; the third column is the overlap of letter bigrams; the fourth column is the weighted overlap `§w§` between:
 
+![](/assets/ssim.png)
 
-by Broder’s Resemblance measure.
+by [Broder’s Resemblance](http://www.cs.princeton.edu/courses/archive/spr05/cos598E/bib/broder97resemblance.pdf) measure.
 
-> **[warning] To update**
+> **\[warning\] To update**
 >
 > Explain formula
-
-
 
 ### Computed files for Featuring/Training
 

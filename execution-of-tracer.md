@@ -1,6 +1,6 @@
 # Execution of TRACER {#execution-tracer}
 
-Open the terminal and navigate to the TRACER folder \(using the command `cd`\). To start TRACER, type:
+Once all properties and parameters in `tracer_config.xml` are set, open the terminal and navigate to the TRACER folder \(using the command `cd`\). To start TRACER, type:
 
 `java -Xmx600m -Deu.etrap.medusa.config.ClassConfig=conf/tracer_config.xml -jar tracer.jar > FILENAME.OUT`
 

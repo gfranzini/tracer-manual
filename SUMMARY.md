@@ -26,6 +26,7 @@
   * [Out of memory](troubleshooting/out-of-memory.md)
 * [Limitations](limitations.md)
 * [References](references.md)
+---
 * [FAQ](/faq.md)
 * [Publications](/publications.md)
 * [Resources](/resources.md)

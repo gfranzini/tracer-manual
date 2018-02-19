@@ -20,14 +20,10 @@
 * [Keeping a detection logbook](logbook.md)
 * [Troubleshooting](troubleshooting.md)
 
-  * [Unable to access jarfile tracer.jar](error-unable-to-access-jarfile-tracerjar.md)
-  * [Out of memory](/troubleshooting/out-of-memory.md)
-  * [Empty score and link files](/troubleshooting/empty-score-link-files.md)
-  * [Java lang no class definition found](/troubleshooting/java.lang.NoClassDefFoundError-Xmx600m.md)
-
 * [Limitations](limitations.md)
 
 * [References](references.md)
+
 * [FAQ](/faq.md)
 * [Publications](/publications.md)
 * [Resources](/resources.md)

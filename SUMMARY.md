@@ -19,6 +19,7 @@
 * [Results & computed files](computed-files.md)
 * [Keeping a detection logbook](logbook.md)
 * [Troubleshooting](troubleshooting.md)
+* [Error: Unable to access jarfile tracer.jar](error-unable-to-access-jarfile-tracerjar.md)
 * [Limitations](limitations.md)
 * [References](references.md)
 * [FAQ](/faq.md)

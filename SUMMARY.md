@@ -19,7 +19,7 @@
 * [Results & computed files](computed-files.md)
 * [Keeping a detection logbook](logbook.md)
 * [Troubleshooting](troubleshooting.md)
-  * Unable to parse date
+  * [Unable to parse date](/unable-to-parse-date.md)
 * * [Error: Unable to access jarfile tracer.jar](error-unable-to-access-jarfile-tracerjar.md)
 * [Limitations](limitations.md)
 * [References](references.md)

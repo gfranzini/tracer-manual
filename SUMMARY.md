@@ -18,19 +18,16 @@
 * [Postprocessing](configuration/step-6-postprocessing.md)
 * [Results & computed files](computed-files.md)
 * [Keeping a detection logbook](logbook.md)
+* [Limitations](limitations.md)
+* [References](references.md)
+---
 * [Troubleshooting](troubleshooting.md)
   * [Unable to parse date](troubleshooting/unable-to-parse-date.md)
   * [Unable to access jarfile](troubleshooting/unable-to-access-jarfile-tracerjar.md)
   * [Empty score and link files](troubleshooting/empty-score-link-files.md)
   * [Java lang no class definition found](troubleshooting/java-lang-no-class-def-found.md)
   * [Out of memory](troubleshooting/out-of-memory.md)
-* [Limitations](limitations.md)
-* [References](references.md)
----
 * [FAQ](/faq.md)
 * [Publications](/publications.md)
 * [Resources](/resources.md)
 * [Command line: MAC vs. Windows](/command-line.md)
-
-
-

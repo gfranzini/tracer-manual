@@ -14,7 +14,7 @@ Press `ENTER`. The resulting message should looks something like this:
 
 If the second number in the sequence is lower than 8, a[ new JSDK Java package needs to be installed](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Download the package for your operating system, install, restart the computer, open the terminal and re-type the command above. Your version should have changed to 8.
 
-## Install Apache Ant \(Linux\)
+## Install Apache Ant \(Linux\) {#apache-ant}
 
 _Apache Ant_ is a build system used to create an executable program. Among its [many benefits](http://ant.apache.org/manual/index.html), Ant allows to execute sequences of tasks from an XML file, typically called `build.xml`. Apache Ant is used to compile TRACER’s source code into an executable program \(see [_Execution of TRACER_](/execution-of-tracer.md)\).
 

@@ -19,7 +19,6 @@
 * [Results & computed files](computed-files.md)
 * [Keeping a detection logbook](logbook.md)
 * [Troubleshooting](troubleshooting.md)
-* [Unable to parse date](test.md)
 * [Limitations](limitations.md)
 * [References](references.md)
 * [FAQ](/faq.md)

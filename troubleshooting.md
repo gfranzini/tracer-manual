@@ -13,27 +13,3 @@ As [previously mentioned](/execution-of-tracer.md), the `.out` file produced by 
 ## General recommendation
 
 Should none of the solutions in this page work for you or if you can't figure out what the error might be, the general recommendation is to always delete any existing `TRACER_DATA` folder \(which stores the results of previous analyses\) before running new analyses. Why? Because it _could be_ that existing computed files are creating conflicts with the settings you changed for a new analysis.
-
----
-
-## `java.lang.NoClassDefFoundError: Xmx600m`
-
-![](/assets/wrong-Java.png)This error appears if the version of Java installed on your computer is not the one required by TRACER, which is Java 8. To fix the error, download and install Java 8. Once installed, open the terminal and type `java -version` and press `ENTER` to check you have the correct version installed; the version number should start with a `1` and the second number should be an `8`.  If your second number is not `8`, then installation of Java 8 was not successful.
-
-Once Java 8 is installed on your computer you can re-run TRACER.
-
-
-
-## Empty `.score` and/or `.link` files \(0KB\)
-
-It might happen that TRACER runs a detection successfully but produces empty `.link` and `.score` files. There are two potential reasons for this:
-
-1. You might have the wrong value in the _Linking_ implementation property: `INTER` instead of `INTRA` corpus linking:
-
-`<property name="LINKING_IMPL" value="eu .etrap.tracer.linking.IntraCorpusLinkingImpl "/>`
-
-1. Your ID numbering might be incorrect. Again, in the _Linking_ section of the configuration file, you’ll notice the following property:
-
-`<property name="intWorkNumbering " value ="1000000" />`
-
-The value is set to a 7-digit ID. This means that your IDs should be 7-digits long. If you would rather work with shorter digits, you must change this value in the configuration file accordingly. If possible, please avoid using IDs above 2.000.000, as these require extra steps in order to be processed.

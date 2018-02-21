@@ -52,7 +52,7 @@ For Windows users \(see [_Command line cheat-sheet_](/command-line.md)\) the com
 
 Under Mac OS X and Linux distributions, it is also necessary to set the access rights so that the program can be also executed. You can set the necessary rights by typing:
 
-`chmod−R 755 *`
+`chmod -R 755 *`
 
 ### Adding the environment variable `ANT_HOME` {#adding-variable-ant-home}
 

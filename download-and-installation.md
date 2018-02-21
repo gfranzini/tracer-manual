@@ -10,7 +10,7 @@ Git is a so-called _version control system_ that tracks file changes. It is heav
 
 To get a copy of TRACER’s repository you first need to clone it. This is done by typing the following into your terminal:
 
-`git clone http://vcs.etrap.eu/tracer−framework/tracer.git`
+`git clone http://vcs.etrap.eu/tracer-framework/tracer.git`
 
 You’ll be prompted for your GitLab username and password, and a new folder will appear on your screen if the repository is successfully cloned. Before you can start working with TRACER you first have to build it from the source. Using the terminal, change into the TRACER directory and execute the command `ant`. If you get a `BUILD FAILED` message some of the requirements haven’t been met.
 

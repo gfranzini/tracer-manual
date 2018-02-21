@@ -40,7 +40,7 @@ The download file can be extracted by navigating to the download folder, right c
 
 To unzip the file, type:
 
-`unzip apache−ant−1.10.1−bin.zip`
+`unzip apache-ant-1.10.1-bin.zip`
 
 After unzipping the file, a new folder `apache-ant-1.10.1` is created. You can verify its existence by typing:
 
@@ -58,7 +58,7 @@ Under Mac OS X and Linux distributions, it is also necessary to set the access r
 
 An environment variable is a key-value-pair to which all system-wide programs have access. The Apache Ant software looks for the environment variable `ANT_HOME` along with the folder in which Ant is installed. To reach the Ant home folder, in the command line type:
 
-`cd apache−ant−1.10.1`
+`cd apache-ant-1.10.1`
 
 To visualise the path of Ant’s home folder, type:
 
@@ -80,7 +80,7 @@ which will take you to your personal home folder \(i.e. `/Users/johnsmith/`\). I
 
 and paste the path you copied earlier after the equal sign, like this:
 
-`export ANT_HOME=/Users/johnsmith/Tools/apache−ant−1.10.1`
+`export ANT_HOME=/Users/johnsmith/Tools/apache-ant-1.10.1`
 
 To exit the `vim` insert mode, press the `ESC` button on your keyboard. To save the changes and close `vim`, type:
 

@@ -114,7 +114,7 @@ This command makes the scripts in the `bin` folder of `ANT_HOME` available to th
 
 at the end of the `PATH` variable’s current value. In the command line, now type:
 
-`ant −v`
+`ant -v`
 
 where `-v` stands for _version_. This commands shows you the version of Ant you’re using and the build date of the program. The entry in the `.bash_profile` file is important as it is now permanently available on your computer.
 

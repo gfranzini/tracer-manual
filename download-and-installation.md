@@ -20,7 +20,7 @@ The recommended Git workflow is to first create a new branch or copy of the TRAC
 
 You’re now on a new local branch and all changes done to the files will only remain in this local branch. You can get an overview of all branches by typing:
 
-`git branch −a`
+`git branch -a`
 
 And you can switch branches in the same way you created one. The original branch is always called `master`. If you switch branches the tracked files will change according to your branch, while untracked files will remain in all branches. If you already built TRACER, you can type `git status` and see that some untracked files were created by the build process. If you want to obtain the newest version of TRACER just switch to the master branch and type:
 
@@ -46,7 +46,7 @@ And press `ENTER`. This starts the build process. Depending on the disc type and
 
 TRACER’s build file `build.xml` contains a number of targets[^2] that aren’t executed in order to speed up the build process. However, you can visualise all targets by typing:
 
-`ant−p verbose`
+`ant -p verbose`
 
 which lists, among others, TRACER's Javadoc. If you now type:
 

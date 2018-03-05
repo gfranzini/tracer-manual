@@ -4,7 +4,8 @@ TRACER needs between 5GB and 10GB of total space \(including result files\). It 
 
 You can download or clone the most recent release of TRACER from [its GitLab repository](http://vcs.etrap.eu/users/sign_in) by creating a free GitLab account. **However, please be aware that the most recent version might be unstable**.
 
-![gitlab-tracer](/assets/tracer_Git_high.png "TRACER's GitLab repository. The red box indicates the download button.")
+![gitlab](/assets/tracer_Git_high.png "TRACER GitLab repository; the red box indicates the download button.")
+
 
 Git is a so-called _version control system_ that tracks file changes. It is heavily used by software developers and teams who collaborate on the same project. If Git is not already installed on your machine, you can get a copy for your operating system from the [official homepage](https://git-scm.com/downloads). After installation, and to run Git, you must prefix commands in your terminal with `git`. An example is `git status`, which shows pending changes and suggests potential next steps.[^1]
 

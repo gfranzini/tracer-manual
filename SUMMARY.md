@@ -1,5 +1,7 @@
 # Summary
 
+## Manual
+
 * [About the manual](preamble.md)
 * [Introduction](README.md)
   * [Text Reuse](text-reuse.md)
@@ -28,6 +30,8 @@
 * [BabelNet API](babelnet.md)
 
 ---
+
+## Support
 
 * [Troubleshooting](troubleshooting.md)
   * [Unable to parse date](troubleshooting/unable-to-parse-date.md)

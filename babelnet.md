@@ -1,6 +1,6 @@
 # BabelNet API \[internal use only\]
 
-As well as using WordNets for synonym look-up, we can use the BabelNet API to generate lists of hyponyms, cohyponyms and hypernyms.
+As well as using WordNets for synonym look-up, we can use the [BabelNet API](http://babelnet.org/) to generate lists of hyponyms, cohyponyms and hypernyms.
 
 The BabelNet look-up script can be started with the following command:
 

@@ -20,6 +20,9 @@
 * [Keeping a detection logbook](logbook.md)
 * [Limitations](limitations.md)
 * [References](references.md)
+
+---
+
 * [BabelNet API](babelnet.md)
 
 ---

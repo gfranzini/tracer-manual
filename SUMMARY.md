@@ -20,7 +20,10 @@
 * [Keeping a detection logbook](logbook.md)
 * [Limitations](limitations.md)
 * [References](references.md)
+* [BabelNet](babelnet.md)
+
 ---
+
 * [Troubleshooting](troubleshooting.md)
   * [Unable to parse date](troubleshooting/unable-to-parse-date.md)
   * [Unable to access jarfile](troubleshooting/unable-to-access-jarfile-tracerjar.md)
@@ -31,3 +34,4 @@
 * [Publications](/publications.md)
 * [Resources](/resources.md)
 * [Command line: MAC vs. Windows](/command-line.md)
+

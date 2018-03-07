@@ -14,7 +14,7 @@ Where:
 
 * `babelnet-queries.log` is the log.
 
-The script crunches two parameters: the `lemma-list.txt` and the language code \(e.g. `EN` if you are working with English texts, `DE` if you are working with German texts, etc.\) . All generated files will be placed in the TRACER directory.
+The script crunches two parameters: the `lemma-list.txt` and the language code \(e.g. `EN` if you are working with English texts, `DE` if you are working with German texts, etc.\). All generated files will be placed in the TRACER directory.
 
 With `cat babelnet-queries.log | grep "PROCESSING WORD" | wc -l` you see the total number of processed words out of the total number of base-forms in `lemma-list.txt`.
 

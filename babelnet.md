@@ -1,6 +1,6 @@
 # BabelNet \[internal use only\]
 
-As well as using WordNets for synonym look-up, we can use the BabelNet API to generate lists of hyponyms, cohyponyms and hypernyms.  
+As well as using WordNets for synonym look-up, we can use the BabelNet API to generate lists of hyponyms, cohyponyms and hypernyms.
 
 The BabelNet look-up script can be started with the following command:
 
@@ -8,28 +8,15 @@ The BabelNet look-up script can be started with the following command:
 
 Where:
 
-* -Xmx70g defines the memory to be used on the server; with a 70g memory, it can take up to three days for the computation 
+* `-Xmx70g` defines the memory to be used on the server; with a 70 gigabyte memory the BabelNet API look-up can take up to three days to compute.
+
+* `lemma-list.txt` \(a better file name might be `lemma-babelnet.txt`\) is a modified version of TRACER's `lemma.txt` file containing only the baseform of every word in the text and its PoS tag \(so, a two column file separated by a TAB\). Place the `lemma.list.txt` in the TRACER's `data/corpora/...` directory and define its path in the command above. 
 
 * `babelnet-queries.log` is the log.
 
-  
+The script crunches two parameters: the `lemma-list.txt` and the language code \(e.g. `EN` if you are working with English texts, `DE` if you are working with German texts, etc.\) . All generated files will be placed in the TRACER directory.
 
-
-The script crunches two parameters: the lemma-list and the language code \(e.g. EN\).
-
-The lemma-list I created from the basform mapping file ../lemma\_pos.txt . It is next to the original file. All produced files will be placed in the same folder /roedel/gfranzini/2018-tracer-HarryPotter.
-
-With
-
-root@roedel:/roedel/gfranzini/2018-tracer-HarryPotter\# wc -l lemm-list.txt
-
-22796 lemm-list.txt
-
-you see the number of total baseforms \(given different pos tags\).
-
-With
-
-root@roedel:/roedel/gfranzini/2018-tracer-HarryPotter/tracer\# cat babelnet-queries.log \| grep "PROCESSING WORD" \| wc -l
+With root@roedel:/roedel/gfranzini/2018-tracer-HarryPotter/tracer\# cat babelnet-queries.log \| grep "PROCESSING WORD" \| wc -l
 
 35
 

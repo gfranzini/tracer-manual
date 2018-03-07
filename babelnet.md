@@ -4,7 +4,9 @@ As well as using WordNets for synonym look-up, we can use the [BabelNet API](htt
 
 The BabelNet look-up script can be started with the following command:
 
-```java -Xmx70g -cp tracer.jar eu.etrap.tracer.preprocessing.external.semantic.BabelNetTestMain ../lemma-list.txt EN >babelnet-queries.log```
+```
+java -Xmx70g -cp tracer.jar eu.etrap.tracer.preprocessing.external.semantic.BabelNetTestMain ../lemma-list.txt EN >babelnet-queries.log
+```
 
 Where:
 

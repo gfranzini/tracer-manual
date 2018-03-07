@@ -23,6 +23,8 @@
 
 ---
 
+## Beta
+
 * [BabelNet API](babelnet.md)
 
 ---

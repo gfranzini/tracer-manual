@@ -1,6 +1,6 @@
 # System prerequisites
 
-To use TRACER you must first ensure that you have **Java **\(version 8 or later\), **a text editor** and **unzip software** running on your computer.
+To use TRACER you must first ensure that you have **Java **\(version 8 or later\) and **a text editor** running on your computer.
 
 ## Install Java {#install-java}
 
@@ -122,7 +122,5 @@ where `-v` stands for _version_. This commands shows you the version of Ant youâ
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).
 
-## Install Zip software {#zip-software}
 
-Make sure you also have unzip software, such as [WinZip](http://www.winzip.com/mac/en/) or [7-Zip](http://www.7-zip.org/), installed on your computer. The TRACER package you download has to be unzipped to be used.
 

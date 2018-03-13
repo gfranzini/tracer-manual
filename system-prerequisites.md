@@ -4,7 +4,7 @@ To use TRACER you must first ensure that you have **Java **\(version 8 or later\
 
 ## Install Java {#install-java}
 
-TRACER requires version 8 or higher of the **Java Software Development Kit** \(JSDK\). To check your Java version, open the terminal or command line and type:
+TRACER requires version 8 of the **Java Software Development Kit** \(JSDK\). To check your Java version, open the terminal or command line and type:
 
 `java -version`
 
@@ -13,6 +13,8 @@ Press `ENTER`. The resulting message should looks something like this:
 `java version "1.8.0_51"`
 
 If the second number in the sequence is lower than 8, a[ new JSDK Java package needs to be installed](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Download the package for your operating system, install, restart the computer, open the terminal and re-type the command above. Your version should have changed to 8.
+
+
 
 ## Install Apache Ant \(Linux\) {#apache-ant}
 
@@ -121,6 +123,4 @@ where `-v` stands for _version_. This commands shows you the version of Ant youâ
 ## Install Sublime Text Editor {#sublime-text}
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).
-
-
 

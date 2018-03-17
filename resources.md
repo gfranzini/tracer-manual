@@ -6,15 +6,29 @@
 
 ### Linguistic resources for data preprocessing
 
+* [Ancient Greek WordNet](https://dspace-clarin-it.ilc.cnr.it/repository/xmlui/handle/20.500.11752/ILC-56)
+
 * [BabelNet](http://babelnet.org/)
 
-* [TreeTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) Part-of-Speech tagger
+* [Classical Language Toolkit](http://cltk.org/) \(CLTK\) for processing of Classical texts and languages
 
-* English language statistics: [Wordcount.org](http://www.wordcount.org/)
+* [LemLat 3](http://www.lemlat3.eu/) morphological analyser and lemmatiser for Latin
 
 * [META-SHARE](http://metashare.nlp.ipipan.waw.pl/metashare/) linguistic resources
 
 * NLTK [Sentence Segmentation](http://textanalysisonline.com/nltk-sentence-segmentation)
+
+* [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) language technology tools
+
+* [TreeTagger](#) Part-of-Speech tagger
+
+
+
+### Other
+
+* English language statistics: [Wordcount.org](http://www.wordcount.org/)
+
+
 
 ### 
 

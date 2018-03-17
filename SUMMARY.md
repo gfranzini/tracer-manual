@@ -23,13 +23,9 @@
 * [Limitations](limitations.md)
 * [References](references.md)
 
----
-
 ## Beta
 
 * [BabelNet API](babelnet.md)
-
----
 
 ## Support
 
@@ -39,6 +35,7 @@
   * [Empty score and link files](troubleshooting/empty-score-link-files.md)
   * [Java lang no class definition found](troubleshooting/java-lang-no-class-def-found.md)
   * [Out of memory](troubleshooting/out-of-memory.md)
+  * [Windows: length of folder name](windows-length-of-folder-name.md)
 * [FAQ](/faq.md)
 * [Publications](/publications.md)
 * [Resources](/resources.md)

@@ -22,7 +22,7 @@ Interlinking looks for matches between different texts or works. Given _Work A_ 
 
 **Remember** that Edition A and Edition B are actually stored in the same `.txt` file, one under the other, as described in [Corpus preparation](/corpus-preparation.md). The _Inter/Intra_ parameter can be changed in the TRACER `tracer_config.xml`:
 
-![linking](/assets/linking.png "The value of the highlighted property in the TRACER tracer_config.xml can be changed to InterCorpusLinkingImpl, if needed.")
+![linking](/assets/linking.png "The value of the highlighted property in the TRACER tracer\_config.xml can be changed to InterCorpusLinkingImpl, if needed.")
 
 TRACER outputs _Linking_ results in a `.link` file in a three column structure:
 
@@ -58,17 +58,15 @@ Where the `data/...yourcorpus.txt` path points to the location of your text in T
 
 Next, you need to make some changes in TRACER’s configuration file. First, make sure that the `SENTENCE_FILE_NAME` property points to your new `yourcorpus-W15.txt` file \(as described in [Corpus preparation](/corpus-preparation.md)\). Next, locate the _Linking_ property in the `tracer_config.xml` file and ensure you have the right class, `MovingWindowInterCorpusLinking` or `MovingWindowIntraCorpusLinking` \(depending on whether you want to run _Inter-_ or _Intracorpus_ linking\):
 
-![moving-window-config](/assets/moving-window-config.png "The class of the LINKING_IMPL property in TRACER’s configuration file should read MovingWindowInterCorpusLinking or MovingWindowIntraCorpusLinking, depending on the type of Linking you’re interested in.")
+![moving-window-config](/assets/moving-window-config.png "The class of the LINKING\_IMPL property in TRACER’s configuration file should read MovingWindowInterCorpusLinking or MovingWindowIntraCorpusLinking, depending on the type of Linking you’re interested in.")
 
 Next, define the length of your Window in the _Linking_ category of the `tracer_config.xml` file, in the `intWindowSize` property:
 
 ![moving-window-size](/assets/moving-window-size-config.png "Define the size of your Moving Window in the value attribute of the intWindowSize property of the Linking category. In this case, we define a Window of 15 words.")
 
-The value of the `intWindowSize` property mustmatch the window size you defined in the previous java command.
+The value of the `intWindowSize` property must match the window size you defined in the previous java command.
 
 Save the changes and run TRACER!
-
-
 
 [^1]: A basic explanation of _squared complexity_ is available under Wikipedia's [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) page.
 

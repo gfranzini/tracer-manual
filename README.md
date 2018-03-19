@@ -11,7 +11,6 @@ This ongoing and evolving user manual describes the implementation of the TRACER
 * Medusa repository: [http://vcs.etrap.eu/tracer-framework/medusa.git](http://vcs.etrap.eu/tracer-framework/medusa.git)
 * Medusa javadoc: [http://www.etrap.eu/medusa/doc/javadoc/Medusa-2.0/](http://www.etrap.eu/medusa/doc/javadoc/Medusa-2.0/)
 * TRACER bug reports: [http://www.etrap.eu/redmine/projects/tracer/](http://www.etrap.eu/redmine/projects/tracer/)
-* TRACER presentation slides: [http://www.etrap.eu/tutorials/](http://www.etrap.eu/tutorials/)
 
 ## Copyright
 

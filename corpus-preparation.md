@@ -17,7 +17,7 @@ Next, your `.txt` must contain four columns separated by **TAB**s:
 
 3. The **third column** can contain the date of the file creation in the `YYYY-MM-DD` format or the word `NULL`. If you use `NULL`, make sure it is written in upper-case.
 
-4. The **fourth column** contains the book or section from which the sentence is taken. This information is crucial for the visualisation shown &lt;ADD IMAGE REFERENCE&gt;. The top drop-down menu you see there will list the information you provide in this fourth column.
+4. The **fourth column** contains the book or section from which the sentence is taken. This information is crucial for the visualisation shown in the Text Reuse Browser figure in [Postprocessing](/configuration/step-6-postprocessing.md). The top drop-down menu you see there will list the information you provide in this fourth column.
 
 You can achieve this column structure by using the proprietary [Microsoft Excel](https://products.office.com/en/excel), the free [Libre Office](https://www.libreoffice.org/download/libreoffice-fresh/) or a [set of Python scripts](https://github.com/mikekestemont/potter/blob/master/harry/intertextuality/intertextuality.ipynb) created by Mike Kestemont. The **instructions below are based on Libre Office Version 5.1.5.2**.
 

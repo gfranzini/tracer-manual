@@ -42,7 +42,7 @@ Simply put:
 
 * _Global knowledge_: Information derived fromthe entire corpus; global knowledge is, for example, the computed feature frequency in a corpus.
 * _Local knowledge_: Information derived from the reuse unit \(e.g. a sentence\); local knowledge is the context of the reuse unit or, for instance, the length of its words.
-* _Global usage_: Selection is applied to, for example, the entire text or corpus. Local usage: Selection is applied to the reuse unit.
+* _Global usage_: Selection is applied to, for example, the entire text or corpus.
 * _Local usage_: Selection is applied to the reuse unit.
 
 These can be combined in the `tracer_config.xml` file in the following ways:

@@ -38,7 +38,7 @@ Apache Ant is a regularly updated software. At the time of writing these guideli
 
 ### Unpacking Apache Ant
 
-The download file can be extracted by navigating to the download folder, right clicking the `apache-ant-1.10.1-bin.zip` file and selecting `Extract`. Alternatively, the extraction can be processed via the command line. To do so, open a terminal and use the `cd` command to change to your download folder. For example:
+The download file can be extracted by navigating to the download folder, right clicking the `apache-ant-1.10.1-bin.zip` file and selecting `Extract`. Alternatively, the extraction can be processed via the command line, which is much faster especially when you're unpacking large files. To do so, open a terminal and use the `cd` command to change to your download folder. For example:
 
 `cd /Users/johnsmith/Tools`
 

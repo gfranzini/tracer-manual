@@ -21,7 +21,7 @@ Next, your `.txt` must contain four columns separated by **TAB**s:
 
 You can achieve this column structure by using the proprietary [Microsoft Excel](https://products.office.com/en/excel) the free [Libre Office](https://www.libreoffice.org/download/libreoffice-fresh/) or a [set of Python scripts](https://github.com/mikekestemont/potter/blob/master/harry/intertextuality/intertextuality.ipynb) created by Mike Kestemont. The **instructions below are based on Libre Office Version 5.1.5.2**.
 
-#### Libre Office
+#### Text preparation with Libre Office
 
 First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify **`TAB`\*\* as the field separator when importing the file. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
 
@@ -46,8 +46,6 @@ If you’re using _**Microsoft Excel**_, select the first column, click on the `
 ![blank](/assets/excel_filter_blanks.png "Select all blank lines in the file.")
 
 Microsoft Excel’s filter buttons and pane. After deselecting all options within the pane, reselect `Blanks` in order to delete all blank rows.
-
-
 
 Next, add a column to the left of your sentence column. This new column should contain sentence IDs. To automate the creation of IDs, type in the first three IDs \(one per sentence\), then select the three ID cells, hover over the bottom right corner of the third cell and finally drag the selection all the way down to the last sentence. Remember to save the changes!
 

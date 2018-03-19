@@ -60,7 +60,7 @@ Under Mac OS X and Linux distributions, it is also necessary to set the access r
 
 ### Adding the environment variable `ANT_HOME` {#adding-variable-ant-home}
 
-An environment variable is a key-value-pair to which all system-wide programs have access. The Apache Ant software looks for the environment variable `ANT_HOME` along with the folder in which Ant is installed. To reach the Ant home folder, in the command line type:
+An environment variable is a key-value-pair to which all user- or system-wide programs have access.[^1] The Apache Ant software looks for the environment variable `ANT_HOME` along with the folder in which Ant is installed. To reach the Ant home folder, in the command line type:
 
 `cd apache-ant-1.10.1`
 
@@ -125,4 +125,6 @@ where `-v` stands for _version_. This commands shows you the version of Ant youâ
 ## Install Sublime Text Editor {#sublime-text}
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).
+
+[^1]: You can read more about it here: [https://en.wikipedia.org/wiki/Environment\_variable](https://en.wikipedia.org/wiki/Environment_variable).
 

@@ -19,9 +19,11 @@ Next, your `.txt` must contain four columns separated by **TAB**s:
 
 4. The **fourth column** contains the book or section from which the sentence is taken. This information is crucial for the visualisation shown &lt;ADD IMAGE REFERENCE&gt;. The top drop-down menu you see there will list the information you provide in this fourth column.
 
-You can achieve this column structure by using the proprietary [Microsoft Excel](https://products.office.com/en/excel) or the free [Libre Office](https://www.libreoffice.org/download/libreoffice-fresh/). The **instructions below are based on Libre Office Version 5.1.5.2**.
+You can achieve this column structure by using the proprietary [Microsoft Excel](https://products.office.com/en/excel) the free [Libre Office](https://www.libreoffice.org/download/libreoffice-fresh/) or a [set of Python scripts](https://github.com/mikekestemont/potter/blob/master/harry/intertextuality/intertextuality.ipynb) created by Mike Kestemont. The **instructions below are based on Libre Office Version 5.1.5.2**.
 
-First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify **`TAB`** as the field separator when importing the file. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
+#### Libre Office
+
+First, you need to import the segmentised texts stored in your `.txt` file into Excel or Libre. To do so, simply right click on the `.txt` file, click on `Open with` and select either Excel or Libre. Alternatively, open Microsoft or Libre, click on `File > Open` and select the `.txt` file. Whatever you choose, **it’s essential that you specify **`TAB`\*\* as the field separator when importing the file. If you don’t, TRACER won’t be able to read your file. The import window looks something like this:
 
 ![tab](/assets/libre-tab.png "Libre file import window. Select TAB as the field separator.")
 
@@ -37,11 +39,15 @@ This will bring all blank rows to the top of the document \(if you look at the r
 
 **IMPORTANT: Make sure you remove all blank lines from your file \(check the bottom of the file as well\) as these will not be correctly processed by TRACER and will cause the detection task to break.**
 
-If you’re using Microsoft Excel, select the first column, click on the `FILTER` button in the toolbar. Again, click on the little arrow that is now available in the first cell. In the new pop-up window you need to do two things: first, click on the `SELECT ALL` option to deselect all options; second, scroll down to the bottom of the options pane and select `BLANKS`. This will bring all the empty rows to the top of the document \(if you look at the row IDs now you’ll notice that the column only lists even numbers in blue\). Delete all the empty rows by pressing the `SHIFT` button and keeping it pressed while selecting all the blue-numbered rows. Then, deselect the `FILTER` button in the toolbar and save the changes.
+#### 
+
+If you’re using _**Microsoft Excel**_, select the first column, click on the `FILTER` button in the toolbar. Again, click on the little arrow that is now available in the first cell. In the new pop-up window you need to do two things: first, click on the `SELECT ALL` option to deselect all options; second, scroll down to the bottom of the options pane and select `BLANKS`. This will bring all the empty rows to the top of the document \(if you look at the row IDs now you’ll notice that the column only lists even numbers in blue\). Delete all the empty rows by pressing the `SHIFT` button and keeping it pressed while selecting all the blue-numbered rows. Then, deselect the `FILTER` button in the toolbar and save the changes.
 
 ![blank](/assets/excel_filter_blanks.png "Select all blank lines in the file.")
 
 Microsoft Excel’s filter buttons and pane. After deselecting all options within the pane, reselect `Blanks` in order to delete all blank rows.
+
+
 
 Next, add a column to the left of your sentence column. This new column should contain sentence IDs. To automate the creation of IDs, type in the first three IDs \(one per sentence\), then select the three ID cells, hover over the bottom right corner of the third cell and finally drag the selection all the way down to the last sentence. Remember to save the changes!
 
@@ -83,7 +89,7 @@ Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as show
 
 Next, make sure TRACER's configuration file points to your `.tx` file. For example, if your text file is called `KJV.txt`, locate the `SENTENCE_FILE_NAME` property in the configuration file and add the path of your file to the `value` attribute:
 
-![path](/assets/path.png "The path to your .txt file must be specified in the tracer_config.xml file in the SENTENCE_FILE_NAME property.")
+![path](/assets/path.png "The path to your .txt file must be specified in the tracer\_config.xml file in the SENTENCE\_FILE\_NAME property.")
 
 [^1]: This is a different example from the one we've been working on but it should give you an idea of the final document layout.
 

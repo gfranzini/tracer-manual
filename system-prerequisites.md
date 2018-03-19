@@ -110,7 +110,7 @@ This command will list all environment variables with their respective values. T
 
 The last step is to update the environment variable `PATH`, which lists all directories of the file system that the computer should search for an executable program. The procedure is exactly the same as that described in the [previous section](#adding-variable-ant-home). Linux and Mac OS X users should open the `.bash_profile` file again and in the last line type:
 
-`export PATH=$PATH :$ANT_HOME/ bin`
+`export PATH=$PATH:$ANT_HOME/bin`
 
 This command makes the scripts in the `bin` folder of `ANT_HOME` available to the operating system to look for the `ant` command. Windows users should follow the same procedure as that described in the [previous section](#adding-variable-ant-home) with the difference that the `PATH` variable already exists and need only be edited. Another distinction is that in Mac OS X and Linux systems, different directories are separated by a colon, while in Windows systems by a semicolon. Furthermore, under Windows, the value of an environment variable is called with `%ANT_HOME%`, whereas under Linux and Mac OS X it is `$ANT_HOME`. The easiest way to add `ANT_HOME` under Windows is to type:
 

@@ -2,7 +2,7 @@
 
 ![](/assets/architecture.png)
 
-There are roughly **sixty different selection strategies** in TRACER,which can also be combined. Through _Selection_ we look at the idiosyncrasies or minutiae of the features we’ve computed, thus focusing on fewer features while being faster and more precise. This is the point where we create our ‘fingerprint’ with the core reuse elements we’re interested in. Algorithmically-speaking, through _Selection_ some entries in the `KJV.train` file will be kicked out. With _Selection_ we’re narrowing down the search by filtering out all irrelevant results. The challenge in this step is to find out what our core elements or minutiae are.
+There are roughly **sixty different selection strategies** in TRACER, which can also be combined. Through _Selection_ we look at the idiosyncrasies or minutiae of the features we’ve computed, thus focusing on fewer features while being faster and more precise. This is the point where we create our ‘fingerprint’ with the core reuse elements we’re interested in. Algorithmically-speaking, through _Selection_ some entries in the `KJV.train` file will be kicked out. With _Selection_ we’re narrowing down the search by filtering out all irrelevant results. The challenge in this step is to find out what our core elements or minutiae are.
 
 ## Selection strategies
 
@@ -22,20 +22,20 @@ There are many different selection strategies, including:
 
 * _Random selection_: random selection of features. Very good if you don’t have a clue about what to expect from your data.
 
-> **[warning] To update**
+> **\[warning\] To update**
 >
 > Winnowing: The selection is made based on the rarest parts of the winnowing window - i.e. the most infrequent features. But in this way function words are not entirely removed, since sometimes they can still be useful. With the winnowing algorithm it’s possible to select features all over the reuse unit and avoid clusters. For example, “To be or not to be that is the question". It would appear that the only interesting word here is ‘question’ but we don’t want to be eliminating all of the rest. Winnowing, with its windows, allows us to pick the lowest ranked feature \(in frequency\) for every window - so there is a selected feature for every window and features are distributed evenly.
 
 To change the selection strategy in TRACER, locate the _Selection_ strategy in the `tracer_config.xml` file, as shown in the Figure below.
 
-![selection](/assets/selection.png "The value of the highlighted Selection property in the `tracer_config.xml` file can be changed according to the preferred strategy.")
+![selection](/assets/selection.png "The value of the highlighted Selection property in the \`tracer\_config.xml\` file can be changed according to the preferred strategy.")
 
 Different selection strategies require different parameters, and it’s often difficult to compare and decide which strategy works best for a given case. For this reason, we use the Feature Density or, in other words, the comparison between the overall number of features and the number of features selected. The Feature density parameter accepts value ranges between 0 and 1; for, for example, if it is set to 0.8, TRACER will keep 80% of the features and ignore the remaining 20%. Here’s how TRACER computes feature density:
 
 ![](/assets/feature-density-formula.png)
 
-> **[warning] To update** 
-> 
+> **\[warning\] To update**
+>
 > EXPLAIN FORMULA
 
 Simply put:

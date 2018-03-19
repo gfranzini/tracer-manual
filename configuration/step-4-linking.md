@@ -32,7 +32,7 @@ Here’s how this structure looks like in the corresponding file:
 
 ![linking-link](/assets/linking_link.png "The three-column structure in the Linking output file of the King James Version Bible text: REUSE ID 1 - REUSE ID 2 - ABSOLUTE OVERLAP.")
 
-What does TRACER mean by _absolute overlap_? The absolute overlap is the minimal number of common features shared by the first two columns \(`REUSE ID 1` and `REUSE ID 2`\), which TRACER sets as default to `5`.[^2] This overlap number can be changed and is used to cut the long tail of reuses which would likely not be relevantmatches or reuses at all. The `.meta` _Linking_ file will provide you with an overview of the features linked:
+What does TRACER mean by _absolute overlap_? The absolute overlap is the minimal number of common features shared by the first two columns \(`REUSE ID 1` and `REUSE ID 2`\), which TRACER sets as default to `5`.[^2] This overlap number can be changed and is used to cut the long tail of reuses which would likely not be relevant matches or reuses at all. The `.meta` _Linking_ file will provide you with an overview of the features linked:
 
 ![linking-meta](/assets/linking_meta.png "Overview of Linking results provided by the Linking .meta file.")
 

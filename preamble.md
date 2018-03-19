@@ -8,6 +8,10 @@
 
 Greta Franzini, Emily Franzini, Kirill Bulert, Marco Büchler, Maria Moritz.
 
+#### Contributors
+
+Mike Kestemont.
+
 ## Copyright
 
 This manual is published under a **Creative Commons Attribution-ShareAlike 4.0 International License**.

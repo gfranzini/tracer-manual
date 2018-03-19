@@ -6,7 +6,7 @@
 
 ## Authors
 
-Greta Franzini, Emily Franzini, Kirill Bulert, Marco Büchler.
+Greta Franzini, Emily Franzini, Kirill Bulert, Marco Büchler, Maria Moritz.
 
 ## Copyright
 

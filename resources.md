@@ -22,13 +22,10 @@
 
 * [TreeTagger](#) Part-of-Speech tagger
 
-
-
 ### Other
 
 * English language statistics: [Wordcount.org](http://www.wordcount.org/)
-
-
+* [Mapping Metaphor with the Historical Thesaurus](http://mappingmetaphor.arts.gla.ac.uk/)
 
 ### 
 

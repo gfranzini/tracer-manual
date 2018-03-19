@@ -76,7 +76,7 @@ In order to make the value or path available for the environment variable `ANT_H
 
 which will take you to your personal home folder \(i.e. `/Users/johnsmith/`\). In this folder, you should see a file called `.bash_profile`; if not, create it by typing the following in the command line:
 
-`vim ~/ .bash_profile`
+`vim ~/.bash_profile`
 
 `vim` is a command line text editor and works equally on local and remote machines. To edit the file `.bash_profile` press the `i` button on your keyboard. When in `i` \(i.e. _insert_\) mode, type:
 

@@ -12,7 +12,7 @@ Where:
 
 * `-Xmx70g` defines the memory to be used on the server; with a 70 gigabyte memory the BabelNet API look-up can take up to three days to compute.
 
-* `lemma-list.txt` \(a better file name might be `lemma-babelnet.txt`\) is a modified version of TRACER's `lemma.txt` file containing only the base-form of every word in the text and its PoS tag \(so, a two column file separated by a TAB\). Place the `lemma.list.txt` in the TRACER's `data/corpora/...` directory and define its path in the command above.
+* `lemma-list.txt` \(a better file name might be `lemma-babelnet.txt`\) is a modified version of TRACER's `lemma.txt` file containing only the base-form of every word in the text and its PoS tag \(so, a two column file separated by a TAB\). Place the `lemma-list.txt` in the TRACER's `data/corpora/...` directory and define its path in the command above.
 
 * `babelnet-queries.log` is the log.
 

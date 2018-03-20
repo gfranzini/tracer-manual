@@ -16,6 +16,8 @@
 
 * [META-SHARE](http://metashare.nlp.ipipan.waw.pl/metashare/) linguistic resources
 
+* [Morphadorner](http://morphadorner.northwestern.edu)
+
 * NLTK [Sentence Segmentation](http://textanalysisonline.com/nltk-sentence-segmentation)
 
 * [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) language technology tools

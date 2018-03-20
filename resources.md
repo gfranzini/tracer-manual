@@ -24,7 +24,7 @@
 
 * [TreeTagger](#) Part-of-Speech tagger
 
-### Books
+### Publications
 
 * Jurafsky, D. \(2017\) _Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition_. 3rd edition. URL: [https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf](https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf)
 

@@ -19,7 +19,7 @@ This is a comparison list of common commands to navigate file-systems, including
 | `move myFolder <path to destination directory>` | Move a directory | `mv myFolder <path to destination directory>` |
 | `del myFile` | Remove a file\* | `rm myFile` |
 | `ren oldFileName newFileName` | Rename a file | `mv oldFileName newFileName` |
-| `copy myFile <path to destination directory>` | Copy a file | `cp my File <path to destination directory>` |
+| `copy myFile <path to destination directory>` | Copy a file | `cp myFile <path to destination directory>` |
 | `move myFile <path to destination directory>` | Move a file | `mv myFile <path to destination directory>` |
 | `cls` | Clear the terminal screen | `clear` |
 | `type myFile` | Concatenate and print a file | `cat myFile` |

@@ -7,6 +7,8 @@ The experimental development generates TRACER-compatible `.txt` and `.lemma` fil
 
 
 First, users run TreeTagger on the texts they wish to analyse. The output file of TreeTagger shoud have `.tagged` as a suffix, e.g.,: `author-title.tagged`
+The preferred file-naming convention is `00-author-title_of_work.tagged`. The naming convention helps TRACER generate the `.txt` file to be used for the analysis (see below). If there are multiple works to analyse, the numbering of the files should be sequential (e.g., `01-`, `02-`, etc.); digits, author and title should be separated by hyphens, and any whitespace in the work title must be represented with an underscore.
+
 
 Then, all `.tagged` files must be deposited in a tagged folder under TRACER's `/data/corpora/`directory, e.g.,: `/data/corpora/Bible/tagged/author-title.tagged`
 

@@ -26,6 +26,7 @@
 ## Beta
 
 * [BabelNet API](babelnet.md)
+* [Text preprocessing automation](text-preprocessing-automation.md)
 
 ## Support
 

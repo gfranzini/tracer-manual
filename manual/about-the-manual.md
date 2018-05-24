@@ -1,6 +1,8 @@
 # About the manual
 
-**TRACER logo**: Emily Franzini
+![](../.gitbook/assets/logo-colour.png)
+
+Logo by Emily Franzini.
 
 ## Authors
 

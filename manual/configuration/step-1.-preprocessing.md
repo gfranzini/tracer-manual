@@ -1,6 +1,6 @@
 # Step 1. Preprocessing
 
-![](../../.gitbook/assets/architecture.png)
+![](../../.gitbook/assets/tracer-pipeline-pre.png)
 
 With TRACER you can perform two types of preprocessing, **letter-level** and **word-level processing**.
 

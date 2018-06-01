@@ -1,6 +1,6 @@
 # Step 3. Selection
 
-![](../tracer-manual/assets/TRACER-Pipeline-Selection.png)
+![](../../.gitbook/assets/tracer-pipeline-selection.png)
 
 There are roughly **sixty different selection strategies** in TRACER, which can also be combined. Through _Selection_ we look at the idiosyncrasies or minutiae of the features we’ve computed, thus focusing on fewer features while being faster and more precise. This is the point where we create our ‘fingerprint’ with the core reuse elements we’re interested in. Algorithmically-speaking, through _Selection_ some entries in the `KJV.train` file will be kicked out. With _Selection_ we’re narrowing down the search by filtering out all irrelevant results. The challenge in this step is to find out what our core elements or minutiae are.
 

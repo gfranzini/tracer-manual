@@ -1,6 +1,6 @@
 # Step 4. Linking
 
-![](https://github.com/gfranzini/tracer-manual/tree/0ec13f4a0bbf64d7b785d17123eedcd5333bd4a4/manual/tracer-manual/assets/TRACER-Pipeline-Linking.png)
+![](../../.gitbook/assets/tracer-pipeline-linking.png)
 
 In the _Linking_ stage, TRACER creates links between the features defined in previous steps. Unlike other TRACER steps, which are all linear, _Linking_ is of squared complexity depending on the feature frequency and it is, therefore, the most computationally- and time-intensive task in the detection process. Through Linking TRACER will deliver results based purely on the parameters set in previous steps. It is up to us to interpret those results and filter out what is good and what is bad.
 

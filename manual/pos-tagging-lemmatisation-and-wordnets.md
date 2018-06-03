@@ -38,17 +38,5 @@ The `.txt`, `.lemma` and, optionally, the `.synonyms` files must be deposited in
 
 If you don't use a `.syns` file, you needn't delete the `SYNONYMS_FILE_NAME` property but must declare this in the _Word-level Preprocessing_ section of TRACER's configuration file.
 
-## Can the formatting be automated?
-
-For the `.syns` file, TRACER currently doesn't provide any means of automating the column-formatting.
-
-For the `.lemma` file, the latest release of TRACER provides automatic column-formatting for files analysed with the _TreeTagger_ and _Stanford CoreNLP_ morphological analysers \(see below\).
-
-## TRACER support for _TreeTagger_ and _Stanford CoreNLP_
-
-One of the most recent developments of TRACER includes two preprocessing options to convert the output of the [_TreeTagger_](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) and [_Stanford CoreNLP_](http://stanfordnlp.github.io/CoreNLP/) tools to TRACER's required input format, thus saving the user considerable preprocessing work. The figure below shows the corresponding preprocessing sections in TRACER's configuration file.
-
-![TRACER preprocessing configuration options to import and convert TreeTagger and Stanford CoreNLP output to the required text reuse detection input format.](../.gitbook/assets/preprocessing-treetagger-stanford.png)
-
-As you can see, each category has five properties. If you wish to import _TreeTagger_ and _Stanford CoreNLP_ files into TRACER you need to change the first two properties: the first property defines the file path, while the second defines the input file's extension. The third property, which must not be changed, contains the mapping instructions TRACER needs to convert input into output.
+## 
 

@@ -27,7 +27,7 @@
 
 ## Beta
 
-* [Visualising results in a tabular format](results-as-csv.md)
+* [Visualising results in a tabular format](beta/results-as-csv.md)
 * [BabelNet API](beta/babelnet-api.md)
 * [Text preprocessing automation](beta/text-preprocessing-automation.md)
 

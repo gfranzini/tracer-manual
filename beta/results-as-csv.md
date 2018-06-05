@@ -10,8 +10,9 @@ Where:
 * `/.../filename.txt` is the path to the main text file;
 * `/.../filename.score` is the score file.
 
-The new file created will have `.expanded` as its suffix and contains four columns separated by tabs: 
+The generated file, accessible from /data/corpora/myfolder/, has `.expanded` as its suffix (i.e., `filename.score.expanded`) and contains four columns separated by tabs: 
 
 `RUID 1, RUID 2, FEATUREOVERLAP, SIMTHRESHOLD, TEXT 1, TEXT 2`
 
 This `.txt` output can be duplicated and imported into a `.csv` file for the gold standard analysis
+

@@ -1,6 +1,6 @@
 # Step 5. Scoring
 
-![](../../.gitbook/assets/architecture.png)
+![](../../.gitbook/assets/tracer-pipeline-scoring.png)
 
 The _Scoring_ step of TRACER assigns a weight to a reuse pair based on an internal scoring metric. The resemblance score is calculated as follows:
 

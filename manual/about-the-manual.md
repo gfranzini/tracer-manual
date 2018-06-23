@@ -34,9 +34,7 @@ We greatly appreciate your feedback on this handbook. Your suggestions and comme
 
 You can cite this manual as follows:
 
-> **\[warning\] To update**
->
-> Franzini, G., Franzini E., Bulert, K., Büchler M. \(2016-\) TRACER Text Reuse Detection Machine: A user manual. DOI:
+Franzini, G., Franzini E., Bulert, K., Büchler M., Moritz, M. \(2016-\) TRACER Text Reuse Detection Machine: The user manual. DOI: [https://tracer.gitbook.io/-manual/](https://tracer.gitbook.io/-manual/)
 
 ## Version history
 

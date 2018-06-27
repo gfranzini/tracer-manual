@@ -1,10 +1,16 @@
 # System prerequisites
 
-To use TRACER you must first ensure that you have **Java** \(version 8 or later\) and **a text editor** running on your computer.
+## Command line
+TRACER is a command-line (also known as the _terminal_) environment.
+
+> #### Info::Info
+>
+> Windows users must use the Command Line, **NOT the PowerShell**.
+
 
 ## Install Java {#install-java}
 
-TRACER requires version 8 of the **Java Software Development Kit** \(JSDK\). To check your Java version, open the terminal or command line and type:
+To use TRACER you must ensure that you have version 8 of the **Java Software Development Kit** \(JSDK\). To check your Java version, open the terminal or command line and type:
 
 `java -version`
 
@@ -125,4 +131,6 @@ where `-v` stands for _version_. This commands shows you the version of Ant youâ
 ## Install Sublime Text Editor {#sublime-text}
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).
+
+
 

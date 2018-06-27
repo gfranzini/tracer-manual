@@ -40,6 +40,7 @@
   * [Java lang no class definition found](support/troubleshooting/java-lang-no-class-definition-found.md)
   * [Out of memory](support/troubleshooting/out-of-memory.md)
   * [Windows: length of folder name](support/troubleshooting/windows-length-of-folder-name.md)
+  * [Windows: PowerShell](support/troubleshooting/power-shell.md)
 * [FAQ](support/faq.md)
 * [Publications](support/publications.md)
 * [Resources](support/resources.md)

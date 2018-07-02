@@ -3,9 +3,9 @@
 ## Command line
 TRACER is a command-line (also known as the _terminal_) environment.
 
-> #### Info::Info
->
-> Windows users must use the Command Line, **NOT the PowerShell**.
+{% hint style="info" %}
+  Windows users must use the Command Line, **NOT the PowerShell**.
+{% endhint %}
 
 
 ## Install Java {#install-java}

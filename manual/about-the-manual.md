@@ -20,11 +20,7 @@ This manual is published under a **Creative Commons Attribution-ShareAlike 4.0 I
 
 ## Syntax
 
-**This manual is a work in progress.** It is regularly updated to improve clarity. All text in this manual contained in orange boxes \(example below\) indicates that the text is either incomplete or currently being updated by the authors.
-
-> **\[warning\] To update**
->
-> EXAMPLE: This text is not complete yet. The authors are in the process of updating it.
+**This manual is a work in progress.** It is regularly updated to improve clarity.
 
 ## Feedback
 

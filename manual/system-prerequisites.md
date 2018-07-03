@@ -3,9 +3,9 @@
 ## Command line
 TRACER is a command-line (also known as the _terminal_) environment.
 
-> #### Info::Info
->
-> Windows users must use the Command Line, **NOT the PowerShell**.
+{% hint style="info" %}
+  Windows users must use the Command Line, **NOT the PowerShell**.
+{% endhint %}
 
 
 ## Install Java {#install-java}
@@ -20,9 +20,11 @@ Press `ENTER`. The resulting message should looks something like this:
 
 If the second number in the sequence is lower than 8, a[ new JSDK Java package needs to be installed](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Download the package for your operating system, install, restart the computer, open the terminal and re-type the command above. Your version should have changed to 8.
 
-> **\[danger\] Java 9 Bug \(March 2018\)**
->
-> TRACER does not execute on computers running Java 9. The nature of the conflict is still unknown.
+{% hint style="danger" %}
+  **Java 9 Bug \(March 2018\)**
+
+  TRACER does not execute on computers running Java 9. The nature of the conflict is
+{% endhint %}
 
 ## Install Apache Ant \(Linux\) {#apache-ant}
 

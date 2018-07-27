@@ -32,7 +32,7 @@ Let's break it down:
 
 This folder represents the first step in your detection task, _Preprocessing_. The other five steps of the detection process are all nested within this folder. So, if you open the _Preprocessing_ folder, you’ll find the second folder in the sequence, the _Featuring/Training_ folder. Within the _Featuring/Training_ folder, you’ll find the _Selection_ folder, and so on until you reach the final _Scoring_ folder. In each and every folder you’ll find the relevant files resulting from the settings you specified in the `tracer_config.xml` file.
 
-### Computed files for Preprocessing
+### 1. Computed files in Preprocessing
 
 > **\[warning\] To update**
 >
@@ -44,7 +44,9 @@ This folder represents the first step in your detection task, _Preprocessing_. T
 
 #### `.wnc`
 
-`wnc` stands for _words number complete_. This file gives more information about the word types in the corpus including frequency, rank and word length. IDs are frequency-sorted.
+`wnc` stands for _words number complete_. This file provides a list of all the types in the corpus, including rank, word length and frequency. The list and the IDs are frequency-sorted.
+
+`RANK    WORD    LENGTH    FREQUENCY`
 
 #### `.meta`
 
@@ -57,9 +59,7 @@ This file provides an overview \(the "metadata" as it were\) of the corpus segme
 * `SSIM_THRESHOLD`: degree of similarity required to consider two words as similarly written.
 * `SSIM_EDGES`: number of links or word pairs satisfying the similarity requirements stated in `SSIM_THRESHOLD`.
 * `BOW_WORD_TOKENS`: tokens or unique words that appear in a line.
-* > **\[warning\] To update**
-  >
-  > `SSIM_`: explain
+
 
 #### `.tok`
 
@@ -81,29 +81,56 @@ Everything comes together in this file. The first and second columns represent t
 
 by [Broder’s Resemblance](http://www.cs.princeton.edu/courses/archive/spr05/cos598E/bib/broder97resemblance.pdf) measure.
 
-> **\[warning\] To update**
->
-> Explain formula
+{% hint style='danger' %}
+  Update.
+{% endhint %}
 
-### Computed files for Featuring/Training
 
-> **\[warning\] To update**
->
-> Describe files
+### 2. Computed files in Featuring/Training
 
-### Computed files for Selection
+#### `.feats`
 
-> **\[warning\] To update**
->
-> Describe files
+{% hint style='danger' %}
+  Update.
+{% endhint %}
 
-### Computed files for Linking
+`WORD-ID   WORD   FREQUENCY`
 
-> **\[warning\] To update**
->
-> Describe files
 
-### Computed files for Scoring
+#### `.train`
+
+This file contains three columns of data:
+
+`FEATURE-ID  REUSE-ID  POS`
+
+Where:
+
+`FEATURE-ID` = see below.<br />
+`REUSE-ID` = ID from the input file, first column.<br />
+`POS` = position of the feature in the reuse under `REUSE-ID`. In the case of n-grams as features the position is always that of the first word in the n-gram.
+
+#### `.fmap`
+
+This two-column file maps the feature ID from the `.train` file to the word(s) that make up that feature. Specifically, if you are using words as features, the numbers will be identical. If, instead, you are using n-grams, the second column contains the IDs of each word in the n-gram).
+
+`FEATURE-ID    WORD(s)-ID(s)`
+
+
+
+### 3. Computed files in Selection
+The `.sel` file is the same as the `.train` file only without the removed words.
+
+{% hint style='danger' %}
+  Update.
+{% endhint %}
+
+### 4. Computed files in Linking
+
+{% hint style='danger' %}
+  Update.
+{% endhint %}
+
+### 5. Computed files in Scoring
 
 The `.score` file contains all computed reuse pairs. The first two columns list the IDs of the aligned reuse units, the third column displays the number of shared features \(absolute overlap\) and the fourth column the degree of similarity \(weighted overlap\). A similarity of `0.1` is 10%, of `0.2` is 20% and so on until `1` = 100%. In the example below, the two sentences have two features in common for a total similarity of 50%:
 
@@ -113,4 +140,3 @@ The `.score` file contains all computed reuse pairs. The first two columns list 
 
 `1102581 1300887 2.0 0.5`  
 `1300887 1102581 2.0 0.5`
-

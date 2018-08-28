@@ -1,6 +1,6 @@
 # Windows: PowerShell
 
-```
+```text
 Error: Could not find or load main class .etrap.medusa.config.ClassConfig=conf.tracer_config.xml
 ```
 

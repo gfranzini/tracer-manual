@@ -5,7 +5,7 @@
 This is a comparison list of common commands to navigate file-systems, including TRACER, using the command line or the terminal. More comprehensive lists can be found on the web.
 
 | **Windows CMD** | TASK | **Mac OS Terminal** |
-| :--- | :---: | :--- |
+| :--- | :--- | :--- |
 | `dir` | List files and folders | `ls` |
 | `cd` | Full path of current folder/directory | `pwd` |
 | `cd <path to directory>` | Change folder/directory | `cd <path to directory>` |

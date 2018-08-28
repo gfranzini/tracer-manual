@@ -1,12 +1,12 @@
 # System prerequisites
 
 ## Command line
-TRACER is a command-line (also known as the _terminal_) environment.
+
+TRACER is a command-line \(also known as the _terminal_\) environment.
 
 {% hint style="info" %}
-  Windows users must use the Command Line, **NOT the PowerShell**.
+Windows users must use the Command Line, **NOT the PowerShell**.
 {% endhint %}
-
 
 ## Install Java {#install-java}
 
@@ -21,9 +21,9 @@ Press `ENTER`. The resulting message should looks something like this:
 If the second number in the sequence is lower than 8, a[ new JSDK Java package needs to be installed](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Download the package for your operating system, install, restart the computer, open the terminal and re-type the command above. Your version should have changed to 8.
 
 {% hint style="danger" %}
-  **Java 9 Bug \(March 2018\)**
+**Java 9 Bug \(March 2018\)**
 
-  TRACER does not execute on computers running Java 9. The nature of the conflict is
+TRACER does not execute on computers running Java 9. The nature of the conflict is
 {% endhint %}
 
 ## Install Apache Ant \(Linux\) {#apache-ant}
@@ -133,6 +133,4 @@ where `-v` stands for _version_. This commands shows you the version of Ant youâ
 ## Install Sublime Text Editor {#sublime-text}
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).
-
-
 

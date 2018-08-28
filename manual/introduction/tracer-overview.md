@@ -12,9 +12,9 @@ TRACER is a framework of roughly 700 algorithms, whose features can be combined 
 
 **This manual provides a user-friendly guide to text reuse detection for both novice and expert users**. For this reason, it does not give an accurate description of the roughly 700 algorithms constituting TRACER but only the necessary knowledge in order to perform simple text reuse detection tasks. Those who wish to study TRACER’s algorithms in detail should consult [TRACER’s Javadoc](http://www.etrap.eu/tracer/doc/javadoc/).
 
-
 ## Citation
 
 To cite TRACER, you can adapt the following:
 
-B&uuml;chler, M. TRACER: A Text Reuse Detection Machine. DOI: [https://doi.org/21.11101/0000-0007-C9CA-3](https://doi.org/21.11101/0000-0007-C9CA-3) 
+Büchler, M. TRACER: A Text Reuse Detection Machine. DOI: [https://doi.org/21.11101/0000-0007-C9CA-3](https://doi.org/21.11101/0000-0007-C9CA-3)
+

@@ -42,7 +42,7 @@ This folder represents the first step in your detection task, _Preprocessing_. T
 
 `wnc` stands for _words number complete_. This file provides a list of all the types in the corpus, including rank, word length and frequency. The list and the IDs are frequency-sorted.
 
-`RANK    WORD    LENGTH    FREQUENCY`
+`RANK WORD LENGTH FREQUENCY`
 
 #### `.meta`
 
@@ -55,7 +55,6 @@ This file provides an overview \(the "metadata" as it were\) of the corpus segme
 * `SSIM_THRESHOLD`: degree of similarity required to consider two words as similarly written.
 * `SSIM_EDGES`: number of links or word pairs satisfying the similarity requirements stated in `SSIM_THRESHOLD`.
 * `BOW_WORD_TOKENS`: tokens or unique words that appear in a line.
-
 
 #### `.tok`
 
@@ -77,53 +76,50 @@ Everything comes together in this file. The first and second columns represent t
 
 by [Broder’s Resemblance](http://www.cs.princeton.edu/courses/archive/spr05/cos598E/bib/broder97resemblance.pdf) measure.
 
-{% hint style='danger' %}
-  Update.
+{% hint style="danger" %}
+Update.
 {% endhint %}
-
 
 ### 2. Computed files in Featuring/Training
 
 #### `.feats`
 
-{% hint style='danger' %}
-  Update.
+{% hint style="danger" %}
+Update.
 {% endhint %}
 
-`WORD-ID   WORD   FREQUENCY`
-
+`WORD-ID WORD FREQUENCY`
 
 #### `.train`
 
 This file contains three columns of data:
 
-`FEATURE-ID  REUSE-ID  POS`
+`FEATURE-ID REUSE-ID POS`
 
 Where:
 
-`FEATURE-ID` = see below.<br />
-`REUSE-ID` = ID from the input file, first column.<br />
-`POS` = position of the feature in the reuse under `REUSE-ID`. In the case of n-grams as features the position is always that of the first word in the n-gram.
+`FEATURE-ID` = see below.  
+ `REUSE-ID` = ID from the input file, first column.  
+ `POS` = position of the feature in the reuse under `REUSE-ID`. In the case of n-grams as features the position is always that of the first word in the n-gram.
 
 #### `.fmap`
 
-This two-column file maps the feature ID from the `.train` file to the word(s) that make up that feature. Specifically, if you are using words as features, the numbers will be identical. If, instead, you are using n-grams, the second column contains the IDs of each word in the n-gram).
+This two-column file maps the feature ID from the `.train` file to the word\(s\) that make up that feature. Specifically, if you are using words as features, the numbers will be identical. If, instead, you are using n-grams, the second column contains the IDs of each word in the n-gram\).
 
-`FEATURE-ID    WORD(s)-ID(s)`
-
-
+`FEATURE-ID WORD(s)-ID(s)`
 
 ### 3. Computed files in Selection
+
 The `.sel` file is the same as the `.train` file only without the removed words.
 
-{% hint style='danger' %}
-  Update.
+{% hint style="danger" %}
+Update.
 {% endhint %}
 
 ### 4. Computed files in Linking
 
-{% hint style='danger' %}
-  Update.
+{% hint style="danger" %}
+Update.
 {% endhint %}
 
 ### 5. Computed files in Scoring
@@ -136,3 +132,4 @@ The `.score` file contains all computed reuse pairs. The first two columns list 
 
 `1102581 1300887 2.0 0.5`  
 `1300887 1102581 2.0 0.5`
+

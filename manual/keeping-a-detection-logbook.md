@@ -5,7 +5,7 @@ By now, the reader will have realised that multiple detection tasks are needed p
 ## WORD-BASED FEATURING
 
 | **Task N** | **Preprocessing** | **Selection** | **Scoring** | **Result** |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | 1 | syn-repl.; lemmatiz. | local-max-feat-freq.; 0.6 feat-dens. | 0.5 sim-thresh. | 5 reuses |
 | 2 | ... | ... | ... | ... |
 | 3 | ... | ... | ... | ... |
@@ -13,14 +13,14 @@ By now, the reader will have realised that multiple detection tasks are needed p
 ## BIGRAM FEATURING
 
 | **Task N** | **Preprocessing** | **Selection** | **Scoring** | **Result** |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | 1 | ... | ... | ... | ... |
 | 2 | ... | ... | ... | ... |
 
 ## TRIGRAM FEATURING
 
 | **Task N** | **Preprocessing** | **Selection** | **Scoring** | **Result** |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | 1 | ... | ... | ... | ... |
 | 2 | ... | ... | ... | ... |
 

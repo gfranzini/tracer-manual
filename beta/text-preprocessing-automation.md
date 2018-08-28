@@ -22,7 +22,19 @@ First, users run _TreeTagger_ on the texts they wish to analyse. The output file
 
 Then, all `.tagged` files must be deposited in a tagged folder under TRACER's `/data/corpora/`directory, e.g.,: `/data/corpora/Bible/tagged/author-title.tagged`
 
-Next, users now navigate to the main TRACER folder and type the following command:
+Next, in TRACER's `tracer_config.xml` file, users must change the `strDataDirectory` path to the corresponding directory:
+
+```
+<category name="eu.etrap.tracer.preprocessing.external.lemmatisation.TreeTaggerLemmatiserImpl">
+        <property name="strDataDirectory" value="data/corpora/FOLDERNAME/tagged" />
+        <property name="strFileSuffix" value="tagged" />
+        <property name="strTagSetMappingFile" value="data/pos-mappings/lat-treetagger-mapping.csv" />
+        <property name="intScaleFactor" value="1000000" />
+        <property name="boolRemoveNonLetters" value="true" />
+    </category>
+```
+
+Then, in the main TRACER folder, the following command must be typed:
 
 ```text
 java -Xmx1g -Deu.etrap.medusa.config.ClassConfig=conf/tracer_config.xml -cp tracer.jar eu.etrap.tracer.preprocessing.external.lemmatisation.DeveloperTestClassLemmatisationMain

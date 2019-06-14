@@ -73,7 +73,7 @@ The figure below provides an example of the King James Bible Version text format
 
 ![The King James Bible text formatted into four columns, as per TRACER&#x2019;s requirements. The columns, from left to right, are: Unique ID, Bible verse, Creation date, Source. This file was opened with Sublime text editor.](../.gitbook/assets/four-columns.png)
 
-## Where to store your texts {#store-text}
+## Where to store your texts <a id="store-text"></a>
 
 Place your texts in the `corpora` subfolder of TRACER’s `data` folder, as shown below:
 

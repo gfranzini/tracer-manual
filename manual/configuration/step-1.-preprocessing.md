@@ -15,7 +15,7 @@ Letter-level preprocessing can be useful to, for example, process _scriptura con
 * If the value of `boolRemoveDiachritics` \(sic!\) is set to `true`, TRACER will remove all diacritics from your text \(assuming you're working with languages that have diacritics, such as Ancient Greek\).
 * If the value of `boolMakeAllLowerCase` is set to `true`, TRACER will transform all uppercase letters in your text to lowercase.
 
-## Word-level preprocessing {#word-level-preprocessing}
+## Word-level preprocessing <a id="word-level-preprocessing"></a>
 
 Word-level preprocessing is the default preprocessing technique and it is used to process words. The word-level preprocessing section of `tracer_config.xml` contains the following properties, which you can activate or deactivate depending on the type of detection you need to run:
 

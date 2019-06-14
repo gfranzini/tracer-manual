@@ -1,6 +1,6 @@
 # Download and installation
 
-## Download and installation {#download-and-installation}
+## Download and installation <a id="download-and-installation"></a>
 
 TRACER needs between 5GB and 10GB of total space \(including result files\). It is therefore important that you locate a folder on your computer with 10GB of space in which TRACER can be installed and computed. Do not store and run TRACER on a USB drive as this will result in very slow computing times.
 
@@ -38,7 +38,7 @@ Before contributing to the TRACER code please read the [`git commit`](http://vcs
 
 With your account you also have the ability to create new issues. If you encounter a bug or are in need of a feature please create a new issue in GitLab or Redmine. **If you find a bug, please always provide your build number** \(which you can find your TRACER's `build.xml` file\).
 
-## Compiling TRACER {#compiling-tracer}
+## Compiling TRACER <a id="compiling-tracer"></a>
 
 To compile TRACER, please navigate to the TRACER folder containing the `build.xml` file, which includes all instructions on how to create the executable TRACER program. To compile the software, in the command line type:
 

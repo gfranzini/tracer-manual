@@ -8,7 +8,7 @@ TRACER is a command-line \(also known as the _terminal_\) environment.
 Windows users must use the Command Line, **NOT the PowerShell**.
 {% endhint %}
 
-## Install Java {#install-java}
+## Install Java <a id="install-java"></a>
 
 To use TRACER you must ensure that you have version 8 of the **Java Software Development Kit** \(JSDK\). To check your Java version, open the terminal or command line and type:
 
@@ -23,10 +23,10 @@ If the second number in the sequence is lower than 8, a[ new JSDK Java package n
 {% hint style="danger" %}
 **Java 9 Bug \(March 2018\)**
 
-TRACER does not execute on computers running Java 9. The nature of the conflict is
+TRACER does not execute on computers running Java 9.
 {% endhint %}
 
-## Install Apache Ant \(Linux\) {#apache-ant}
+## Install Apache Ant \(Linux\) <a id="apache-ant"></a>
 
 _Apache Ant_ is a build system used to create an executable program. Among its [many benefits](http://ant.apache.org/manual/index.html), Ant allows to execute sequences of tasks from an XML file, typically called `build.xml`. Apache Ant is used to compile TRACER’s source code into an executable program \(see [_Execution of TRACER_](execution-of-tracer.md)\).
 
@@ -42,7 +42,21 @@ If you're a Linux user, the installation instructions above should suffice in he
 
 ## Install Apache Ant \(Windows and Mac OS\)
 
-Apache Ant is a regularly updated software. At the time of writing these guidelines \(May 2017\), the latest version of Ant is 1.10.1. The following instructions are based on this version. **Please ensure your Ant version is always up-to-date**. Navigate to the [Apache Ant download page](https://github.com/spcified/tracer-manual/tree/f4a98f16d2b1ad7de2cdc42be1ab7d04c12c685d/ant.apache.org/bindownload.cgi). There, the _Current Release of Ant_ section lists different download options in archive formats. Select the `.zip` format. For the Ant 1.10.1 version, select [`apache-ant-1.10.1-bin.zip`](https://github.com/spcified/tracer-manual/tree/f4a98f16d2b1ad7de2cdc42be1ab7d04c12c685d/mirror.synyx.de/apache/ant/binaries/apache-ant-1.10.1-bin.zip). The `bin` substring in the file name indicates that a pre-compiled binary and executable Java program is included in this release of Ant. Please store this file in a dedicated folder on your machine, such as `/Users/johnsmith/Tools`. If you want to make Apache Ant available for more than one user on your machine \(e.g. make it accessible from a server\), you should not install Ant in a personal home folder \(e.g. `/Users/johnsmith`\) but in an openly accessible folder, such as `/opt/apache-ant`. The instructions below are based on the installation of Ant in a personal folder.
+Apache Ant is a regularly updated software. At the time of writing these guidelines \(May 2017\), the latest version of Ant is 1.10.1. The following instructions are based on this version. **Please ensure your Ant version is always up-to-date**. 
+
+### **Quick installation of Ant \(MAC OS\)**
+
+The easiest way to install Ant on your Mac is to open the command line and type the following command:
+
+`brew install ant`
+
+Make sure you have [Homebrew](https://brew.sh/) installed or the command won't be executed. 
+
+Should this installation method not work, please read on for an alternative solution.
+
+### Manual installation of Ant \(Windows and MAC OS\)
+
+Navigate to the [Apache Ant download page](https://github.com/spcified/tracer-manual/tree/f4a98f16d2b1ad7de2cdc42be1ab7d04c12c685d/ant.apache.org/bindownload.cgi). There, the _Current Release of Ant_ section lists different download options in archive formats. Select the `.zip` format. For the Ant 1.10.1 version, select [`apache-ant-1.10.1-bin.zip`](https://github.com/spcified/tracer-manual/tree/f4a98f16d2b1ad7de2cdc42be1ab7d04c12c685d/mirror.synyx.de/apache/ant/binaries/apache-ant-1.10.1-bin.zip). The `bin` substring in the file name indicates that a pre-compiled binary and executable Java program is included in this release of Ant. Please store this file in a dedicated folder on your machine, such as `/Users/johnsmith/Tools`. If you want to make Apache Ant available for more than one user on your machine \(e.g. make it accessible from a server\), you should not install Ant in a personal home folder \(e.g. `/Users/johnsmith`\) but in an openly accessible folder, such as `/opt/apache-ant`. The instructions below are based on the installation of Ant in a personal folder.
 
 ### Unpacking Apache Ant
 
@@ -66,7 +80,7 @@ Under Mac OS X and Linux distributions, it is also necessary to set the access r
 
 `chmod -R 755 *`
 
-### Adding the environment variable `ANT_HOME` {#adding-variable-ant-home}
+### Adding the environment variable `ANT_HOME` <a id="adding-variable-ant-home"></a>
 
 An environment variable is a key-value-pair to which all user- or system-wide programs have access. The Apache Ant software looks for the environment variable `ANT_HOME` along with the folder in which Ant is installed. To reach the Ant home folder, in the command line type:
 
@@ -130,7 +144,7 @@ at the end of the `PATH` variable’s current value. In the command line, now ty
 
 where `-v` stands for _version_. This commands shows you the version of Ant you’re using and the build date of the program. The entry in the `.bash_profile` file is important as it is now permanently available on your computer.
 
-## Install Sublime Text Editor {#sublime-text}
+## Install Sublime Text Editor <a id="sublime-text"></a>
 
 Install [Sublime Text](https://www.sublimetext.com/) \(free\).
 

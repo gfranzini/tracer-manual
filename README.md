@@ -7,7 +7,6 @@ This ongoing and evolving user manual describes the implementation of the TRACER
 * TRACER developer: Marco Büchler
 * TRACER homepage: [http://www.etrap.eu/research/tracer/](http://www.etrap.eu/research/tracer/)
 * TRACER repository \(to download TRACER\): [http://vcs.etrap.eu/tracer-framework/tracer.git](http://vcs.etrap.eu/tracer-framework/tracer.git)
-* TRACER javadoc : [http://www.etrap.eu/tracer/doc/javadoc/](http://www.etrap.eu/tracer/doc/javadoc/)
 * Medusa repository: [http://vcs.etrap.eu/tracer-framework/medusa.git](http://vcs.etrap.eu/tracer-framework/medusa.git)
 * Medusa javadoc: [http://www.etrap.eu/medusa/doc/javadoc/Medusa-2.0/](http://www.etrap.eu/medusa/doc/javadoc/Medusa-2.0/)
 * TRACER bug reports: [http://www.etrap.eu/redmine/projects/tracer/](http://www.etrap.eu/redmine/projects/tracer/)

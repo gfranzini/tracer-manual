@@ -48,7 +48,7 @@ If users want to detect non-literal text reuse, the value of the property `boolR
 
 ## Customising parameters or _properties_
 
-To change preprocessing properties simply enable/disable them in the `tracer_config.xml` as you see fit. For example, to switch off `lemmatisation`, replace its corresponding value true with the value `false` and save the changes. When all the changes have been made, rerun TRACER and a new folder within `TRACER_DATA` will be produced with the updated results. Lemmatisation helps to, for example, discriminate nouns from verbs \(e.g. the word ‘power’, which can be both a verb and a noun\). Lemmatisation is especially important when we wish to analyse paraphrases and allusions. If we wanted to find direct quotations \(verbatim or near verbatim\), lemmatisation is not going to be useful so we would switch its value in the `tracer_config.xml` file back to `false`.
+To change preprocessing properties simply enable/disable them in the `tracer_config.xml` as you see fit. For example, to switch off `lemmatisation`, replace its corresponding value true with the value `false` and save the changes. Lemmatisation helps to, for example, discriminate nouns from verbs \(e.g. the word ‘power’, which can be both a verb and a noun\). Lemmatisation is especially important when we wish to analyse paraphrases and allusions. If we wanted to find direct quotations \(verbatim or near verbatim\), lemmatisation is not going to be useful so we would switch its value in the `tracer_config.xml` file back to `false`.
 
 ## How to read Preprocessing computed files
 

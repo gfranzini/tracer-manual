@@ -12,17 +12,17 @@ Git is a so-called _version control system_ that tracks file changes. It is heav
 
 To get a copy of TRACER’s repository you first need to clone it. This is done by typing the following into your terminal:
 
-`git clone http://vcs.etrap.eu/tracer−framework/tracer.git`
+`git clone http://vcs.etrap.eu/tracer-framework/tracer.git`
 
 You’ll be prompted for your GitLab username and password, and a new folder will appear on your screen if the repository is successfully cloned. Before you can start working with TRACER you first have to build it from the source. Using the terminal, change into the TRACER directory and execute the command `ant`. If you get a `BUILD FAILED` message some of the requirements haven’t been met.
 
 The recommended Git workflow is to first create a new branch or copy of the TRACER repository by typing:
 
-`git checkout−b <your branchname>`
+`git checkout -b <your branchname>`
 
 You’re now on a new local branch and all changes done to the files will only remain in this local branch. You can get an overview of all branches by typing:
 
-`git branch −a`
+`git branch -a`
 
 And you can switch branches in the same way you created one. The original branch is always called `master`. If you switch branches the tracked files will change according to your branch, while untracked files will remain in all branches. If you already built TRACER, you can type `git status` and see that some untracked files were created by the build process. If you want to obtain the newest version of TRACER just switch to the master branch and type:
 

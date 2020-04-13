@@ -8,7 +8,7 @@ java -Xmx600m -Deu.etrap.medusa.config.ClassConfig=conf/tracer_config.xml -jar t
 
 What does this command do? Let's break it down:
 
-* `java` opens a Java programme.
+* `java` opens a Java program.
 * `-Xmx600m` defines the amount of memory to be used for the detection. In this case, the computation is set to use up to 600 MB memory. If you work on large data-sets and your computer supports it, you might have to raise this parameter to `1g`\(=1GB\), `2g`\(=2GB\) or more.
 * `-Deu.etrap.medusa.config.ClassConfig=conf/tracer_config.xml` calls the TRACER configuration file.
 * Optionally, you can add `-Dfile.encoding` to this command \(after `-Xmx600m`\) to set the encoding of your input file. This is important because operating systems use different default encoding. To set the character encoding to a Unicode standard, add `-Dfile.encoding=UTF-8` to the command.
